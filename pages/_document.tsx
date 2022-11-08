@@ -13,7 +13,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link rel="icon" type="image/x-icon" href="/images/tailwindCSS.png" />
+          <link rel="icon" type="image/x-icon" href="/images/dark-mode.png" />
         </Head>
         <body>
           <Main />
