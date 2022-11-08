@@ -14,7 +14,7 @@ const Hero = () => {
         modi!
       </p>
       <button
-        className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded"
+        className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-lg"
       >Hire Me!</button>
     </section>
   );
