@@ -14,6 +14,7 @@ const Layout = () => {
           name="description"
           content="Next Js and Tailwind CSS Dark Mode Feature"
         />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta property="og:title" content="Next Js Dark Mode Feature" />
         <meta property="og:description" content="Next Js and Tailwind CSS" />
       </Head>
