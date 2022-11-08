@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Header from "../sections/Header";
+import Hero from "../sections/Hero";
 import Footer from "../sections/Footer";
 
 const Layout = () => {
@@ -20,7 +21,9 @@ const Layout = () => {
     {/* Header, Main & Footer */}
       <div className="min-h-screen flex flex-col">
         <Header />
-        <main className="flex-grow"></main>
+        <main className="flex-grow">
+            <Hero/>
+        </main>
         <Footer />
       </div>
     </>
