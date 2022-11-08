@@ -1,9 +1,12 @@
 import React from "react";
 import Head from "next/head";
+import Header from "../sections/Header";
+import Footer from "../sections/Footer";
 
 const Layout = () => {
   return (
     <>
+      {/* Head */}
       <Head>
         <title>Next Tailwind Theme</title>
         <meta
@@ -11,11 +14,15 @@ const Layout = () => {
           content="Next Js and Tailwind CSS Dark Mode Feature"
         />
         <meta property="og:title" content="Next Js Dark Mode Feature" />
-        <meta
-          property="og:description"
-          content="Next Js and Tailwind CSS"
-        />
+        <meta property="og:description" content="Next Js and Tailwind CSS" />
       </Head>
+
+    {/* Header, Main & Footer */}
+      <div className="min-h-screen flex flex-col">
+        <Header />
+        <main className="flex-grow"></main>
+        <Footer />
+      </div>
     </>
   );
 };
