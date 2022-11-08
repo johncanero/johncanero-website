@@ -20,8 +20,13 @@ module.exports = {
   
       },
       width: {
-   
+
       },
+
+      margin: {
+        
+
+      }
     },
     fontFamily: {
       Poppins: ['Poppins', 'sans-serif'],

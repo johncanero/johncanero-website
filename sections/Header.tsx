@@ -9,12 +9,12 @@ const Header = () => {
 
   return (
     <header className="h-16 flex items-center justify-between">
-      <ul className="flex gap-4 ">
+      <ul className="flex gap-4">
         {navigations.map((nav) => (
           // eslint-disable-next-line react/jsx-key
           <Link
             href={nav.path}
-            className="font-semibold text-gray-600 hover:text-gray-800"
+            className="font-semibold text-gray-600 hover:text-gray-00"
           >
             {nav.label}
           </Link>

@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="mt-16 font-Poppins">
+    <section className="mt-16 font-Poppins mr-72">
       <h1 className="text-7xl font-bold">
         Hi I'm <span className="dark:text-purple-600">Jam</span>
       </h1>
