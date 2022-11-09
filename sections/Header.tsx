@@ -60,31 +60,34 @@ const Header = () => {
   };
 
   return (
-    <header className="h-16 flex items-center justify-between">
-      <ul className="flex gap-5 md:gap-7">
-        {navigations.map((nav) => (
-          // eslint-disable-next-line react/jsx-key
-          <Link
-            href={nav.path}
-            className="font-semibold text-gray-600 hover:text-gray-00"
-          >
-            {nav.label}
-          </Link>
-        ))}
-      </ul>
+    <div className="hidden md:block">
+      {/* Tablet and Desktop */}
+      <header className="h-16 flex items-center justify-between">
+        <ul className="flex gap-5 md:gap-7">
+          {navigations.map((nav) => (
+            // eslint-disable-next-line react/jsx-key
+            <Link
+              href={nav.path}
+              className="font-semibold text-gray-600 hover:text-gray-00"
+            >
+              {nav.label}
+            </Link>
+          ))}
+        </ul>
 
-      <div>
-        <Link
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://twitter.com/johncaneroo"
-          className="mr-4 dark:text-gray-300"
-        >
-          @johncanero
-        </Link>
-        {renderThemeChanger()}
-      </div>
-    </header>
+        <div>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://twitter.com/johncaneroo"
+            className="mr-4 dark:text-gray-300"
+          >
+            @johncanero
+          </Link>
+          {renderThemeChanger()}
+        </div>
+      </header>
+    </div>
   );
 };
 
