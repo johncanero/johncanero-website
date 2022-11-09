@@ -22,7 +22,7 @@ const Hero = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Button className="lex sm:mx-auto md:mx-0 bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-lg" onClick={undefined}>Hire Me!</Button>
+        <Button className="flex sm:mx-auto md:mx-0 bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-lg" onClick={undefined}>Hire Me!</Button>
       </Link>
     </section>
   );
