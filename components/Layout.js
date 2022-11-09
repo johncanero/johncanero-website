@@ -1,7 +1,6 @@
 import React from "react";
 import Head from "next/head";
 import Header from "../sections/Header";
-import Hero from "../sections/Hero";
 import Footer from "../sections/Footer";
 
 const Layout = ({children}) => {
@@ -9,7 +8,7 @@ const Layout = ({children}) => {
     <>
       {/* Head */}
       <Head>
-        <title>Next Tailwind Theme</title>
+        <title>John Cañero</title>
         <meta
           name="description"
           content="Next Js and Tailwind CSS Dark Mode Feature"

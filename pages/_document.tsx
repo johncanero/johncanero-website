@@ -31,7 +31,7 @@ class MyDocument extends Document {
           />
           <meta property="og:title" content="Next Js Dark Mode Feature" />
           <meta property="og:description" content="Next Js and Tailwind CSS" />
-          <link rel="icon" type="image/x-icon" href="/images/dark-mode.png" />
+          <link rel="icon" type="image/x-icon" href="/images/letterJ.png" />
 
           {/* Google Fonts */}
           <link rel="preconnect" href="https://fonts.googleapis.com"/>
