@@ -4,7 +4,7 @@ import Header from "../sections/Header";
 import Hero from "../sections/Hero";
 import Footer from "../sections/Footer";
 
-const Layout = () => {
+const Layout = ({children}) => {
   return (
     <>
       {/* Head */}
@@ -19,18 +19,13 @@ const Layout = () => {
         <meta property="og:description" content="Next Js and Tailwind CSS" />
       </Head>
 
-    {/* Header, Main & Footer */}
+      {/* Header, Main & Footer */}
       <div className="min-h-screen flex flex-col">
         <Header />
-        
-        <main className="flex-grow">
-            <Hero/>
-        </main>
-
+        <main className="flex-grow">{children}</main>
         <Footer />
       </div>
     </>
   );
 };
-
 export default Layout;
