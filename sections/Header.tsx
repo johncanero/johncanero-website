@@ -78,7 +78,7 @@ const Header = () => {
           target="_blank"
           rel="noopener noreferrer"
           href="https://twitter.com/johncaneroo"
-          className="mr-4"
+          className="mr-4 dark:text-gray-300"
         >
           @johncanero
         </Link>
