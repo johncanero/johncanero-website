@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Button from "../components/Button";
+import MenuDropdown from "../components/MenuDropdown";
 import { useTheme } from "next-themes";
 import { useState, useEffect } from "react";
 
@@ -60,33 +61,34 @@ const Header = () => {
   };
 
   return (
-    <div className="hidden md:block">
-      {/* Tablet and Desktop */}
-      <header className="h-16 flex items-center justify-between">
-        <ul className="flex gap-5 md:gap-7">
-          {navigations.map((nav) => (
-            // eslint-disable-next-line react/jsx-key
+    <div>
+      <div className="hidden md:block">
+        <header className="h-16 flex items-center justify-between">
+          <ul className="flex gap-5 md:gap-7">
+            {navigations.map((nav) => (
+              // eslint-disable-next-line react/jsx-key
+              <Link
+                href={nav.path}
+                className="font-semibold text-gray-600 hover:text-gray-00"
+              >
+                {nav.label}
+              </Link>
+            ))}
+          </ul>
+          <div>
             <Link
-              href={nav.path}
-              className="font-semibold text-gray-600 hover:text-gray-00"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://twitter.com/johncaneroo"
+              className="mr-4 dark:text-gray-300"
             >
-              {nav.label}
+              @johncanero
             </Link>
-          ))}
-        </ul>
-
-        <div>
-          <Link
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://twitter.com/johncaneroo"
-            className="mr-4 dark:text-gray-300"
-          >
-            @johncanero
-          </Link>
-          {renderThemeChanger()}
-        </div>
-      </header>
+            {renderThemeChanger()}
+          </div>
+        </header>
+      </div>
+      <MenuDropdown />
     </div>
   );
 };

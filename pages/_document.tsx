@@ -20,19 +20,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          {/* Meta Tag */}
-          <meta
-            name="description"
-            content="Next Js and Tailwind CSS Dark Mode Feature"
-          />
-          <meta
-            name="viewport"
-            content="initial-scale=1.0, width=device-width"
-          />
-          <meta property="og:title" content="Next Js Dark Mode Feature" />
-          <meta property="og:description" content="Next Js and Tailwind CSS" />
-          <link rel="icon" type="image/x-icon" href="/images/letterJ.png" />
-
+        
           {/* Google Fonts */}
           <link rel="preconnect" href="https://fonts.googleapis.com"/>
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"/>
