@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Button from "../components/Button";
-import MenuDropdown from "../components/MenuDropdown";
+import MenuDropdown from "../components/MenuDropdown.tsx";
 import { useTheme } from "next-themes";
 import { useState, useEffect } from "react";
 

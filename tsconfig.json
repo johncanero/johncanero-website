@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "components/Button.js", "components/Layout.js", "pages/_app.js", "sections/Dropdown.tsx", "components/MenuDropdown.js"  ],
+, "components/Button.js", "components/Layout.js", "pages/_app.js", "sections/Dropdown.tsx", "components/MenuDropdown.tsx"  ],
   "exclude": [
     "node_modules"
   ]
