@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Link from "next/link";
+import Button from "../components/Button";
 
 const Hero = () => {
   return (
@@ -16,10 +17,12 @@ const Hero = () => {
         quibusdam autem doloremque beatae iure, nihil fugit doloribus cum soluta
         modi!
       </p>
-      <Link href="https://www.linkedin.com/feed/" target="_blank"  rel="noopener noreferrer">
-        <button className=" flex sm:mx-auto md:mx-0 bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-lg">
-          Hire Me!
-        </button>
+      <Link
+        href="https://www.linkedin.com/feed/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Button className="lex sm:mx-auto md:mx-0 bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-lg" onClick={undefined}>Hire Me!</Button>
       </Link>
     </section>
   );

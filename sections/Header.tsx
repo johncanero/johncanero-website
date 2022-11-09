@@ -7,6 +7,7 @@ const Header = () => {
     { label: "About", path: "/about" },
   ];
 
+  
   return (
     <header className="h-16 flex items-center justify-between">
       <ul className="flex gap-4">
