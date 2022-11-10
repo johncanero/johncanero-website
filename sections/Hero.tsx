@@ -13,7 +13,7 @@ const Hero = () => {
         </span>
       </h1>
       
-      <h3 className="text-center my-3 mt-3 mb-5 text-xl mx-4 md:mx-0 md:mt-2 md:mb-3 md:text-left md:justify-start md:text-3xl lg:mr-48">
+      <h3 className="text-center my-3 mt-3 mb-5 text-xl mx-4 md:mx-0 md:mt-4 md:mb-3 md:text-left md:justify-start md:text-3xl lg:mr-48">
         I am Frontend Engineer, Web Developer & Architectural Designer
       </h3>
 

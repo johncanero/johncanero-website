@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import Button from "../components/Button";
 import MenuDropdown from "../components/MenuDropdown";
 import { useTheme } from "next-themes";
@@ -45,7 +46,10 @@ const Header = () => {
       );
     } else {
       return (
-        <Button className="bg-neutral-900 text-white" onClick={() => setTheme("dark")}>
+        <Button
+          className="bg-neutral-900 text-white"
+          onClick={() => setTheme("dark")}
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"
@@ -63,23 +67,32 @@ const Header = () => {
     <div>
       <div className="hidden md:block">
         <header className="h-16 flex items-center justify-between">
-          <ul className="flex gap-5 md:gap-7">
-            {navigations.map((nav) => (
-              // eslint-disable-next-line react/jsx-key
-              <Link
-                href={nav.path}
-                className="font-semibold text-gray-600 hover:text-gray-00"
-              >
-                {nav.label}
-              </Link>
-            ))}
-          </ul>
+          <div className="">
+            <ul className="flex gap-5 md:gap-7">
+              <Image
+                src="/images/letterJ.png"
+                width={33}
+                height={33}
+                alt="jLogo"
+              />
+              {navigations.map((nav) => (
+                // eslint-disable-next-line react/jsx-key
+                <Link
+                  href={nav.path}
+                  className="font-semibold text-gray-600 hover:text-gray-800 mt-1 "
+                >
+                  {nav.label}
+                </Link>
+              ))}
+            </ul>
+          </div>
+
           <div>
             <Link
               target="_blank"
               rel="noopener noreferrer"
               href="https://twitter.com/johncaneroo"
-              className="mr-4 dark:text-gray-300"
+              className="mr-4 font-Poppis font-semibold text-gray-600 hover:text-gray-800"
             >
               @johncanero
             </Link>

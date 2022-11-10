@@ -15,7 +15,8 @@ const Layout = ({children}) => {
         />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta property="og:title" content="Next Js Dark Mode Feature" />
-        <meta property="og:description" content="Next Js and Tailwind CSS" />
+        <meta property="og:description" content="Next Js and Tailwind CSS" /> 
+        <link rel="shortcut icon" href="/images/letterJ.png" />
       </Head>
 
       {/* Header, Main & Footer */}
