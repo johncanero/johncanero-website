@@ -70,12 +70,14 @@ const Header = () => {
         <header className="h-16 flex items-center justify-between">
           <div className="">
             <ul className="flex gap-5 md:gap-7">
-              <Image
-                src="/images/letterJ.png"
-                width={33}
-                height={33}
-                alt="jLogo"
-              />
+              <Link rel="noopener noreferrer" href="/">
+                <Image
+                  src="/images/letterJ.png"
+                  width={33}
+                  height={33}
+                  alt="jLogo"
+                />
+              </Link>
               {navigations.map((nav) => (
                 // eslint-disable-next-line react/jsx-key
                 <Link
@@ -95,7 +97,10 @@ const Header = () => {
               href="https://twitter.com/johncaneroo"
               className="flex mt-1 mr-4 font-Poppis font-semibold text-gray-600 hover:text-gray-800"
             >
-              <FaTwitter className="mr-1 mt-1 text-gray-600 hover:text-gray-800 " size={15} />{" "}
+              <FaTwitter
+                className="mr-1 mt-1 text-gray-600 hover:text-gray-800 "
+                size={15}
+              />{" "}
               @johncanero
             </Link>
             {renderThemeChanger()}
