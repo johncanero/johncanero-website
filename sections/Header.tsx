@@ -87,7 +87,7 @@ const Header = () => {
           </div>
         </header>
       </div>
-      {/* Mobile - Menu Dropdown */}
+      {/* Mobile - Menu */}
       <MenuDropdown />
     </div>
   );
