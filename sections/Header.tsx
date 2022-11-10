@@ -48,7 +48,7 @@ const Header = () => {
     } else {
       return (
         <Button
-          className="bg-neutral-900 text-white"
+          className="bg-neutral-800 text-white"
           onClick={() => setTheme("dark")}
         >
           <svg
@@ -76,6 +76,7 @@ const Header = () => {
                   width={33}
                   height={33}
                   alt="jLogo"
+                  className=""
                 />
               </Link>
               {navigations.map((nav) => (

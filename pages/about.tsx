@@ -9,7 +9,7 @@ const about = () => {
 
   
       <div className=" font-Poppins mx-8 md:mx-60">
-        <h1 className="mt-6 text-center">My STORY:</h1>
+        <h1 className="mt-6 text-center font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">My STORY:</h1>
         <p className="mt-3 text-justify">
           Early back in my childhood and early teens, I usually love to draw
           architectural houses on a paper. The passion behind building and
@@ -34,7 +34,7 @@ const about = () => {
           that focuses on users.
         </p>
 
-        <h1 className="mt-6 text-center">My TECH JOURNEY:</h1>
+        <h1 className="mt-6 text-center font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">My TECH JOURNEY:</h1>
 
         <p className="mt-3 text-justify">
           At the other side of the field, I spend my time learning on technology
@@ -50,27 +50,27 @@ const about = () => {
           wants. To always focus and center the user and make them happy.
         </p>
 
-        <h1 className="mt-6 text-justify">HIGHLIGHTS:</h1>
+        <h1 className="mt-6 text-left font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">HIGHLIGHTS:</h1>
 
         <ul>
           <div className="mt-3">
             <li>✅ Graduated at The Complete Web Development Bootcamp 2022 </li>
             <li>
-              ✅ Aspiring Software Engineer/Developer (Upskill Education){" "}
+              ✅ Aspiring Software Engineer/Developer (Upskill Education)
             </li>
             <li>
               ✅ Heritage Conservation Society- UST Chapter (Project Manager and
-              EA to Community Development){" "}
+              EA to Community Development)
             </li>
             <li>
               ✅ Accomplished Google - Foundations of User Experience (UX)
-              Design Course{" "}
+              Design Course
             </li>
             <li>✅ Progress: The Ultimate React 101 at Scrimba </li>
           </div>
         </ul>
 
-        <h1 className="mt-6 text-justify">HOBBIES:</h1>
+        <h1 className="mt-6 text-left font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">HOBBIES:</h1>
 
         <p className="mt-3 mb-12 text-justify">
           When I have free time and no work, I enjoy ⚽ playing football, 🏓
