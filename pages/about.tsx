@@ -38,7 +38,7 @@ const about = () => {
 
         <p className="mt-3 text-justify">
           At the other side of the field, I spend my time learning on technology
-          especially the Web Development field and it helped me experience and
+          especially Frontend Engineering Development and UX (User Experience) and it helped me experience and
           see the opportunities at the tech sector. I consistently learn the
           concepts and tools behind and building projects around it.
         </p>
