@@ -7,7 +7,7 @@ const about = () => {
         About
       </div>
 
-      <div className="text-center text-4xl font-Poppins mt-4">Under Construction... 🚧</div>
+      <div className="text-center text-2xl md:text-4xl font-Poppins mt-4">Under Construction... 🚧</div>
     </div>
   );
 };
