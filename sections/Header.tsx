@@ -18,6 +18,7 @@ const Header = () => {
   const navigations = [
     { label: "Home", path: "/" },
     { label: "About Me", path: "/about" },
+    { label: "Tech Stack", path: "/techstack" },
   ];
 
   const renderThemeChanger = () => {
