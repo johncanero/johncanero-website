@@ -4,7 +4,10 @@ import Button from "./Button";
 import { Menu, Transition } from "@headlessui/react";
 import { Fragment, useEffect, useRef, useState } from "react";
 import { useTheme } from "next-themes";
+// Icons
 import { Bars3Icon } from "@heroicons/react/20/solid";
+import { FaHome } from "@react-icons/all-files/fa/FaHome";
+import { IoMdPerson } from "@react-icons/all-files/io/IoMdPerson";
 
 const MenuDropdown = () => {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -86,22 +89,22 @@ const MenuDropdown = () => {
                     <button
                       className={`${
                         active ? "bg-violet-500 text-white" : "text-gray-900"
-                      } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                      } group flex w-full items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                     >
-                      Home
+                      <FaHome className="mr-1" size={17} /> Home
                     </button>
                   </Link>
                 )}
               </Menu.Item>
               <Menu.Item>
                 {({ active }) => (
-                  <Link href='/about'>
+                  <Link href="/about">
                     <button
                       className={`${
                         active ? "bg-violet-500 text-white" : "text-gray-900"
-                      } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                      } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                     >
-                      About
+                      <IoMdPerson className="mr-1" size={17} /> About
                     </button>
                   </Link>
                 )}
