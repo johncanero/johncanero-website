@@ -134,7 +134,7 @@ const MenuDropdown = () => {
                       className="flex ml-3 font-Poppins text-sm text-gray-900"
                     >
                       <FaTwitter className="mr-1 text-cyan-400 " size={17} />{" "}
-                      @johncaneroo
+                      @johncanero
                     </Link>
                   )}
                 </Menu.Item>

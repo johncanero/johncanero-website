@@ -98,10 +98,6 @@ const Header = () => {
               href="https://twitter.com/johncaneroo"
               className="flex mt-1 mr-4 font-Poppis font-semibold text-gray-600 hover:text-gray-800"
             >
-              <FaTwitter
-                className="mr-1 mt-1 text-gray-600 hover:text-gray-800 "
-                size={15}
-              />{" "}
               @johncanero
             </Link>
             {renderThemeChanger()}
