@@ -68,7 +68,6 @@ const MenuDropdown = () => {
     <div className="flex justify-between md:hidden top-16 w-96 mt-3 text-right">
       {/* Image */}
       <Link
-        target="_blank"
         rel="noopener noreferrer"
         href="/"
       >
