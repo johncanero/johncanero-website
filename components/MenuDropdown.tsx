@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Button from "../components/Button";
+import Button from "./Button";
 import { Menu, Transition } from "@headlessui/react";
 import { Fragment, useEffect, useRef, useState } from "react";
 import { useTheme } from "next-themes";

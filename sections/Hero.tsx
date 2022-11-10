@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import Link from "next/link";
+import HireMeButton from "../components/HireMeButton";
 
 
 const Hero = () => {
@@ -22,18 +22,8 @@ const Hero = () => {
         show my work to the world. This is where I come in. 
       </p>
 
-      <Link
-        href="https://www.linkedin.com/feed/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <button
-          className="flex mx-auto md:mx-0 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500 text-gray-100 dark:text-white font-bold py-2 px-4 rounded-lg"
-          onClick={undefined}
-        >
-          Hire Me!
-        </button>
-      </Link>
+      {/* Hire Me Button */}
+      <HireMeButton />
     </div>
   );
 };
