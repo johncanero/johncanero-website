@@ -67,9 +67,15 @@ const MenuDropdown = () => {
     // Mobile Visiblity
     <div className="flex justify-between md:hidden top-16 w-96 mt-3 text-right">
       {/* Image */}
-      <div>
-        <Image src="/images/letterJ.png" width={33} height={33} alt="jLogo" />
-      </div>
+      <Link
+        target="_blank"
+        rel="noopener noreferrer"
+        href="/"
+      >
+        <div>
+          <Image src="/images/letterJ.png" width={33} height={33} alt="jLogo" />
+        </div>
+      </Link>
       {/* Dark Mode and Toggle */}
       <div>
         {renderThemeChanger()}
@@ -112,7 +118,7 @@ const MenuDropdown = () => {
                           active ? "bg-violet-500 text-white" : "text-gray-900"
                         } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                       >
-                        <IoMdPerson className="mr-1" size={17} /> About
+                        <IoMdPerson className="mr-1" size={17} /> About Me
                       </button>
                     </Link>
                   )}
@@ -128,11 +134,11 @@ const MenuDropdown = () => {
                       href="https://twitter.com/johncaneroo"
                       className="flex ml-3 font-Poppins text-sm text-gray-900"
                     >
-                      <FaTwitter className="mr-1 text-cyan-400 " size={17} /> @johncaneroo
+                      <FaTwitter className="mr-1 text-cyan-400 " size={17} />{" "}
+                      @johncaneroo
                     </Link>
                   )}
                 </Menu.Item>
-           
               </div>
             </Menu.Items>
           </Transition>
