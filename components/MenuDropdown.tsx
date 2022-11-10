@@ -10,6 +10,7 @@ import { Bars3Icon } from "@heroicons/react/20/solid";
 import { FaHome } from "@react-icons/all-files/fa/FaHome";
 import { IoMdPerson } from "@react-icons/all-files/io/IoMdPerson";
 import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter";
+import { FaConnectdevelop } from "@react-icons/all-files/fa/FaConnectdevelop";
 
 const MenuDropdown = () => {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -67,10 +68,7 @@ const MenuDropdown = () => {
     // Mobile Visiblity
     <div className="flex justify-between md:hidden top-16 w-96 mt-3 text-right">
       {/* Image */}
-      <Link
-        rel="noopener noreferrer"
-        href="/"
-      >
+      <Link rel="noopener noreferrer" href="/">
         <div>
           <Image src="/images/letterJ.png" width={33} height={33} alt="jLogo" />
         </div>
@@ -127,14 +125,32 @@ const MenuDropdown = () => {
               <div className="px-1 py-1 pb-2">
                 <Menu.Item>
                   {({ active }) => (
+                    <Link href="/techstack">
+                      <button
+                        className={`${
+                          active ? "bg-violet-500 text-white" : "text-gray-900"
+                        } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
+                      >
+                        <FaConnectdevelop className="mr-1" size={17} /> Tech Stack
+                      </button>
+                    </Link>
+                  )}
+                </Menu.Item>
+                <Menu.Item>
+                  {({ active }) => (
                     <Link
                       target="_blank"
                       rel="noopener noreferrer"
                       href="https://twitter.com/johncaneroo"
-                      className="flex ml-3 font-Poppins text-sm text-gray-900"
                     >
-                      <FaTwitter className="mr-1 text-cyan-400 " size={17} />{" "}
-                      @johncanero
+                      <button
+                        className={`${
+                          active ? "bg-violet-500 text-white" : "text-gray-900"
+                        } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
+                      >
+                        <FaTwitter className="mr-1 text-cyan-400 " size={17} />{" "}
+                        @johncanero
+                      </button>
                     </Link>
                   )}
                 </Menu.Item>
