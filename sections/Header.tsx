@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Button from "../components/Button";
 import MenuDropdown from "../components/MenuDropdown";
-import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter";
+// import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter";
 import { useTheme } from "next-themes";
 import { useState, useEffect } from "react";
 
@@ -93,9 +93,9 @@ const Header = () => {
 
           <div className="flex">
             <Link
-              target="_blank"
+              // target="_blank"
               rel="noopener noreferrer"
-              href="https://twitter.com/johncaneroo"
+              href="/"
               className="flex mt-1 mr-4 font-Poppis font-semibold text-gray-600 hover:text-gray-800"
             >
               @johncanero

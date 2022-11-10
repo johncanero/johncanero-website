@@ -1,6 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Link from "next/link";
+import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin";
+import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
+import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram";
+import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter";
 
 const Hero = () => {
   return (
@@ -22,11 +26,42 @@ const Hero = () => {
       </p>
       {/* Horizontal Line */}
       <div>
-          <hr className="mb-6 text-center w-48 flex mx-auto h-px md:mx-0 md:w-6/12 lg:w-4/12 bg-gray-300 border-0 dark:bg-gray-900"></hr>
+        <hr className="mb-6 text-center w-48 flex mx-auto h-px md:mx-0 md:w-6/12 lg:w-4/12 bg-gray-300 border-0 dark:bg-gray-900"></hr>
+      </div>
+
+      <div className="flex justify-center md:justify-start mb-12">
+        <Link
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/johncanero/"
+        >
+          <FaLinkedin className="mr-5 dark:text-gray-100" size={30} />
+        </Link>
+        <Link
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/johncanero"
+        >
+          <FaGithub className="mr-5 dark:text-gray-100" size={30} />
+        </Link>
+        <Link
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://twitter.com/johncaneroo"
+        >
+          <FaTwitter className="mr-5 dark:text-gray-100" size={30} />
+        </Link>
+        <Link
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.instagram.com/johncanero/"
+        >
+          <FaInstagram className="mr-0 dark:text-gray-100" size={30} />
+        </Link>
       </div>
 
       {/* Hire Me Button */}
-      <div className="flex justify-center items-center md:justify-between">
+      {/* <div className="flex justify-center items-center md:justify-between">
         <div>
           <Link
             target="_blank"
@@ -41,7 +76,7 @@ const Hero = () => {
             </button>
           </Link>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
