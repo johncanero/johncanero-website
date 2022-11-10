@@ -19,7 +19,7 @@ const Hero = () => {
 
       <p className="text-center mb-10 mx-6 md:mb-8 md:mx-0 sm:text-center md:text-left text-gray-600 md:mr-48 lg:mr-96">
         I enjoy creating stuffs. I like to BUILD. To have fun, help people and
-        show my work to the world. This is where I come in. 
+        show my work to the world. This is where I come in. 🏂
       </p>
 
       {/* Hire Me Button */}

@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Button from "../components/Button";
 import MenuDropdown from "../components/MenuDropdown";
+import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter";
 import { useTheme } from "next-themes";
 import { useState, useEffect } from "react";
 
@@ -87,13 +88,14 @@ const Header = () => {
             </ul>
           </div>
 
-          <div>
+          <div className="flex">
             <Link
               target="_blank"
               rel="noopener noreferrer"
               href="https://twitter.com/johncaneroo"
-              className="mr-4 font-Poppis font-semibold text-gray-600 hover:text-gray-800"
+              className="flex mt-1 mr-4 font-Poppis font-semibold text-gray-600 hover:text-gray-800"
             >
+              <FaTwitter className="mr-1 mt-1 text-gray-600 hover:text-gray-800 " size={15} />{" "}
               @johncanero
             </Link>
             {renderThemeChanger()}
