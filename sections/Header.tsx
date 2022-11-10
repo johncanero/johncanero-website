@@ -45,7 +45,7 @@ const Header = () => {
       );
     } else {
       return (
-        <Button className="bg-gray-200" onClick={() => setTheme("dark")}>
+        <Button className="bg-neutral-900 text-white" onClick={() => setTheme("dark")}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"
@@ -57,7 +57,6 @@ const Header = () => {
         </Button>
       );
     }
-    ``;
   };
 
   return (
@@ -88,6 +87,7 @@ const Header = () => {
           </div>
         </header>
       </div>
+      {/* Mobile - Menu Dropdown */}
       <MenuDropdown />
     </div>
   );
