@@ -128,7 +128,7 @@ const MenuDropdown = () => {
                       href="https://twitter.com/johncaneroo"
                       className="flex ml-3 font-Poppins text-sm text-gray-900"
                     >
-                      <FaTwitter className="mr-1 text-cyan-400 " size={17} /> @johncanero
+                      <FaTwitter className="mr-1 text-cyan-400 " size={17} /> @johncaneroo
                     </Link>
                   )}
                 </Menu.Item>
