@@ -1,10 +1,21 @@
 import React from "react";
+import Image from "next/image";
 
 const about = () => {
   return (
     <div>
       <div className="text-center text-gray-600 font-Poppins font-semibold mt-4 text-2xl">
         About Me
+      </div>
+
+      {/* John Cañero Logo */}
+      <div className="flex justify-center mt-6">
+        <Image
+          src="/images/johncanero3.2.png"
+          width={250}
+          height={250}
+          alt="Snowboarder"
+        />
       </div>
 
       <div className=" font-Poppins mx-8 md:mx-16 lg:mx-60">
@@ -34,6 +45,16 @@ const about = () => {
           This philosophy helped me a lot when designing and building stuffs
           that focuses on users.
         </p>
+
+        {/* Snowboarder */}
+        <div className="flex justify-center mt-6">
+          <Image
+            src="/gif/snowboarder.gif"
+            width={220}
+            height={220}
+            alt="Snowboarder"
+          />
+        </div>
 
         <h1 className="mt-6 text-center font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
           My TECH JOURNEY:
@@ -86,7 +107,8 @@ const about = () => {
           <span className=" text-cyan-500">•</span> cycling,{" "}
           <span className=" text-cyan-500">•</span> running,{" "}
           <span className=" text-cyan-500">•</span> playing board games such as
-          chess, and <span className=" text-cyan-500">•</span> reading growth and development books.
+          chess, and <span className=" text-cyan-500">•</span> reading growth
+          and development books.
         </p>
       </div>
     </div>
