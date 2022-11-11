@@ -8,7 +8,7 @@ const techstack = () => {
         My Tech Stack
       </div>
 
-      <div className="flex flex-wrap md:justify-center mt-3 md:mx-24  lg:mx-72 font-Poppins">
+      <div className="flex flex-wrap md:justify-center mt-3 md:mx-20  lg:mx-72 font-Poppins">
         <div className="flex">
           {/* Javasript */}
           <Image
@@ -16,7 +16,6 @@ const techstack = () => {
             width={60}
             height={60}
             alt="Javascript Logo"
-            className=""
           />
           <p className="mt-5 mr-3">Javascript</p>
         </div>
@@ -28,7 +27,6 @@ const techstack = () => {
             width={60}
             height={60}
             alt="Typescript Logo"
-            className=""
           />
           <p className="mt-5 mr-3">Typescript</p>
         </div>
@@ -40,7 +38,6 @@ const techstack = () => {
             width={60}
             height={60}
             alt="HTML5 Logo"
-            className=""
           />
           <p className="mt-5 mr-3">HTML5</p>
         </div>
@@ -52,7 +49,6 @@ const techstack = () => {
             width={60}
             height={60}
             alt="CSS3 Logo"
-            className=""
           />
           <p className="mt-5 mr-3">CSS3</p>
         </div>
@@ -64,7 +60,6 @@ const techstack = () => {
             width={60}
             height={60}
             alt="Tailwind Logo"
-            className=""
           />
           <p className="mt-5 mr-3">Tailwind CSS</p>
         </div>
@@ -76,7 +71,6 @@ const techstack = () => {
             width={60}
             height={60}
             alt="Bootstrap"
-            className=""
           />
           <p className="mt-5 mr-3">Bootstrap</p>
         </div>
@@ -88,7 +82,6 @@ const techstack = () => {
             width={60}
             height={60}
             alt="React Js Logo"
-            className=""
           />
           <p className="mt-5 mr-3">React Js</p>
         </div>
@@ -100,7 +93,6 @@ const techstack = () => {
             width={60}
             height={60}
             alt="Next Js Logo"
-            className=""
           />
           <p className="mt-5 mr-3">Next Js</p>
         </div>
@@ -112,7 +104,6 @@ const techstack = () => {
             width={60}
             height={60}
             alt="Vercel Logo"
-            className=""
           />
           <p className="mt-5 mr-3">Vercel</p>
         </div>
@@ -124,7 +115,6 @@ const techstack = () => {
             width={60}
             height={60}
             alt="Netlify Logo"
-            className=""
           />
           <p className="mt-5 mr-3">Netlify</p>
         </div>
@@ -136,7 +126,6 @@ const techstack = () => {
             width={60}
             height={60}
             alt="Heroku Logo"
-            className=""
           />
           <p className="mt-5 mr-3">Heroku</p>
         </div>
@@ -148,7 +137,6 @@ const techstack = () => {
             width={60}
             height={60}
             alt="GitHub Logo"
-            className=""
           />
           <p className="mt-5 mr-3">GitHub</p>
         </div>
@@ -160,9 +148,52 @@ const techstack = () => {
             width={60}
             height={60}
             alt="Git Logo"
-            className=""
           />
           <p className="mt-5 mr-3">Git</p>
+        </div>
+
+        {/* Node Js */}
+        <div className="flex">
+          <Image
+            src="/techstack/nodejs.png"
+            width={60}
+            height={60}
+            alt="Node Js Logo"
+          />
+          <p className="mt-5 mr-3">Node Js</p>
+        </div>
+
+        {/* npm */}
+        <div className="flex">
+          <Image
+            src="/techstack/npm.png"
+            width={60}
+            height={60}
+            alt="npm Logo"
+          />
+          <p className="mt-5 mr-3">npm</p>
+        </div>
+
+        {/* mongodb */}
+        <div className="flex">
+          <Image
+            src="/techstack/mongodb.png"
+            width={60}
+            height={60}
+            alt="MongoDB Logo"
+          />
+          <p className="mt-5 mr-3">MongoDB</p>
+        </div>
+
+        {/* Visual Studio Code */}
+        <div className="flex">
+          <Image
+            src="/techstack/vs.png"
+            width={60}
+            height={60}
+            alt="Visual Studio Code Logo"
+          />
+          <p className="mt-5 mr-3">Visual Studio Code</p>
         </div>
       </div>
     </div>

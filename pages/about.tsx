@@ -7,7 +7,7 @@ const about = () => {
         About Me
       </div>
 
-      <div className=" font-Poppins mx-8 md:mx-60">
+      <div className=" font-Poppins mx-8 md:mx-16 lg:mx-60">
         <h1 className="mt-6 text-center font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
           My STORY:
         </h1>
