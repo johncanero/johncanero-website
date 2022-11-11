@@ -83,7 +83,7 @@ const Header = () => {
               <Link
                 rel="noopener noreferrer"
                 href="/"
-                className="font-semibold text-gray-600 dark:text-gray-300 hover:text-gray-800"
+                className="font-semibold text-gray-600 dark:text-gray-300 border-b-2 border-transparent hover:border-gray-600 dark:hover:border-gray-300"
               >
                 <FaHome size={23} className="ml-2" />
                 Home
@@ -92,7 +92,7 @@ const Header = () => {
               <Link
                 rel="noopener noreferrer"
                 href="/about"
-                className="font-semibold text-gray-600 dark:text-gray-300 hover:text-gray-800"
+                className="font-semibold text-gray-600 dark:text-gray-300 hover:text-gray-800 border-b-2 border-transparent hover:border-gray-600 dark:hover:border-gray-300"
               >
                 <IoMdPerson size={23} className="ml-5" />
                 About Me
@@ -101,7 +101,7 @@ const Header = () => {
               <Link
                 rel="noopener noreferrer"
                 href="/techstack"
-                className="font-semibold text-gray-600 dark:text-gray-300 hover:text-gray-800"
+                className="font-semibold text-gray-600 dark:text-gray-300 hover:text-gray-800 border-b-2 border-transparent hover:border-gray-600 dark:hover:border-gray-300"
               >
                 <FaConnectdevelop size={23} className="ml-5" />
                 Tech Stack
