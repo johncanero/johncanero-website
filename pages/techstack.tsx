@@ -8,7 +8,7 @@ const techstack = () => {
         My Tech Stack
       </div>
 
-      <div className="flex flex-wrap justify-center mt-3 md:mx-72 font-Poppins">
+      <div className="flex flex-wrap justify-center mt-3 md:mx-24  lg:mx-72 font-Poppins">
         <div className="flex">
           {/* Javasript */}
           <Image
@@ -69,7 +69,18 @@ const techstack = () => {
           <p className="mt-5 mr-3">Tailwind CSS</p>
         </div>
 
-        
+        {/* Bootstrap */}
+        <div className="flex">
+          <Image
+            src="/techstack/bootstrap5.png"
+            width={60}
+            height={60}
+            alt="Bootstrap"
+            className=""
+          />
+          <p className="mt-5 mr-3">Bootstrap</p>
+        </div>
+
         {/* React Js */}
         <div className="flex">
           <Image
@@ -82,17 +93,76 @@ const techstack = () => {
           <p className="mt-5 mr-3">React Js</p>
         </div>
 
-        
         {/* Next Js */}
         <div className="flex">
           <Image
             src="/techstack/nextjs.png"
             width={60}
             height={60}
-            alt="jLogo"
+            alt="Next Js Logo"
             className=""
           />
           <p className="mt-5 mr-3">Next Js</p>
+        </div>
+
+        {/* Vercel */}
+        <div className="flex">
+          <Image
+            src="/techstack/vercel.png"
+            width={60}
+            height={60}
+            alt="Vercel Logo"
+            className=""
+          />
+          <p className="mt-5 mr-3">Vercel</p>
+        </div>
+
+        {/* Netlify */}
+        <div className="flex">
+          <Image
+            src="/techstack/netlify.png"
+            width={60}
+            height={60}
+            alt="Netlify Logo"
+            className=""
+          />
+          <p className="mt-5 mr-3">Netlify</p>
+        </div>
+
+        {/* Heroku */}
+        <div className="flex">
+          <Image
+            src="/techstack/heroku.png"
+            width={60}
+            height={60}
+            alt="Heroku Logo"
+            className=""
+          />
+          <p className="mt-5 mr-3">Heroku</p>
+        </div>
+
+        {/* GitHub */}
+        <div className="flex">
+          <Image
+            src="/techstack/github.png"
+            width={60}
+            height={60}
+            alt="GitHub Logo"
+            className=""
+          />
+          <p className="mt-5 mr-3">GitHub</p>
+        </div>
+
+        {/* Git */}
+        <div className="flex">
+          <Image
+            src="/techstack/git.png"
+            width={60}
+            height={60}
+            alt="Git Logo"
+            className=""
+          />
+          <p className="mt-5 mr-3">Git</p>
         </div>
       </div>
     </div>
