@@ -8,9 +8,9 @@ const techstack = () => {
         My Tech Stack
       </div>
 
-      <div className="flex font-Poppins">
+      <div className="flex flex-wrap justify-center mt-3 md:mx-72 font-Poppins">
         <div className="flex">
-        {/* Javasript */}
+          {/* Javasript */}
           <Image
             src="/techstack/js.png"
             width={60}
@@ -31,6 +31,42 @@ const techstack = () => {
             className=""
           />
           <p className="mt-5 mr-3">Typescript</p>
+        </div>
+
+        {/* HTML 5 */}
+        <div className="flex">
+          <Image
+            src="/techstack/html5.png"
+            width={60}
+            height={60}
+            alt="jLogo"
+            className=""
+          />
+          <p className="mt-5 mr-3">HTML5</p>
+        </div>
+
+        {/* CSS */}
+        <div className="flex">
+          <Image
+            src="/techstack/css.png"
+            width={60}
+            height={60}
+            alt="jLogo"
+            className=""
+          />
+          <p className="mt-5 mr-3">CSS3</p>
+        </div>
+
+        {/* Tailwind CSS */}
+        <div className="flex">
+          <Image
+            src="/techstack/tailwind.png"
+            width={60}
+            height={60}
+            alt="jLogo"
+            className=""
+          />
+          <p className="mt-5 mr-3">Tailwind CSS</p>
         </div>
       </div>
     </div>
