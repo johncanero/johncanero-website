@@ -15,7 +15,7 @@ const techstack = () => {
             src="/techstack/js.png"
             width={60}
             height={60}
-            alt="jLogo"
+            alt="Javascript Logo"
             className=""
           />
           <p className="mt-5 mr-3">Javascript</p>
@@ -27,7 +27,7 @@ const techstack = () => {
             src="/techstack/typescript.png"
             width={60}
             height={60}
-            alt="jLogo"
+            alt="Typescript Logo"
             className=""
           />
           <p className="mt-5 mr-3">Typescript</p>
@@ -39,7 +39,7 @@ const techstack = () => {
             src="/techstack/html5.png"
             width={60}
             height={60}
-            alt="jLogo"
+            alt="HTML5 Logo"
             className=""
           />
           <p className="mt-5 mr-3">HTML5</p>
@@ -51,7 +51,7 @@ const techstack = () => {
             src="/techstack/css.png"
             width={60}
             height={60}
-            alt="jLogo"
+            alt="CSS3 Logo"
             className=""
           />
           <p className="mt-5 mr-3">CSS3</p>
@@ -63,10 +63,36 @@ const techstack = () => {
             src="/techstack/tailwind.png"
             width={60}
             height={60}
-            alt="jLogo"
+            alt="Tailwind Logo"
             className=""
           />
           <p className="mt-5 mr-3">Tailwind CSS</p>
+        </div>
+
+        
+        {/* React Js */}
+        <div className="flex">
+          <Image
+            src="/techstack/reactjs.png"
+            width={60}
+            height={60}
+            alt="React Js Logo"
+            className=""
+          />
+          <p className="mt-5 mr-3">React Js</p>
+        </div>
+
+        
+        {/* Next Js */}
+        <div className="flex">
+          <Image
+            src="/techstack/nextjs.png"
+            width={60}
+            height={60}
+            alt="jLogo"
+            className=""
+          />
+          <p className="mt-5 mr-3">Next Js</p>
         </div>
       </div>
     </div>
