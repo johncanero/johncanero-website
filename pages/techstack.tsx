@@ -8,6 +8,7 @@ const techstack = () => {
         My Tech Stack
       </div>
 
+      {/* Tech Stack */}
       <div className="flex flex-wrap md:justify-center mt-3 md:mx-20  lg:mx-72 font-Poppins">
         <div className="flex">
           {/* Javasript */}
@@ -194,6 +195,36 @@ const techstack = () => {
             alt="Visual Studio Code Logo"
           />
           <p className="mt-5 mr-3">Visual Studio Code</p>
+        </div>
+      </div>
+
+      {/* Design Stack */}
+
+      <div className="text-center text-gray-600 font-Poppins font-semibold mt-8 text-2xl">
+        My Tech - Design & Architecture Stack
+      </div>
+
+      <div className="flex flex-wrap md:justify-center mt-3 md:mx-20  lg:mx-72 font-Poppins">
+        <div className="flex">
+          {/* Figma */}
+          <Image
+            src="/techstack/figma.png"
+            width={60}
+            height={60}
+            alt="Figma Logo"
+          />
+          <p className="mt-5 mr-3">Figma</p>
+        </div>
+
+        <div className="flex">
+          {/* Canva */}
+          <Image
+            src="/techstack/canva.png"
+            width={60}
+            height={60}
+            alt="Canva Logo"
+          />
+          <p className="mt-5 mr-3">Canva</p>
         </div>
       </div>
     </div>
