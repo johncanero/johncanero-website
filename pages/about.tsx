@@ -4,7 +4,7 @@ const about = () => {
   return (
     <div>
       <div className="text-center text-gray-600 font-Poppins font-semibold mt-4 text-2xl">
-        About
+        About Me
       </div>
 
       <div className=" font-Poppins mx-8 md:mx-60">
