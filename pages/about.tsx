@@ -79,7 +79,7 @@ const about = () => {
         </h1>
 
         <p className="mt-3 mb-12 text-justify">
-          When I have free time and no work, I enjoy{" "}
+          When I have free time and no work, I enjoy:{" "}
           <span className=" text-cyan-500">•</span> playing football,{" "}
           <span className=" text-cyan-500">•</span> table tennis,{" "}
           <span className=" text-cyan-500">•</span> badminton,{" "}

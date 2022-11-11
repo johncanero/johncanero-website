@@ -8,7 +8,7 @@ const techstack = () => {
         My Tech Stack
       </div>
 
-      <div className="flex flex-wrap justify-center mt-3 md:mx-24  lg:mx-72 font-Poppins">
+      <div className="flex flex-wrap md:justify-center mt-3 md:mx-24  lg:mx-72 font-Poppins">
         <div className="flex">
           {/* Javasript */}
           <Image
