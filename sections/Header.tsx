@@ -6,6 +6,10 @@ import MenuDropdown from "../components/MenuDropdown";
 // import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter";
 import { useTheme } from "next-themes";
 import { useState, useEffect } from "react";
+// Icons
+import { FaHome } from "@react-icons/all-files/fa/FaHome";
+import { IoMdPerson } from "@react-icons/all-files/io/IoMdPerson";
+import { FaConnectdevelop } from "@react-icons/all-files/fa/FaConnectdevelop";
 
 const Header = () => {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -14,12 +18,6 @@ const Header = () => {
   useEffect(() => {
     setMounted(true);
   }, []);
-
-  const navigations = [
-    { label: "Home", path: "/" },
-    { label: "About Me", path: "/about" },
-    { label: "Tech Stack", path: "/techstack" },
-  ];
 
   const renderThemeChanger = () => {
     if (!mounted) return null;
@@ -68,27 +66,46 @@ const Header = () => {
   return (
     <div>
       <div className="hidden md:block">
-        <header className="h-16 flex items-center justify-between">
+        <header className="h-20 flex items-center justify-between">
           <div className="">
-            <ul className="flex gap-5 md:gap-7">
+            <ul className="flex gap-5 md:gap-7 text-sm">
               <Link rel="noopener noreferrer" href="/">
                 <Image
                   src="/images/letterJ.png"
-                  width={33}
-                  height={33}
+                  width={40}
+                  height={40}
                   alt="jLogo"
                   className=""
                 />
               </Link>
-              {navigations.map((nav) => (
-                // eslint-disable-next-line react/jsx-key
-                <Link
-                  href={nav.path}
-                  className="font-semibold text-gray-600 hover:text-gray-800 mt-1 "
-                >
-                  {nav.label}
-                </Link>
-              ))}
+
+              {/* Header Links */}
+              <Link
+                rel="noopener noreferrer"
+                href="/"
+                className="font-semibold text-gray-600 dark:text-gray-300 hover:text-gray-800"
+              >
+                <FaHome size={23} className="ml-2" />
+                Home
+              </Link>
+
+              <Link
+                rel="noopener noreferrer"
+                href="/about"
+                className="font-semibold text-gray-600 dark:text-gray-300 hover:text-gray-800"
+              >
+                <IoMdPerson size={23} className="ml-5" />
+                About Me
+              </Link>
+
+              <Link
+                rel="noopener noreferrer"
+                href="/techstack"
+                className="font-semibold text-gray-600 dark:text-gray-300 hover:text-gray-800"
+              >
+                <FaConnectdevelop size={23} className="ml-5" />
+                Tech Stack
+              </Link>
             </ul>
           </div>
 
