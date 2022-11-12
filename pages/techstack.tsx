@@ -10,7 +10,7 @@ const techstack = () => {
 
       {/* Tech Stack */}
       <div className="flex flex-wrap justify-center mt-3 md:mx-20  lg:mx-72 font-Poppins">
-        <div className="flex">
+        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
           {/* Javasript */}
           <Image
             src="/techstack/js.png"
@@ -22,7 +22,7 @@ const techstack = () => {
         </div>
 
         {/* Typescript */}
-        <div className="flex">
+        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
           <Image
             src="/techstack/typescript.png"
             width={60}
@@ -33,7 +33,7 @@ const techstack = () => {
         </div>
 
         {/* HTML 5 */}
-        <div className="flex">
+        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
           <Image
             src="/techstack/html5.png"
             width={60}
@@ -44,7 +44,7 @@ const techstack = () => {
         </div>
 
         {/* CSS */}
-        <div className="flex">
+        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
           <Image
             src="/techstack/css.png"
             width={60}
@@ -55,7 +55,7 @@ const techstack = () => {
         </div>
 
         {/* Tailwind CSS */}
-        <div className="flex">
+        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
           <Image
             src="/techstack/tailwind.png"
             width={60}
@@ -66,7 +66,7 @@ const techstack = () => {
         </div>
 
         {/* Bootstrap */}
-        <div className="flex">
+        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
           <Image
             src="/techstack/bootstrap5.png"
             width={60}
@@ -77,7 +77,7 @@ const techstack = () => {
         </div>
 
         {/* React Js */}
-        <div className="flex">
+        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
           <Image
             src="/techstack/reactjs.png"
             width={60}
@@ -88,7 +88,7 @@ const techstack = () => {
         </div>
 
         {/* Next Js */}
-        <div className="flex">
+        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
           <Image
             src="/techstack/nextjs.png"
             width={60}
@@ -99,7 +99,7 @@ const techstack = () => {
         </div>
 
         {/* Vercel */}
-        <div className="flex">
+        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
           <Image
             src="/techstack/vercel.png"
             width={60}
@@ -110,7 +110,7 @@ const techstack = () => {
         </div>
 
         {/* Netlify */}
-        <div className="flex">
+        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
           <Image
             src="/techstack/netlify.png"
             width={60}
@@ -121,7 +121,7 @@ const techstack = () => {
         </div>
 
         {/* Heroku */}
-        <div className="flex">
+        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
           <Image
             src="/techstack/heroku.png"
             width={60}
@@ -132,7 +132,7 @@ const techstack = () => {
         </div>
 
         {/* GitHub */}
-        <div className="flex">
+        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
           <Image
             src="/techstack/github.png"
             width={60}
@@ -143,7 +143,7 @@ const techstack = () => {
         </div>
 
         {/* Git */}
-        <div className="flex">
+        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
           <Image
             src="/techstack/git.png"
             width={60}
@@ -154,7 +154,7 @@ const techstack = () => {
         </div>
 
         {/* Node Js */}
-        <div className="flex">
+        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
           <Image
             src="/techstack/nodejs.png"
             width={60}
@@ -165,7 +165,7 @@ const techstack = () => {
         </div>
 
         {/* npm */}
-        <div className="flex">
+        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
           <Image
             src="/techstack/npm.png"
             width={60}
@@ -176,7 +176,7 @@ const techstack = () => {
         </div>
 
         {/* mongodb */}
-        <div className="flex">
+        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
           <Image
             src="/techstack/mongodb.png"
             width={60}
@@ -187,7 +187,7 @@ const techstack = () => {
         </div>
 
         {/* Visual Studio Code */}
-        <div className="flex">
+        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
           <Image
             src="/techstack/vs.png"
             width={60}
@@ -205,7 +205,7 @@ const techstack = () => {
       </div>
 
       <div className="flex flex-wrap md:justify-center mt-3 md:mx-20  lg:mx-72 font-Poppins">
-        <div className="flex">
+        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
           {/* Figma */}
           <Image
             src="/techstack/figma.png"
@@ -216,7 +216,7 @@ const techstack = () => {
           <p className="mt-5 mr-3">Figma</p>
         </div>
 
-        <div className="flex">
+        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
           {/* Canva */}
           <Image
             src="/techstack/canva.png"
