@@ -11,9 +11,9 @@ const about = () => {
       {/* John Cañero Logo */}
       <div className="flex justify-center mt-6">
         <Image
-          src="/images/johncanero3.3.png"
-          width={230}
-          height={230}
+          src="/images/johncanero4.2.png"
+          width={250}
+          height={250}
           alt="Snowboarder"
         />
       </div>
