@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Image from "next/image";
 
@@ -36,9 +37,9 @@ const about = () => {
           experience in every project I create:{" "}
         </p>
 
-        <p className="italic mt-5 text-center">
-          The role of architecture is to design spaces for people and making
-          them happy.
+        <p className="italic mt-5 text-center dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
+          "The role of architecture is to design spaces for people and making
+          them happy."
         </p>
 
         <p className="mt-5 text-justify">
