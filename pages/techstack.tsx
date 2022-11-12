@@ -1,15 +1,20 @@
 import React from "react";
 import Image from "next/image";
+import { FaConnectdevelop } from "@react-icons/all-files/fa/FaConnectdevelop";
+import { BsPencilSquare } from "@react-icons/all-files/bs/BsPencilSquare";
 
 const techstack = () => {
   return (
     <div>
-      <div className="text-center text-gray-600 font-Poppins font-semibold mt-4 text-2xl">
+      <div className="flex justify-center text-gray-600 dark:text-gray-300">
+        <FaConnectdevelop size={60} />
+      </div>
+      <div className="text-center text-gray-600 font-Poppins font-semibold text-xl mx-9 md:text-2xl md:mx-0 mt-4">
         My Tech Stack
       </div>
 
       {/* Tech Stack */}
-      <div className="flex flex-wrap justify-center mt-3 md:mx-20  lg:mx-72 font-Poppins">
+      <div className="flex flex-wrap justify-center md:mx-20  lg:mx-72 font-Poppins">
         <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
           {/* Javasript */}
           <Image
@@ -199,14 +204,17 @@ const techstack = () => {
       </div>
 
       {/* Design Stack */}
+      <div className="flex justify-center text-gray-600 dark:text-gray-300 mt-12">
+        <BsPencilSquare size={50} />
+      </div>
 
-      <div className="text-center text-gray-600 font-Poppins font-semibold mt-8 text-2xl">
+      <div className="text-center text-gray-600 font-Poppins font-semibold text-xl mx-9 md:text-2xl md:mx-0 mt-4">
         My Tech - Design & Architecture Stack
       </div>
 
-      <div className="flex flex-wrap md:justify-center mt-3 md:mx-20  lg:mx-72 font-Poppins">
+      <div className="flex flex-wrap justify-center md:mx-20 lg:mx-72 font-Poppins mb-6">
+        {/* Figma */}
         <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
-          {/* Figma */}
           <Image
             src="/techstack/figma.png"
             width={60}
@@ -216,8 +224,8 @@ const techstack = () => {
           <p className="mt-5 mr-3">Figma</p>
         </div>
 
+        {/* Canva */}
         <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
-          {/* Canva */}
           <Image
             src="/techstack/canva.png"
             width={60}
@@ -225,6 +233,39 @@ const techstack = () => {
             alt="Canva Logo"
           />
           <p className="mt-5 mr-3">Canva</p>
+        </div>
+
+        {/* Adobe Photoshop */}
+        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
+          <Image
+            src="/techstack/ps.png"
+            width={60}
+            height={60}
+            alt="Adobe Photoshop Logo"
+          />
+          <p className="mt-5 mr-3">Photoshop</p>
+        </div>
+
+        {/* Adobe Illustrator */}
+        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
+          <Image
+            src="/techstack/ai.png"
+            width={60}
+            height={60}
+            alt="Adobe Illustrator Logo"
+          />
+          <p className="mt-5 mr-3">Illustrator</p>
+        </div>
+
+        {/* Adobe Premiere */}
+        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
+          <Image
+            src="/techstack/pr.png"
+            width={60}
+            height={60}
+            alt="Adobe Premiere Logo"
+          />
+          <p className="mt-5 mr-3">Premiere</p>
         </div>
       </div>
     </div>
