@@ -9,7 +9,7 @@ import { useTheme } from "next-themes";
 import { Bars3Icon } from "@heroicons/react/20/solid";
 import { FaHome } from "@react-icons/all-files/fa/FaHome";
 import { IoMdPerson } from "@react-icons/all-files/io/IoMdPerson";
-import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter";
+import { SiGumtree } from "@react-icons/all-files/si/SiGumtree";
 import { FaConnectdevelop } from "@react-icons/all-files/fa/FaConnectdevelop";
 
 const MenuDropdown = () => {
@@ -141,14 +141,14 @@ const MenuDropdown = () => {
                     <Link
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://twitter.com/johncaneroo"
+                      href="https://linktr.ee/johncanero"
                     >
                       <button
                         className={`${
                           active ? "bg-violet-500 text-white" : "text-gray-900"
                         } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                       >
-                        <FaTwitter className="mr-1 text-cyan-400 " size={17} />{" "}
+                        <SiGumtree className="mr-1 text-green-500 " size={17} />{" "}
                         @johncanero
                       </button>
                     </Link>
