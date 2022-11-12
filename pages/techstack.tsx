@@ -14,7 +14,7 @@ const techstack = () => {
       </div>
 
       {/* Tech Stack */}
-      <div className="flex flex-wrap justify-center md:mx-20  lg:mx-72 font-Poppins">
+      <div className="flex flex-wrap md:justify-center md:mx-20  lg:mx-72 font-Poppins">
         <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
           {/* Javasript */}
           <Image
@@ -212,7 +212,7 @@ const techstack = () => {
         My Tech - Design & Architecture Stack
       </div>
 
-      <div className="flex flex-wrap justify-center md:mx-20 lg:mx-72 font-Poppins mb-6">
+      <div className="flex flex-wrap md:justify-center md:mx-20 lg:mx-72 font-Poppins mb-6">
         {/* Figma */}
         <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
           <Image
