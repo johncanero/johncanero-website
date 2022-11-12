@@ -267,6 +267,72 @@ const techstack = () => {
           />
           <p className="mt-5 mr-3">Premiere</p>
         </div>
+
+        {/* AutoCAD */}
+        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
+          <Image
+            src="/techstack/autocad.png"
+            width={60}
+            height={60}
+            alt="Autodesk AutoCAD Logo"
+          />
+          <p className="mt-5 mr-3">AutoCAD</p>
+        </div>
+
+        {/* Revit */}
+        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
+          <Image
+            src="/techstack/revit.png"
+            width={60}
+            height={60}
+            alt="Autodesk Revit Logo"
+          />
+          <p className="mt-5 mr-3">Revit</p>
+        </div>
+
+        {/* SketchUp */}
+        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
+          <Image
+            src="/techstack/sketchup.png"
+            width={60}
+            height={60}
+            alt="SketchUp Logo"
+          />
+          <p className="mt-5 mr-3">SketchUp</p>
+        </div>
+
+        {/* Lumion */}
+        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
+          <Image
+            src="/techstack/lumion.png"
+            width={60}
+            height={60}
+            alt="Lumion Logo"
+          />
+          <p className="mt-5 mr-3">Lumion</p>
+        </div>
+
+        {/* Enscape */}
+        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
+          <Image
+            src="/techstack/enscape.png"
+            width={60}
+            height={60}
+            alt="Enscape Logo"
+          />
+          <p className="mt-5 mr-3">Enscape</p>
+        </div>
+
+        {/* V-Ray */}
+        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
+          <Image
+            src="/techstack/vray.png"
+            width={60}
+            height={60}
+            alt="V-Ray Logo"
+          />
+          <p className="mt-5 mr-3">V-Ray</p>
+        </div>
       </div>
     </div>
   );
