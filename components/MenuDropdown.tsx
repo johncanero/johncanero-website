@@ -139,9 +139,9 @@ const MenuDropdown = () => {
                 <Menu.Item>
                   {({ active }) => (
                     <Link
-                      target="_blank"
+                      // target="_blank"
                       rel="noopener noreferrer"
-                      href="https://linktr.ee/johncanero"
+                      href="https://bio.link/johncanero"
                     >
                       <button
                         className={`${
