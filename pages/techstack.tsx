@@ -9,7 +9,7 @@ const techstack = () => {
       </div>
 
       {/* Tech Stack */}
-      <div className="flex flex-wrap md:justify-center mt-3 md:mx-20  lg:mx-72 font-Poppins">
+      <div className="flex flex-wrap justify-center mt-3 md:mx-20  lg:mx-72 font-Poppins">
         <div className="flex">
           {/* Javasript */}
           <Image
