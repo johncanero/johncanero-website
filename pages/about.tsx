@@ -15,7 +15,7 @@ const about = () => {
           src="/images/johncanero4.1.png"
           width={250}
           height={250}
-          alt="Snowboarder"
+          alt="John Cañero Logo"
         />
       </div>
 
@@ -36,7 +36,7 @@ const about = () => {
             src="/images/jam1.jpg"
             width={580}
             height={580}
-            alt="Snowboarder"
+            alt="Baby Jam"
             className="rounded-2xl"
           />
         </div>
@@ -59,7 +59,7 @@ const about = () => {
             src="/images/jam2.jpg"
             width={600}
             height={600}
-            alt="Snowboarder"
+            alt="Archi Student Jam"
             className="rounded-2xl"
           />
         </div>
@@ -70,7 +70,7 @@ const about = () => {
         </p>
 
         {/* Snowboarder */}
-        <div className="flex justify-center mt-6 w-72 mx-auto">
+        <div className="flex justify-center mt-8 w-96 mx-auto">
           <Image
             src="/gif/snowboarder.gif"
             width={350}
