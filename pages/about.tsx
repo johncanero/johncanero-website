@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const about = () => {
   return (
@@ -30,7 +31,7 @@ const about = () => {
           like in College: Architecture.
         </p>
 
-        {/* Image */}
+        {/* Baby Jam */}
         <div className="flex justify-center mt-6 mb-6 md:w-8/12 mx-auto">
           <Image
             src="/images/jam1.jpg"
@@ -117,6 +118,23 @@ const about = () => {
             <li>✅ Progress: The Ultimate React 101 at Scrimba </li>
           </div>
         </ul>
+
+        {/* Udemy Certificate */}
+        <Link
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.udemy.com/certificate/UC-c61dd9fc-19bb-4cc3-a5f0-c4d485d432af/"
+        >
+          <div className="flex justify-center mt-6 mb-6 md:w-8/12 mx-auto">
+            <Image
+              src="/images/udemyWebCertificate.jpg"
+              width={450}
+              height={450}
+              alt="Udemy Certificate"
+              className="rounded-2xl"
+            />
+          </div>
+        </Link>
 
         <h1 className="mt-6 text-left font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
           HOBBIES:
