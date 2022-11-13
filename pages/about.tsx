@@ -70,7 +70,7 @@ const about = () => {
         </p>
 
         {/* Snowboarder */}
-        <div className="flex justify-center mt-8 w-96 mx-auto">
+        <div className="flex justify-center mt-8 mx-auto">
           <Image
             src="/gif/snowboarder.gif"
             width={350}
