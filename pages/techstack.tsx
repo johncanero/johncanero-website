@@ -246,126 +246,148 @@ const techstack = () => {
         My Tech - Design & Architecture Stack
       </div>
 
-      <div className="flex flex-wrap md:justify-center md:mx-20 lg:mx-72 font-Poppins mb-6">
+      <div className="flex flex-wrap justify-center md:mx-20 lg:mx-72 font-Poppins mb-6">
         {/* Figma */}
         <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
-          <Image
-            src="/techstack/figma.png"
-            width={60}
-            height={60}
-            alt="Figma Logo"
-          />
-          <p className="mt-5 mr-3">Figma</p>
+          <div className="w-12">
+            <Image
+              src="/techstack/figma.png"
+              width={60}
+              height={60}
+              alt="Figma Logo"
+            />
+          </div>
+          <p className="mt-4 mr-3">Figma</p>
         </div>
 
         {/* Canva */}
         <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
-          <Image
-            src="/techstack/canva.png"
-            width={60}
-            height={60}
-            alt="Canva Logo"
-          />
-          <p className="mt-5 mr-3">Canva</p>
+          <div className="w-12">
+            <Image
+              src="/techstack/canva.png"
+              width={60}
+              height={60}
+              alt="Canva Logo"
+            />
+          </div>
+          <p className="mt-4 mr-3">Canva</p>
         </div>
 
         {/* Adobe Photoshop */}
         <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
-          <Image
-            src="/techstack/ps.png"
-            width={60}
-            height={60}
-            alt="Adobe Photoshop Logo"
-          />
-          <p className="mt-5 mr-3">Photoshop</p>
+          <div className="w-12">
+            <Image
+              src="/techstack/ps.png"
+              width={60}
+              height={60}
+              alt="Adobe Photoshop Logo"
+            />
+          </div>
+          <p className="mt-4 mr-3">Photoshop</p>
         </div>
 
         {/* Adobe Illustrator */}
         <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
-          <Image
-            src="/techstack/ai.png"
-            width={60}
-            height={60}
-            alt="Adobe Illustrator Logo"
-          />
-          <p className="mt-5 mr-3">Illustrator</p>
+          <div className="w-12">
+            <Image
+              src="/techstack/ai.png"
+              width={60}
+              height={60}
+              alt="Adobe Illustrator Logo"
+            />
+          </div>
+          <p className="mt-4 mr-3">Illustrator</p>
         </div>
 
         {/* Adobe Premiere */}
         <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
-          <Image
-            src="/techstack/pr.png"
-            width={60}
-            height={60}
-            alt="Adobe Premiere Logo"
-          />
-          <p className="mt-5 mr-3">Premiere</p>
+          <div className="w-12">
+            <Image
+              src="/techstack/pr.png"
+              width={60}
+              height={60}
+              alt="Adobe Premiere Logo"
+            />
+          </div>
+          <p className="mt-4 mr-3">Premiere</p>
         </div>
 
         {/* AutoCAD */}
         <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
-          <Image
-            src="/techstack/autocad.png"
-            width={60}
-            height={60}
-            alt="Autodesk AutoCAD Logo"
-          />
-          <p className="mt-5 mr-3">AutoCAD</p>
+          <div className="w-12">
+            <Image
+              src="/techstack/autocad.png"
+              width={60}
+              height={60}
+              alt="Autodesk AutoCAD Logo"
+            />
+          </div>
+          <p className="mt-4 mr-3">AutoCAD</p>
         </div>
 
         {/* Revit */}
         <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
-          <Image
-            src="/techstack/revit.png"
-            width={60}
-            height={60}
-            alt="Autodesk Revit Logo"
-          />
-          <p className="mt-5 mr-3">Revit</p>
+          <div className="w-12">
+            <Image
+              src="/techstack/revit.png"
+              width={60}
+              height={60}
+              alt="Autodesk Revit Logo"
+            />
+          </div>
+          <p className="mt-4 mr-3">Revit</p>
         </div>
 
         {/* SketchUp */}
         <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
-          <Image
-            src="/techstack/sketchup.png"
-            width={60}
-            height={60}
-            alt="SketchUp Logo"
-          />
-          <p className="mt-5 mr-3">SketchUp</p>
+          <div className="w-12">
+            <Image
+              src="/techstack/sketchup.png"
+              width={60}
+              height={60}
+              alt="SketchUp Logo"
+            />
+          </div>
+          <p className="mt-4 mr-3">SketchUp</p>
         </div>
 
         {/* Lumion */}
         <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
-          <Image
-            src="/techstack/lumion.png"
-            width={60}
-            height={60}
-            alt="Lumion Logo"
-          />
-          <p className="mt-5 mr-3">Lumion</p>
+          <div className="w-12">
+            <Image
+              src="/techstack/lumion.png"
+              width={60}
+              height={60}
+              alt="Lumion Logo"
+            />
+          </div>
+          <p className="mt-4 mr-3">Lumion</p>
         </div>
 
         {/* Enscape */}
         <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
-          <Image
-            src="/techstack/enscape.png"
-            width={60}
-            height={60}
-            alt="Enscape Logo"
-          />
-          <p className="mt-5 mr-3">Enscape</p>
+          <div className="w-12">
+            <Image
+              src="/techstack/enscape.png"
+              width={60}
+              height={60}
+              alt="Enscape Logo"
+            />
+          </div>
+          <p className="mt-4 mr-3">Enscape</p>
         </div>
 
         {/* V-Ray */}
         <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
-          <Image
-            src="/techstack/vray.png"
-            width={60}
-            height={60}
-            alt="V-Ray Logo"
-          />
-          <p className="mt-5 mr-3">V-Ray</p>
+          <div className="w-12">
+            <Image
+              src="/techstack/vray.png"
+              width={60}
+              height={60}
+              alt="V-Ray Logo"
+            />
+          </div>
+          <p className="mt-4 mr-3">V-Ray</p>
         </div>
       </div>
     </div>
