@@ -10,7 +10,7 @@ const about = () => {
       </div>
 
       {/* John Cañero Logo */}
-      <div className="flex justify-center mt-4">
+      <div className="flex justify-center mx-auto mt-4">
         <Image
           src="/images/johncanero4.1.png"
           width={250}
