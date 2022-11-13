@@ -20,7 +20,7 @@ const about = () => {
       </div>
 
       <div className=" font-Poppins mx-8 md:mx-16 lg:mx-60">
-        <h1 className="mt-6 text-center font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
+        <h1 className="mt-3 text-center font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
           My STORY:
         </h1>
         <p className="mt-3 text-justify">
@@ -29,6 +29,17 @@ const about = () => {
           sketching houses helped me paved the way on choosing the program I
           like in College: Architecture.
         </p>
+
+        {/* Image */}
+        <div className="mt-4 mb-4">
+          <Image
+            src="/images/jam1.jpg"
+            width={300}
+            height={300}
+            alt="Snowboarder"
+            className="rounded-2xl"
+          />
+        </div>
 
         <p className="mt-3 text-justify">
           Right now, I am currently studying in University of Santo Tomas taking
