@@ -31,11 +31,11 @@ const about = () => {
         </p>
 
         {/* Image */}
-        <div className="flex justify-center mt-6 mb-6">
+        <div className="flex justify-center mt-6 mb-6 md:w-8/12 mx-auto">
           <Image
             src="/images/jam1.jpg"
-            width={500}
-            height={500}
+            width={580}
+            height={580}
             alt="Snowboarder"
             className="rounded-2xl"
           />
@@ -52,6 +52,17 @@ const about = () => {
           "The role of architecture is to design spaces for people and making
           them happy."
         </p>
+
+        {/* Image */}
+        <div className="flex justify-center mt-6 mb-6 md:w-8/12 md:mx-auto">
+          <Image
+            src="/images/jam2.jpg"
+            width={600}
+            height={600}
+            alt="Snowboarder"
+            className="rounded-2xl"
+          />
+        </div>
 
         <p className="mt-5 text-justify">
           This philosophy helped me a lot when designing and building stuffs
