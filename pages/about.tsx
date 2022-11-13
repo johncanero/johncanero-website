@@ -10,7 +10,7 @@ const about = () => {
       </div>
 
       {/* John Cañero Logo */}
-      <div className="flex justify-center mx-auto mt-4">
+      <div className="flex justify-center mx-auto mt-6">
         <Image
           src="/images/johncanero4.1.png"
           width={250}
@@ -31,7 +31,7 @@ const about = () => {
         </p>
 
         {/* Image */}
-        <div className="mt-4 mb-4">
+        <div className="mt-6 mb-6">
           <Image
             src="/images/jam1.jpg"
             width={300}
