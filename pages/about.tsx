@@ -31,11 +31,11 @@ const about = () => {
         </p>
 
         {/* Image */}
-        <div className="mt-6 mb-6">
+        <div className="flex justify-center mt-6 mb-6">
           <Image
             src="/images/jam1.jpg"
-            width={300}
-            height={300}
+            width={500}
+            height={500}
             alt="Snowboarder"
             className="rounded-2xl"
           />
