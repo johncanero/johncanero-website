@@ -15,7 +15,7 @@ const techstack = () => {
 
       {/* Tech Stack */}
       <div className="flex flex-wrap justify-center md:mx-20  lg:mx-72 font-Poppins">
-        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36 mr-3 mt-4">
           {/* Javasript */}
           <div className="w-12">
             <Image
@@ -25,11 +25,11 @@ const techstack = () => {
               alt="Javascript Logo"
             />
           </div>
-          <p className="mt-4 mr-3 text-sm">Javascript</p>
+          <p className="mt-4 mr-3">Javascript</p>
         </div>
 
         {/* Typescript */}
-        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4">
           <div className="w-12">
             <Image
               src="/techstack/typescript.png"
@@ -38,11 +38,11 @@ const techstack = () => {
               alt="Typescript Logo"
             />
           </div>
-          <p className="mt-4 mr-3 text-sm">Typescript</p>
+          <p className="mt-4 mr-3">Typescript</p>
         </div>
 
         {/* HTML 5 */}
-        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36 mr-3 mt-4">
           <div className="w-12">
             <Image
               src="/techstack/html5.png"
@@ -55,7 +55,7 @@ const techstack = () => {
         </div>
 
         {/* CSS */}
-        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 w-36  mt-4">
           <div className="w-12">
             <Image
               src="/techstack/css.png"
@@ -68,7 +68,7 @@ const techstack = () => {
         </div>
 
         {/* Tailwind CSS */}
-        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4">
           <div className="w-12">
             <Image
               src="/techstack/tailwind.png"
@@ -77,11 +77,11 @@ const techstack = () => {
               alt="Tailwind Logo"
             />
           </div>
-          <p className="mt-4 mr-3">Tailwind CSS</p>
+          <p className="mt-4 mr-3">Tailwind</p>
         </div>
 
         {/* Bootstrap */}
-        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4">
           <div className="w-12">
             <Image
               src="/techstack/bootstrap5.png"
@@ -94,7 +94,7 @@ const techstack = () => {
         </div>
 
         {/* React Js */}
-        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4">
           <div className="w-12">
             <Image
               src="/techstack/reactjs.png"
@@ -107,7 +107,7 @@ const techstack = () => {
         </div>
 
         {/* Next Js */}
-        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4">
           <div className="w-12">
             <Image
               src="/techstack/nextjs.png"
@@ -120,7 +120,7 @@ const techstack = () => {
         </div>
 
         {/* Vercel */}
-        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4">
           <div className="w-12">
             <Image
               src="/techstack/vercel.png"
@@ -133,7 +133,7 @@ const techstack = () => {
         </div>
 
         {/* Netlify */}
-        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4">
           <div className="w-12">
             <Image
               src="/techstack/netlify.png"
@@ -142,11 +142,11 @@ const techstack = () => {
               alt="Netlify Logo"
             />
           </div>
-          <p className="mt-5 mr-3">Netlify</p>
+          <p className="mt-4 mr-3">Netlify</p>
         </div>
 
         {/* Heroku */}
-        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4">
           <div className="w-12">
             <Image
               src="/techstack/heroku.png"
@@ -159,7 +159,7 @@ const techstack = () => {
         </div>
 
         {/* GitHub */}
-        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4">
           <div className="w-12">
             <Image
               src="/techstack/github.png"
@@ -172,7 +172,7 @@ const techstack = () => {
         </div>
 
         {/* Git */}
-        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4">
           <div className="w-12">
             <Image
               src="/techstack/git.png"
@@ -185,7 +185,7 @@ const techstack = () => {
         </div>
 
         {/* Node Js */}
-        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4">
           <div className="w-12">
             <Image
               src="/techstack/nodejs.png"
@@ -198,7 +198,7 @@ const techstack = () => {
         </div>
 
         {/* npm */}
-        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4">
           <div className="w-12">
             <Image
               src="/techstack/npm.png"
@@ -211,7 +211,7 @@ const techstack = () => {
         </div>
 
         {/* mongodb */}
-        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4">
           <div className="w-12">
             <Image
               src="/techstack/mongodb.png"
@@ -224,7 +224,7 @@ const techstack = () => {
         </div>
 
         {/* Visual Studio Code */}
-        <div className="flex bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 mt-4">
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-56  mr-3 mt-4">
           <div className="w-12">
             <Image
               src="/techstack/vs.png"
