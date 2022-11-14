@@ -32,7 +32,7 @@ const about = () => {
         </p>
 
         {/* Baby Jam */}
-        <div className="flex justify-center mt-6 mb-6 md:w-8/12 mx-auto">
+        <div className="mt-6 mb-6 md:w-8/12 mx-auto">
           <Image
             src="/images/jam1.jpg"
             width={580}
@@ -40,6 +40,9 @@ const about = () => {
             alt="Baby Jam"
             className="rounded-2xl transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300"
           />
+          <p className=" text-xs text-left mt-1 font-medium text-neutral-400">
+            PHOTO from the archives of the Cañero Family: Young Jam
+          </p>
         </div>
 
         <p className="mt-3 text-justify">
@@ -55,7 +58,7 @@ const about = () => {
         </p>
 
         {/* Archi Student Jam */}
-        <div className="flex justify-center mt-6 mb-6 md:w-8/12 md:mx-auto">
+        <div className="mt-6 mb-6 md:w-8/12 md:mx-auto">
           <Image
             src="/images/jam2.jpg"
             width={600}
@@ -63,6 +66,10 @@ const about = () => {
             alt="Archi Student Jam"
             className="rounded-2xl transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300"
           />
+          <p className=" text-xs text-left mt-1 font-medium text-neutral-400 ">
+            PHOTO from the archives of John Cañero - University Pictures:
+            Architecture Design Project: Restaurant
+          </p>
         </div>
 
         <p className="mt-5 text-justify">
@@ -134,7 +141,7 @@ const about = () => {
                 alt="Udemy Certificate"
                 className="rounded-2xl transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300"
               />
-              <p className="text-center mt-2">
+              <p className="text-center mt-2 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
                 Udemy: The Complete Web Development Bootcamp
               </p>
             </div>
@@ -153,7 +160,7 @@ const about = () => {
                 alt="Udemy Certificate"
                 className="rounded-2xl transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300"
               />
-              <p className="text-center mt-2">
+              <p className="text-center mt-2 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
                 Google: Foundations of User Experience (UX) Design
               </p>
             </div>
