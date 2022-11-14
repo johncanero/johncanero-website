@@ -38,7 +38,7 @@ const about = () => {
             width={580}
             height={580}
             alt="Baby Jam"
-            className="rounded-2xl"
+            className="rounded-2xl transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300"
           />
         </div>
 
@@ -54,14 +54,14 @@ const about = () => {
           them happy."
         </p>
 
-        {/* Image */}
+        {/* Archi Student Jam */}
         <div className="flex justify-center mt-6 mb-6 md:w-8/12 md:mx-auto">
           <Image
             src="/images/jam2.jpg"
             width={600}
             height={600}
             alt="Archi Student Jam"
-            className="rounded-2xl"
+            className="rounded-2xl transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300"
           />
         </div>
 
