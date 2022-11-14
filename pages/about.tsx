@@ -68,7 +68,7 @@ const about = () => {
           />
           <p className=" text-xs text-left mt-1 font-medium text-neutral-400 ">
             PHOTO from the archives of John Cañero - University Pictures:
-            Architecture Design Project: Restaurant
+            Architecture Design Project: Fine Dining Restaurant
           </p>
         </div>
 
