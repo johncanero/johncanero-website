@@ -240,7 +240,7 @@ const techstack = () => {
       {/* Tech Stack Descroption */}
       <div className="font-Poppins">
         <p className="text-center mt-6 mx-auto w-80 md:mt-10 md:w-5/12">
-          These are the the Tech Stack Tools the I use as a developer in
+          These are the Tech Stack Tools the I use as a developer in
           designing, creating and establishing development projects.
         </p>
       </div>
