@@ -9,7 +9,7 @@ import { useTheme } from "next-themes";
 import { Bars3Icon } from "@heroicons/react/20/solid";
 import { FaHome } from "@react-icons/all-files/fa/FaHome";
 import { IoMdPerson } from "@react-icons/all-files/io/IoMdPerson";
-import { SiGumtree } from "@react-icons/all-files/si/SiGumtree";
+import { VscLinkExternal } from "@react-icons/all-files/vsc/VscLinkExternal";
 import { FaConnectdevelop } from "@react-icons/all-files/fa/FaConnectdevelop";
 
 const MenuDropdown = () => {
@@ -102,7 +102,8 @@ const MenuDropdown = () => {
                           active ? "bg-violet-500 text-white" : "text-gray-900"
                         } group flex w-full items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                       >
-                        <FaHome className="mr-1" size={17} /> Home
+                        <FaHome size={17} /> 
+                        <span className="ml-2">Home</span>
                       </button>
                     </Link>
                   )}
@@ -115,7 +116,8 @@ const MenuDropdown = () => {
                           active ? "bg-violet-500 text-white" : "text-gray-900"
                         } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                       >
-                        <IoMdPerson className="mr-1" size={17} /> About Me
+                        <IoMdPerson size={17} /> 
+                        <span className="ml-2">About Me</span>
                       </button>
                     </Link>
                   )}
@@ -131,7 +133,9 @@ const MenuDropdown = () => {
                           active ? "bg-violet-500 text-white" : "text-gray-900"
                         } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                       >
-                        <FaConnectdevelop className="mr-1" size={17} /> Tech Stack
+                        <FaConnectdevelop size={17} /> 
+                        
+                        <span className="ml-2">Tech Stack</span>
                       </button>
                     </Link>
                   )}
@@ -148,8 +152,8 @@ const MenuDropdown = () => {
                           active ? "bg-violet-500 text-white" : "text-gray-900"
                         } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                       >
-                        <SiGumtree className="mr-1 text-green-500 " size={17} />{" "}
-                        @johncanero
+                        <VscLinkExternal size={17} />{" "}
+                        <span className="ml-2">@johncanero</span>
                       </button>
                     </Link>
                   )}
