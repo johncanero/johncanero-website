@@ -35,28 +35,28 @@ const Hero = () => {
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/johncanero/"
         >
-          <FaLinkedin className="mr-5 dark:text-gray-100" size={30} />
+          <FaLinkedin className="mr-5 dark:text-gray-100 transition ease-in-out  hover:-translate-y-1 hover:scale-110 duration-300" size={30} />
         </Link>
         <Link
           target="_blank"
           rel="noopener noreferrer"
           href="https://github.com/johncanero"
         >
-          <FaGithub className="mr-5 dark:text-gray-100" size={30} />
+          <FaGithub className="mr-5 dark:text-gray-100 transition ease-in-out  hover:-translate-y-1 hover:scale-110 duration-300" size={30} />
         </Link>
         <Link
           target="_blank"
           rel="noopener noreferrer"
           href="https://twitter.com/johncaneroo"
         >
-          <FaTwitter className="mr-5 dark:text-gray-100" size={30} />
+          <FaTwitter className="mr-5 dark:text-gray-100 transition ease-in-out  hover:-translate-y-1 hover:scale-110 duration-300" size={30} />
         </Link>
         <Link
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.instagram.com/johncanero/"
         >
-          <FaInstagram className="mr-0 dark:text-gray-100" size={30} />
+          <FaInstagram className="mr-0 dark:text-gray-100 transition ease-in-out  hover:-translate-y-1 hover:scale-110 duration-300" size={30} />
         </Link>
       </div>
 
