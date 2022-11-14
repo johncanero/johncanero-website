@@ -120,21 +120,39 @@ const about = () => {
         </ul>
 
         {/* Udemy Certificate */}
-        <Link
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.udemy.com/certificate/UC-c61dd9fc-19bb-4cc3-a5f0-c4d485d432af/"
-        >
-          <div className="flex justify-center mt-8 mb-8 md:w-8/12 mx-auto">
-            <Image
-              src="/images/udemyWebCertificate.jpg"
-              width={450}
-              height={450}
-              alt="Udemy Certificate"
-              className="rounded-2xl transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300"
-            />
-          </div>
-        </Link>
+        <div className="md:flex">
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.udemy.com/certificate/UC-c61dd9fc-19bb-4cc3-a5f0-c4d485d432af/"
+          >
+            <div className="flex justify-center mt-8 mb-8 md:w-11/12 mx-auto">
+              <Image
+                src="/images/udemyWebCertificate.jpg"
+                width={450}
+                height={450}
+                alt="Udemy Certificate"
+                className="rounded-2xl transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300"
+              />
+            </div>
+          </Link>
+
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://coursera.org/share/20d2d6807653c0d6cf69d173b7a77d01"
+          >
+            <div className="flex justify-center mt-8 mb-8 md:w-11/12 mx-auto">
+              <Image
+                src="/images/googleUXCertificate.jpg"
+                width={435}
+                height={435}
+                alt="Udemy Certificate"
+                className="rounded-2xl transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300"
+              />
+            </div>
+          </Link>
+        </div>
 
         <h1 className="mt-6 text-left font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
           HOBBIES:
