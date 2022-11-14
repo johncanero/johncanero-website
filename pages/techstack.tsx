@@ -68,7 +68,7 @@ const techstack = () => {
         </div>
 
         {/* Tailwind CSS */}
-        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300" >
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300">
           <div className="w-12">
             <Image
               src="/techstack/tailwind.png"
@@ -237,6 +237,14 @@ const techstack = () => {
         </div>
       </div>
 
+      {/* Tech Stack Descroption */}
+      <div className="font-Poppins">
+        <p className="text-center mt-6 mx-auto w-80 md:mt-10 md:w-5/12">
+          These are the the Tech Stack Tools the developer utilizes in
+          designing, creating and establishing a website.
+        </p>
+      </div>
+
       {/* Design Stack */}
       <div className="flex justify-center text-gray-600 dark:text-gray-300 mt-12">
         <BsPencilSquare size={50} />
@@ -388,6 +396,12 @@ const techstack = () => {
             />
           </div>
           <p className="mt-4 mr-3">V-Ray</p>
+        </div>
+
+        {/* Tech Stack Descroption */}
+        <div className="font-Poppins">
+          <p className="text-center mt-6 mx-auto w-80 md:mt-10 md:w-10/12">
+            These are the the Tech Stack Design Tools I used in designing architectural models, modelling, and rendering</p>
         </div>
       </div>
     </div>
