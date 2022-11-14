@@ -125,13 +125,13 @@ const about = () => {
           rel="noopener noreferrer"
           href="https://www.udemy.com/certificate/UC-c61dd9fc-19bb-4cc3-a5f0-c4d485d432af/"
         >
-          <div className="flex justify-center mt-6 mb-6 md:w-8/12 mx-auto">
+          <div className="flex justify-center mt-8 mb-8 md:w-8/12 mx-auto">
             <Image
               src="/images/udemyWebCertificate.jpg"
               width={450}
               height={450}
               alt="Udemy Certificate"
-              className="rounded-2xl"
+              className="rounded-2xl transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300"
             />
           </div>
         </Link>
@@ -140,7 +140,7 @@ const about = () => {
           HOBBIES:
         </h1>
 
-        <p className="mt-3 mb-12 text-justify">
+        <p className="mt-3 mb-12 text-left">
           When I have free time and no work, I enjoy:{" "}
           <span className=" text-cyan-500">•</span> playing football,{" "}
           <span className=" text-cyan-500">•</span> table tennis,{" "}
