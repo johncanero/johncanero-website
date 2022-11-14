@@ -248,7 +248,7 @@ const techstack = () => {
 
       <div className="flex flex-wrap justify-center md:mx-20 lg:mx-72 font-Poppins mb-8">
         {/* Figma */}
-        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4">
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300">
           <div className="w-12">
             <Image
               src="/techstack/figma.png"
@@ -261,7 +261,7 @@ const techstack = () => {
         </div>
 
         {/* Canva */}
-        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4">
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300">
           <div className="w-12">
             <Image
               src="/techstack/canva.png"
@@ -274,7 +274,7 @@ const techstack = () => {
         </div>
 
         {/* Adobe Photoshop */}
-        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4">
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300">
           <div className="w-12">
             <Image
               src="/techstack/ps.png"
@@ -287,7 +287,7 @@ const techstack = () => {
         </div>
 
         {/* Adobe Illustrator */}
-        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4">
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300">
           <div className="w-12">
             <Image
               src="/techstack/ai.png"
@@ -300,7 +300,7 @@ const techstack = () => {
         </div>
 
         {/* Adobe Premiere */}
-        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4">
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300">
           <div className="w-12">
             <Image
               src="/techstack/pr.png"
@@ -313,7 +313,7 @@ const techstack = () => {
         </div>
 
         {/* AutoCAD */}
-        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4">
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300">
           <div className="w-12">
             <Image
               src="/techstack/autocad.png"
@@ -326,7 +326,7 @@ const techstack = () => {
         </div>
 
         {/* Revit */}
-        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4">
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300">
           <div className="w-12">
             <Image
               src="/techstack/revit.png"
@@ -339,7 +339,7 @@ const techstack = () => {
         </div>
 
         {/* SketchUp */}
-        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4">
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300">
           <div className="w-12">
             <Image
               src="/techstack/sketchup.png"
@@ -352,7 +352,7 @@ const techstack = () => {
         </div>
 
         {/* Lumion */}
-        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4">
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300">
           <div className="w-12">
             <Image
               src="/techstack/lumion.png"
@@ -365,7 +365,7 @@ const techstack = () => {
         </div>
 
         {/* Enscape */}
-        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4">
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300">
           <div className="w-12">
             <Image
               src="/techstack/enscape.png"
@@ -378,7 +378,7 @@ const techstack = () => {
         </div>
 
         {/* V-Ray */}
-        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4">
+        <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300">
           <div className="w-12">
             <Image
               src="/techstack/vray.png"
