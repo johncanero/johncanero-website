@@ -10,6 +10,7 @@ import { useState, useEffect } from "react";
 import { FaHome } from "@react-icons/all-files/fa/FaHome";
 import { IoMdPerson } from "@react-icons/all-files/io/IoMdPerson";
 import { FaConnectdevelop } from "@react-icons/all-files/fa/FaConnectdevelop";
+import { AiOutlineProject } from "@react-icons/all-files/ai/AiOutlineProject";
 
 const Header = () => {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -105,6 +106,15 @@ const Header = () => {
               >
                 <FaConnectdevelop size={23} className="ml-5" />
                 Tech Stack
+              </Link>
+
+              <Link
+                rel="noopener noreferrer"
+                href="/projects"
+                className="font-semibold text-gray-600 dark:text-gray-300 hover:text-gray-800 border-b-2 border-transparent hover:border-gray-600 dark:hover:border-gray-300"
+              >
+                <AiOutlineProject size={23} className="ml-3" />
+                Projects
               </Link>
             </ul>
           </div>

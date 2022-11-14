@@ -11,6 +11,7 @@ import { FaHome } from "@react-icons/all-files/fa/FaHome";
 import { IoMdPerson } from "@react-icons/all-files/io/IoMdPerson";
 import { VscLinkExternal } from "@react-icons/all-files/vsc/VscLinkExternal";
 import { FaConnectdevelop } from "@react-icons/all-files/fa/FaConnectdevelop";
+import { AiOutlineProject } from "@react-icons/all-files/ai/AiOutlineProject";
 
 const MenuDropdown = () => {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -102,7 +103,7 @@ const MenuDropdown = () => {
                           active ? "bg-violet-500 text-white" : "text-gray-900"
                         } group flex w-full items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                       >
-                        <FaHome size={17} /> 
+                        <FaHome size={17} />
                         <span className="ml-2">Home</span>
                       </button>
                     </Link>
@@ -116,7 +117,7 @@ const MenuDropdown = () => {
                           active ? "bg-violet-500 text-white" : "text-gray-900"
                         } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                       >
-                        <IoMdPerson size={17} /> 
+                        <IoMdPerson size={17} />
                         <span className="ml-2">About Me</span>
                       </button>
                     </Link>
@@ -133,13 +134,32 @@ const MenuDropdown = () => {
                           active ? "bg-violet-500 text-white" : "text-gray-900"
                         } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                       >
-                        <FaConnectdevelop size={17} /> 
-                        
+                        <FaConnectdevelop size={17} />
+
                         <span className="ml-2">Tech Stack</span>
                       </button>
                     </Link>
                   )}
                 </Menu.Item>
+                <Menu.Item>
+                  {({ active }) => (
+                    <Link href="/projects">
+                      <button
+                        className={`${
+                          active ? "bg-violet-500 text-white" : "text-gray-900"
+                        } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
+                      >
+                        <AiOutlineProject size={17} />
+
+                        <span className="ml-2">Projects</span>
+                      </button>
+                    </Link>
+                  )}
+                </Menu.Item>
+              </div>
+
+              {/* Create a New Section */}
+              <div className="px-1 py-1 pb-2">
                 <Menu.Item>
                   {({ active }) => (
                     <Link
@@ -150,7 +170,7 @@ const MenuDropdown = () => {
                       <button
                         className={`${
                           active ? "bg-violet-500 text-white" : "text-gray-900"
-                        } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
+                        } group flex w-72 items-center rounded-md px-2 py-1 text-sm font-Poppins`}
                       >
                         <VscLinkExternal size={17} />{" "}
                         <span className="ml-2">@johncanero</span>
