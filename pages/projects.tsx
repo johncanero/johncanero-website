@@ -20,7 +20,9 @@ const projects = () => {
           rel="noopener noreferrer"
           href="https://bio.link/johncanero"
         >
-          <span className="ml-2">@johncanero</span>
+          <button className="mx-3 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500 text-gray-100 dark:text-white font-bold py-2 px-4 rounded-lg">
+            @johncanero
+          </button>
         </Link>
       </div>
     </div>
