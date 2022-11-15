@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const NotFound = () => {
   return (
@@ -20,9 +21,15 @@ const NotFound = () => {
 
       {/* Home and Contact Us Buttons */}
       <div className="flex justify-center mt-8 font-Poppins">
-        <button className="mx-3 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500 text-gray-100 dark:text-white font-bold py-2 px-4 rounded-lg">
-          GO HOME
-        </button>
+        <Link
+          // target="_blank"
+          rel="noopener noreferrer"
+          href="/"
+        >
+          <button className="mx-3 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500 text-gray-100 dark:text-white font-bold py-2 px-4 rounded-lg">
+            GO HOME
+          </button>
+        </Link>
 
         <button className="mx-3 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500 text-gray-100 dark:text-white font-bold py-2 px-4 rounded-lg">
           CONTACT US
