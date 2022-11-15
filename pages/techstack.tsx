@@ -241,7 +241,7 @@ const techstack = () => {
         {/* Tech Stack Description */}
         <div className="font-Poppins">
           <p className="text-center mt-6 mx-auto w-80 md:mt-10 md:w-5/12">
-            These are the Tech Stack Tools the I use as a developer in
+            These are the <span className="font-semibold">Tech Stack Tools</span> I use as a developer in
             designing, creating and establishing development projects.
           </p>
         </div>
@@ -404,7 +404,7 @@ const techstack = () => {
           {/* Tech Stack Descroption */}
           <div className="font-Poppins">
             <p className="text-center mt-6 mx-auto w-80 md:mt-10 md:w-10/12">
-              These are the the Tech Stack Design Tools I used in designing
+              These are the the <span className=" font-semibold">Tech Stack Design Tools</span> I used in designing
               architectural models, modelling, and rendering
             </p>
           </div>
