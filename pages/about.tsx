@@ -139,7 +139,7 @@ const about = () => {
                 width={450}
                 height={450}
                 alt="Udemy Certificate"
-                className="rounded-2xl transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300"
+                className="rounded-xl transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300"
               />
               <p className="text-center mt-2 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
                 Udemy: The Complete Web Development Bootcamp
@@ -158,7 +158,7 @@ const about = () => {
                 width={435}
                 height={435}
                 alt="Udemy Certificate"
-                className="rounded-2xl transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300"
+                className="rounded-xl transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300"
               />
               <p className="text-center mt-2 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
                 Google: Foundations of User Experience (UX) Design
