@@ -7,9 +7,9 @@ const techstack = () => {
   return (
     <div className="mt-4">
       <div>
-        <div className="flex justify-center text-gray-600 dark:text-gray-300">
+        {/* <div className="flex justify-center text-gray-600 dark:text-gray-300">
           <FaConnectdevelop size={60} />
-        </div>
+        </div> */}
         <div className="text-center text-gray-600 font-Poppins font-semibold text-xl mx-9 md:text-2xl md:mx-0 mt-4">
           My Tech Stack
         </div>
@@ -249,11 +249,11 @@ const techstack = () => {
 
       <div>
         {/* Design Stack */}
-        <div className="flex justify-center text-gray-600 dark:text-gray-300 mt-12">
+        {/* <div className="flex justify-center text-gray-600 dark:text-gray-300 mt-12">
           <BsPencilSquare size={50} />
-        </div>
+        </div> */}
 
-        <div className="text-center text-gray-600 font-Poppins font-semibold text-xl mx-9 md:text-2xl md:mx-0 mt-4">
+        <div className="text-center text-gray-600 font-Poppins font-semibold text-xl mx-9 md:text-2xl md:mx-0 mt-12">
           My Tech - Design & Architecture Stack
         </div>
 
