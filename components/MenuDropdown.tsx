@@ -67,7 +67,7 @@ const MenuDropdown = () => {
 
   return (
     // Mobile Visiblity
-    <div className="flex justify-between md:hidden top-16 w-96 mt-3 text-right z-10">
+    <div className="flex justify-between md:hidden top-16 w-96 mt-3 text-right">
       {/* Image */}
       <Link rel="noopener noreferrer" href="/">
         <div>
@@ -75,7 +75,7 @@ const MenuDropdown = () => {
         </div>
       </Link>
       {/* Dark Mode and Toggle */}
-      <div>
+      <div className="z-10">
         {renderThemeChanger()}
         <Menu as="div" className="relative inline-block text-left mr-7">
           <div>
