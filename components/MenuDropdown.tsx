@@ -71,7 +71,7 @@ const MenuDropdown = () => {
       {/* Image */}
       <Link rel="noopener noreferrer" href="/">
         <div>
-          <Image src="/images/letterJ.png" width={33} height={33} alt="jLogo" />
+          <Image src="/images/letterJ.png" width={33} height={33} alt="jLogo" className="animate__animated animate__fadeIn" />
         </div>
       </Link>
       {/* Dark Mode and Toggle */}

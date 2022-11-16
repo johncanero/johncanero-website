@@ -76,7 +76,7 @@ const Header = () => {
                   width={40}
                   height={40}
                   alt="jLogo"
-                  className=""
+                  className="animate__animated animate__fadeIn"
                 />
               </Link>
 
