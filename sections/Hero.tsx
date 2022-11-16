@@ -1,13 +1,39 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
+import { useEffect, useRef } from "react";
 import Link from "next/link";
 // Icons
 import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin";
 import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
 import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram";
 import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter";
+// Annimation
+import { annotate, annotationGroup } from "rough-notation";
 
 const Hero = () => {
+  // const toBuild = useRef() as any;
+  // const toCreate = useRef() as any;
+
+  // useEffect(() => {
+  //   const a1 = annotate(toCreate.current, {
+  //     type: "underline",
+  //     brackets: ["top", "bottom"],
+  //     padding: 1,
+  //     color: "#858585",
+  //     strokeWidth: 1,
+  //   });
+
+  //   const ag = annotationGroup([a1]);
+
+  //   setTimeout(() => {
+  //     ag.show();
+  //   }, 1000);
+
+  //   return () => {
+  //     ag.hide();
+  //   };
+  // }, []);
+
   return (
     <div className="mt-16 font-Poppins lg:mr-96">
       <h1 className="sm:text-6xl text-center md:justify-start md:text-left md:text-7xl lg:text-8xl font-bold animate__animated animate__slideInLeft">
@@ -21,13 +47,16 @@ const Hero = () => {
         I am a <span className="highlight">Frontend Engineer</span>,{" "}
         <span className="highlight">Web Developer</span>
         <div className="flex justify-center md:justify-start">
-          <div className="mr-1 md:mr-2">&</div> <div className="highlight">Architectural Designer</div>
+          <div className="mr-1 md:mr-2">&</div>{" "}
+          <div className="highlight">Architectural Designer</div>
         </div>
       </h3>
 
       <p className="text-center mb-10 mx-6 md:mb-8 md:mx-0 sm:text-center md:text-left text-gray-600 dark:text-gray-500 md:mr-48">
-        I enjoy creating stuffs. I like to BUILD. To have fun, help people and
-        show my work to the world. This is where I come in. 🏂
+        I enjoy creating stuffs focusing on product design and development. I
+        like to BUILD. To have fun, help people and show my work to the world.
+        🏂
+        {/* This is where I come in.  */}
       </p>
       {/* Horizontal Line */}
       <div>
