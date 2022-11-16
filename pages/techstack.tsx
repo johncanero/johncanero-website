@@ -5,8 +5,8 @@ import { BsPencilSquare } from "@react-icons/all-files/bs/BsPencilSquare";
 
 const techstack = () => {
   return (
-    <div className="mt-4">
-      <div>
+    <div className="justify-center lg:md:flex  lg:mr-14">
+      <div className="mt-4">
         {/* <div className="flex justify-center text-gray-600 dark:text-gray-300">
           <FaConnectdevelop size={60} />
         </div> */}
@@ -15,7 +15,7 @@ const techstack = () => {
         </div>
 
         {/* Tech Stack */}
-        <div className="flex flex-wrap justify-center md:mx-20  lg:mx-72 font-Poppins">
+        <div className="flex flex-wrap justify-center font-Poppins lg:mx-16">
           <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36 mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
             {/* Javasript */}
             <div className="w-12">
@@ -236,28 +236,31 @@ const techstack = () => {
             </div>
             <p className="mt-4 mr-3">Visual Studio Code</p>
           </div>
-        </div>
 
-        {/* Tech Stack Description */}
-        <div className="font-Poppins">
-          <p className="text-center mt-6 mx-auto w-80 md:mt-10 md:w-5/12">
-            These are the <span className="font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">Tech Stack Tools</span> I use as a developer in
-            designing, creating and establishing development projects.
-          </p>
+          {/* Tech Stack Description */}
+          <div className="font-Poppins">
+            <p className="text-center mt-6 mx-auto md:mt-10 md:w-9/12">
+              These are the{" "}
+              <span className="font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
+                Tech Stack Tools
+              </span>{" "}
+              I use as a developer in designing, creating and establishing
+              development projects.
+            </p>
+          </div>
         </div>
       </div>
 
-      <div>
+      <div className="md:mt-10">
         {/* Design Stack */}
         {/* <div className="flex justify-center text-gray-600 dark:text-gray-300 mt-12">
           <BsPencilSquare size={50} />
         </div> */}
-
-        <div className="text-center text-gray-600 font-Poppins font-semibold text-xl mx-9 md:text-2xl md:mx-0 mt-12">
+        <div className="text-center text-gray-600 font-Poppins font-semibold text-xl mx-9 md:text-2xl md:mx-0 mt-8">
           My Tech - Design & Architecture Stack
         </div>
 
-        <div className="flex flex-wrap justify-center md:mx-20 lg:mx-72 font-Poppins mb-8">
+        <div className="flex flex-wrap justify-center font-Poppins mb-8">
           {/* Figma */}
           <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
             <div className="w-12">
@@ -404,8 +407,11 @@ const techstack = () => {
           {/* Tech Stack Descroption */}
           <div className="font-Poppins">
             <p className="text-center mt-6 mx-auto w-80 md:mt-10 md:w-10/12">
-              These are the the <span className=" font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">Tech Stack Design Tools</span> I used in designing
-              architectural models, modelling, and rendering
+              These are the the{" "}
+              <span className=" font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
+                Tech Stack Design Tools
+              </span>{" "}
+              I used in designing architectural models, modelling, and rendering
             </p>
           </div>
         </div>
