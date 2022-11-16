@@ -44,7 +44,7 @@ const Hero = () => {
       </h1>
 
       <h3 className="text-center my-3 mt-3 mb-5 text-xl mx-12 md:mx-0 md:mt-4 md:mb-4 md:text-left md:justify-start md:text-3xl lg:mr-48">
-        I am a <span className="highlight">Frontend Engineer</span>,{" "}
+        I am a <span className="highlight">Software Engineer</span>,{" "}
         <span className="highlight">Web Developer</span>
         <div className="flex justify-center md:justify-start">
           <div className="mr-1 md:mr-2">&</div>{" "}
@@ -60,7 +60,7 @@ const Hero = () => {
       </p>
       {/* Horizontal Line */}
       <div>
-        <hr className="mb-6 text-center w-48 flex mx-auto h-px md:mx-0 md:w-6/12 lg:w-4/12 bg-gray-300 border-0 dark:bg-gray-900"></hr>
+        <hr className="mb-6 text-center w-48 flex mx-auto h-px md:mx-0 md:w-6/12 lg:w-9/12 bg-gray-300 border-0 dark:bg-zinc-900"></hr>
       </div>
 
       <div className="flex justify-center md:justify-start mb-12">
@@ -70,7 +70,7 @@ const Hero = () => {
           href="https://www.linkedin.com/in/johncanero/"
         >
           <FaLinkedin
-            className="mr-5 dark:text-gray-100 transition ease-in-out  hover:-translate-y-1 hover:scale-110 duration-300 animate__animated animate__fadeIn"
+            className="mr-5 dark:text-gray-100 hover:dark:text-cyan-500 transition ease-in-out  hover:-translate-y-1 hover:scale-110 duration-300 animate__animated animate__fadeIn"
             size={30}
           />
         </Link>
@@ -80,7 +80,7 @@ const Hero = () => {
           href="https://github.com/johncanero"
         >
           <FaGithub
-            className="mr-5 dark:text-gray-100 transition ease-in-out  hover:-translate-y-1 hover:scale-110 duration-300 animate__animated animate__fadeIn"
+            className="mr-5 dark:text-gray-100 hover:dark:text-cyan-500  transition ease-in-out  hover:-translate-y-1 hover:scale-110 duration-300 animate__animated animate__fadeIn"
             size={30}
           />
         </Link>
@@ -90,7 +90,7 @@ const Hero = () => {
           href="https://twitter.com/johncaneroo"
         >
           <FaTwitter
-            className="mr-5 dark:text-gray-100 transition ease-in-out  hover:-translate-y-1 hover:scale-110 duration-300 animate__animated animate__fadeIn"
+            className="mr-5 dark:text-gray-100 hover:dark:text-cyan-500  transition ease-in-out  hover:-translate-y-1 hover:scale-110 duration-300 animate__animated animate__fadeIn"
             size={30}
           />
         </Link>
@@ -100,7 +100,7 @@ const Hero = () => {
           href="https://www.instagram.com/johncanero/"
         >
           <FaInstagram
-            className="mr-0 dark:text-gray-100 transition ease-in-out  hover:-translate-y-1 hover:scale-110 duration-300 animate__animated animate__fadeIn"
+            className="mr-0 dark:text-gray-100 hover:dark:text-cyan-500  transition ease-in-out  hover:-translate-y-1 hover:scale-110 duration-300 animate__animated animate__fadeIn"
             size={30}
           />
         </Link>

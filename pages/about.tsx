@@ -3,7 +3,9 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
+
 const about = () => {
+ 
   return (
     <div>
       <div className="text-center text-gray-600 font-Poppins font-semibold mt-4 text-2xl">
