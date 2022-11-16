@@ -5,25 +5,25 @@ import Link from "next/link";
 
 const about = () => {
   return (
-    <div>
+    <div className="md:flex">
       {/* First Column */}
       <div>
-        <div className="text-center text-gray-600 font-Poppins font-semibold mt-4 text-2xl">
-          About Me
-        </div>
+        <div className=" font-Poppins mx-4 md:mx-8 lg:mr-36">
+          <div className="text-center text-gray-600 font-Poppins font-semibold mt-4 text-2xl">
+            About Me
+          </div>
 
-        {/* John Cañero Logo */}
-        <div className="flex justify-center mx-auto mt-6">
-          <Image
-            src="/images/johncanero4.1.png"
-            width={250}
-            height={250}
-            alt="John Cañero Logo"
-            className="animate__animated animate__fadeIn"
-          />
-        </div>
+          {/* John Cañero Logo */}
+          <div className="flex justify-center mx-auto mt-3">
+            <Image
+              src="/images/johncanero4.1.png"
+              width={250}
+              height={250}
+              alt="John Cañero Logo"
+              className="animate__animated animate__fadeIn"
+            />
+          </div>
 
-        <div className=" font-Poppins mx-8 md:mx-16 lg:mx-60">
           <h1 className="mt-3 text-center font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
             My STORY:
           </h1>
@@ -133,47 +133,6 @@ const about = () => {
             </div>
           </ul>
 
-          {/* Certifications */}
-          <div className="md:flex mt-6">
-            <Link
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.udemy.com/certificate/UC-c61dd9fc-19bb-4cc3-a5f0-c4d485d432af/"
-            >
-              <div className="mt-8 mb-8 md:w-11/12 mx-auto">
-                <Image
-                  src="/images/udemyWebCertificate.jpg"
-                  width={450}
-                  height={450}
-                  alt="Udemy Certificate"
-                  className="rounded-xl transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300"
-                />
-                <p className="text-center mt-2 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
-                  Udemy: The Complete Web Development Bootcamp
-                </p>
-              </div>
-            </Link>
-
-            <Link
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://coursera.org/share/20d2d6807653c0d6cf69d173b7a77d01"
-            >
-              <div className="mt-8 mb-8 md:w-11/12 mx-auto">
-                <Image
-                  src="/images/googleUXCertificate.jpg"
-                  width={435}
-                  height={435}
-                  alt="Udemy Certificate"
-                  className="rounded-xl transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300"
-                />
-                <p className="text-center mt-2 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
-                  Google: Foundations of User Experience (UX) Design
-                </p>
-              </div>
-            </Link>
-          </div>
-
           <h1 className="mt-6 text-left font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
             HOBBIES:
           </h1>
@@ -191,10 +150,52 @@ const about = () => {
           </p>
         </div>
       </div>
-      
-      {/* Certificaitons and Resume */}
-      <div>
 
+      {/* Certificaitons and Resume */}
+      <div className="mx-4">
+        <h1 className="mt-6 text-left font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500 font-Poppins">
+          CERTIFICATES
+        </h1>
+        {/* Certifications */}
+        <div className="font-Poppins">
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.udemy.com/certificate/UC-c61dd9fc-19bb-4cc3-a5f0-c4d485d432af/"
+          >
+            <div className="mt-6 mb-8 md:w-52 lg:w-auto">
+              <Image
+                src="/images/udemyWebCertificate.jpg"
+                width={800}
+                height={800}
+                alt="Udemy Certificate"
+                className="rounded-xl transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeInRight"
+              />
+              <p className="text-center mt-2 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
+                Udemy: The Complete Web Development Bootcamp
+              </p>
+            </div>
+          </Link>
+
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://coursera.org/share/20d2d6807653c0d6cf69d173b7a77d01"
+          >
+            <div className="mt-8 mb-8 md:w-52 lg:w-auto">
+              <Image
+                src="/images/googleUXCertificate.jpg"
+                width={800}
+                height={800}
+                alt="Udemy Certificate"
+                className="rounded-xl transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeInRight"
+              />
+              <p className="text-center mt-2 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
+                Google: Foundations of User Experience (UX) Design
+              </p>
+            </div>
+          </Link>
+        </div>
       </div>
     </div>
   );
