@@ -3,7 +3,7 @@ import Head from "next/head";
 import Header from "../sections/Header";
 import Footer from "../sections/Footer";
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
     <>
       {/* Head */}
@@ -15,7 +15,7 @@ const Layout = ({children}) => {
         />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta property="og:title" content="Next Js Dark Mode Feature" />
-        <meta property="og:description" content="Next Js and Tailwind CSS" /> 
+        <meta property="og:description" content="Next Js and Tailwind CSS" />
         <link rel="shortcut icon" href="/images/letterJ.png" />
       </Head>
 

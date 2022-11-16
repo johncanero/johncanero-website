@@ -17,6 +17,7 @@ const about = () => {
           width={250}
           height={250}
           alt="John Cañero Logo"
+          className="animate__animated animate__fadeIn"
         />
       </div>
 
