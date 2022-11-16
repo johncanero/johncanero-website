@@ -17,7 +17,7 @@ const Hero = () => {
         </span>
       </h1>
 
-      <h3 className="text-center my-3 mt-3 mb-5 text-xl mx-10 md:mx-0 md:mt-4 md:mb-4 md:text-left md:justify-start md:text-3xl lg:mr-48">
+      <h3 className="text-center my-3 mt-3 mb-5 text-xl mx-12 md:mx-0 md:mt-4 md:mb-4 md:text-left md:justify-start md:text-3xl lg:mr-48">
         I am a <span className="highlight">Frontend Engineer</span>,{" "}
         <span className="highlight">Web Developer</span>
         <div className="flex justify-center md:justify-start">
