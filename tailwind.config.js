@@ -25,8 +25,11 @@ module.exports = {
       },
 
       margin: {
-        
 
+      },
+
+      spacing: {
+        '100': '21rem',
       }
     },
     fontFamily: {
