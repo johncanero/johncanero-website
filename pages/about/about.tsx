@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { ImDownload } from "@react-icons/all-files/im/ImDownload";
 
 const about = () => {
   return (
@@ -195,6 +196,18 @@ const about = () => {
               </p>
             </div>
           </Link>
+
+          {/* Resume */}
+          <div>
+            <h1 className="mt-6 text-left font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500 font-Poppins">
+              RESUME
+            </h1>
+
+            <button className="bg-neutral-900 text-gray-200 hover:bg-neutral-600 dark:hover:bg-neutral-800 font-bold py-2 px-4 rounded inline-flex items-center font-Poppins mt-3">
+              <ImDownload />
+              <span className="ml-2">Download</span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
