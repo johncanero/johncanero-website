@@ -222,6 +222,7 @@ const about = () => {
             {/* Resume Button */}
             <div className="flex justify-center md:justify-start mt-4">
               <Link
+                // Download
                 target="_blank"
                 rel="noopener noreferrer"
                 href="/download/RESUME-CAÑERO_JOHN_MICHAEL.pdf"
