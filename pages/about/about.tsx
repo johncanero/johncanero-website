@@ -110,6 +110,21 @@ const about = () => {
             helped me to empathize the users and realize what are their needs
             and wants. To always focus and center the user and make them happy.
           </p>
+          
+        
+          {/* Jam Tech */}
+          <div className="mt-8 mb-6 md:w-8/12 mx-auto">
+            <Image
+              src="/images/jamTech.jpg"
+              width={580}
+              height={580}
+              alt="Jam Tech"
+              className="rounded-2xl transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300"
+            />
+            <p className=" text-xs text-left mt-1 font-medium text-neutral-400">
+              PHOTO from the gallery of John Cañero's phone: Selfie - John Cañero
+            </p>
+          </div>
 
           <h1 className="mt-6 text-left font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
             HIGHLIGHTS:
