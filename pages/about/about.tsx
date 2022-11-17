@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Image from "next/image";
@@ -203,14 +204,30 @@ const about = () => {
               RESUME
             </h1>
 
-            <div className="flex justify-center md:justify-start mt-3">
+            {/* Resume Image */}
+            <Link
+              rel="noopener noreferrer"
+              href="/download/RESUME-CAÑERO_JOHN_MICHAEL.pdf"
+              download="RESUME-CAÑERO_JOHN_MICHAEL.pdf"
+            >
+              <Image
+                src="/download/RESUME-CAÑERO_JOHN_MICHAEL_page-0001.jpg"
+                width={400}
+                height={400}
+                alt="John Cañero Resume"
+                className="rounded-xl transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300 mt-3"
+              />
+            </Link>
+
+            {/* Resume Button */}
+            <div className="flex justify-center md:justify-start mt-4">
               <Link
                 target="_blank"
                 rel="noopener noreferrer"
                 href="/download/RESUME-CAÑERO_JOHN_MICHAEL.pdf"
                 download="RESUME-CAÑERO_JOHN_MICHAEL.pdf"
               >
-                <button className="bg-neutral-900 text-gray-200 hover:bg-neutral-800 dark:hover:bg-neutral-800 font-bold py-2 px-4 rounded inline-flex items-center font-Poppins">
+                <button className="bg-neutral-900 text-gray-200 hover:bg-neutral-800 dark:bg-neutral-900 dark:hover:bg-neutral-800 font-bold py-2 px-4 rounded inline-flex items-center font-Poppins">
                   <ImDownload />
                   <span className="ml-2">Download</span>
                 </button>
