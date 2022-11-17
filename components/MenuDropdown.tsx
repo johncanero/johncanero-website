@@ -111,7 +111,7 @@ const MenuDropdown = () => {
                 </Menu.Item>
                 <Menu.Item>
                   {({ active }) => (
-                    <Link href="/about">
+                    <Link href="/about/about">
                       <button
                         className={`${
                           active ? "bg-violet-500 text-white" : "text-gray-900"
@@ -128,7 +128,7 @@ const MenuDropdown = () => {
               <div className="px-1 py-1 pb-2">
                 <Menu.Item>
                   {({ active }) => (
-                    <Link href="/techstack">
+                    <Link href="/techstack/techstack">
                       <button
                         className={`${
                           active ? "bg-violet-500 text-white" : "text-gray-900"
