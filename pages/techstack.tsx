@@ -5,7 +5,7 @@ import { BsPencilSquare } from "@react-icons/all-files/bs/BsPencilSquare";
 
 const techstack = () => {
   return (
-    <div className="justify-center lg:md:flex  lg:mr-14">
+    <div className="justify-center lg:mr-14">
       <div className="mt-4">
         {/* <div className="flex justify-center text-gray-600 dark:text-gray-300">
           <FaConnectdevelop size={60} />
@@ -15,7 +15,7 @@ const techstack = () => {
         </div>
 
         {/* Tech Stack */}
-        <div className="flex flex-wrap justify-center font-Poppins lg:mx-8">
+        <div className="flex flex-wrap justify-center font-Poppins lg:mx-48">
           <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36 mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
             {/* Javasript */}
             <div className="w-12">
@@ -238,8 +238,8 @@ const techstack = () => {
           </div>
 
           {/* Tech Stack Description */}
-          <div className="font-Poppins">
-            <p className="text-center mt-6 mx-auto md:mt-6 md:w-9/12">
+          <div className="font-Poppins md:mt-1">
+            <p className="text-center mt-6 mx-auto md:mt-6 md:w-8/12">
               These are the{" "}
               <span className="font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
                 Tech Stack Tools
@@ -251,7 +251,7 @@ const techstack = () => {
         </div>
       </div>
 
-      <div className="mt-10">
+      <div className="mt-12">
         {/* Design Stack */}
         {/* <div className="flex justify-center text-gray-600 dark:text-gray-300 mt-12">
           <BsPencilSquare size={50} />
@@ -260,7 +260,7 @@ const techstack = () => {
           My Tech - Design & Architecture Stack
         </div>
 
-        <div className="flex flex-wrap justify-center font-Poppins mb-8">
+        <div className="flex flex-wrap justify-center font-Poppins mb-8 lg:mx-48">
           {/* Figma */}
           <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
             <div className="w-12">
@@ -405,8 +405,8 @@ const techstack = () => {
           </div>  
 
           {/* Tech Stack Descroption */}
-          <div className="font-Poppins lg:mt-16">
-            <p className="text-center mt-6 mx-auto w-80 md:mt-6 md:w-10/12">
+          <div className="font-Poppins md:mt-1">
+            <p className="text-center mt-6 mx-auto w-80 md:w-8/12">
               These are the the{" "}
               <span className=" font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
                 Tech Stack Design Tools
