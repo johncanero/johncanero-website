@@ -203,10 +203,19 @@ const about = () => {
               RESUME
             </h1>
 
-            <button className="bg-neutral-900 text-gray-200 hover:bg-neutral-600 dark:hover:bg-neutral-800 font-bold py-2 px-4 rounded inline-flex items-center font-Poppins mt-3">
-              <ImDownload />
-              <span className="ml-2">Download</span>
-            </button>
+            <div className="flex justify-center md:justify-start mt-3">
+              <Link
+                target="_blank"
+                rel="noopener noreferrer"
+                href="/download/RESUME-CAÑERO_JOHN_MICHAEL.pdf"
+                download="RESUME-CAÑERO_JOHN_MICHAEL.pdf"
+              >
+                <button className="bg-neutral-900 text-gray-200 hover:bg-neutral-800 dark:hover:bg-neutral-800 font-bold py-2 px-4 rounded inline-flex items-center font-Poppins">
+                  <ImDownload />
+                  <span className="ml-2">Download</span>
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
