@@ -32,9 +32,8 @@ const projects = () => {
               Remote Landing Page
             </div>
             <p className="text-gray-700 text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatibus quia, nulla! Maiores et perferendis eaque,
-              exercitationem praesentium nihil.
+              Get your team in sync, no matter your location. Streamline
+              processes, create team rituals, and watch productivity soar.
             </p>
           </div>
           <div className="px-4 mt-2 pb-2">
@@ -70,9 +69,8 @@ const projects = () => {
               Airbnb Clone
             </div>
             <p className="text-gray-700 text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatibus quia, nulla! Maiores et perferendis eaque,
-              exercitationem praesentium nihil.
+              Join unique interactive activities led by one-of-a-kind hosts-all
+              without leaving home.
             </p>
           </div>
           <div className="px-4 mt-2 pb-2">
