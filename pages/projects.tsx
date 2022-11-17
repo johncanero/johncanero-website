@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
@@ -11,7 +12,7 @@ const projects = () => {
         Projects
       </div>
 
-      <div className="md:flex md:gap-12 mt-8">
+      <div className="md:flex md:flex-wrap md:gap-12 justify-center mt-8">
         {/* Remote Landing Page Card */}
         <div className="max-w-xs mx-auto md:mx-0 rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins">
           <div className="px-4 py-4">
@@ -124,7 +125,41 @@ const projects = () => {
           </div>
         </div>
 
-        {/* Card */}
+        {/* Meme Generator */}
+        <div className="max-w-xs mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0">
+          <div className="px-4 py-4">
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://meme-generator-rose-by-johncanero.vercel.app/"
+            >
+              <Image
+                src="/projects/memeGenerator.png"
+                width={250}
+                height={250}
+                alt="Meme Generator"
+                className="w-full animate__animated animate__fadeIn rounded-2xl"
+              />
+            </Link>
+            <div className="font-bold text-xl mt-2 mb-1 dark:text-black">
+              Meme Generator
+            </div>
+            <p className="text-gray-700 text-base">
+              Looking for a Meme and create custom texts? Let's take a break and have a Meme! 
+            </p>
+          </div>
+          <div className="px-4 mt-1 pb-2">
+            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+              #meme
+            </span>
+            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+              #generator
+            </span>
+            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+              #state&hooks
+            </span>
+          </div>
+        </div>
       </div>
     </div>
   );
