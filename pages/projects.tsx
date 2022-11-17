@@ -13,7 +13,7 @@ const projects = () => {
 
       <div className="mt-6">
         {/* Remote Landing Page Card */}
-        <div className="max-w-sm rounded-2xl overflow-hidden shadow-2xl bg-zinc-100 dark:bg-zinc-200 font-Poppins">
+        <div className="max-w-sm rounded-2xl overflow-hidden shadow-2xl dark:shadow-lg dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins">
           <div className="px-4 py-4">
             <Link
               target="_blank"
