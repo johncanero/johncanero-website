@@ -122,7 +122,7 @@ const about = () => {
               className="rounded-2xl transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300"
             />
             <p className=" text-xs text-left mt-1 font-medium text-neutral-400">
-              PHOTO from the gallery of John Cañero's phone: Selfie - John Cañero
+              PHOTO from the gallery of John Cañero's phone: Selfie - Jam Tech
             </p>
           </div>
 
