@@ -14,7 +14,7 @@ const about = () => {
           <div className="text-center text-gray-600 font-Poppins font-semibold mt-4 text-2xl">
             About Me
           </div>
-
+          
           {/* John Cañero Logo */}
           <div className="flex justify-center mx-auto mt-3">
             <Image
@@ -63,7 +63,7 @@ const about = () => {
           </p>
 
           {/* Archi Student Jam */}
-          <div className="mt-6 mb-6 md:w-8/12 md:mx-aut">
+          <div className="mt-6 mb-6 md:w-8/12 md:mx-auto">
             <Image
               src="/images/jam2.jpg"
               width={600}
