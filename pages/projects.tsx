@@ -14,7 +14,7 @@ const projects = () => {
 
       <div className="md:flex md:flex-wrap md:gap-12 justify-center mt-8">
         {/* Remote Landing Page Card */}
-        <div className="max-w-xs mx-auto md:mx-0 rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins">
+        <div className="max-w-xs mx-auto md:mx-0 rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
           <div className="px-4 py-4">
             <Link
               target="_blank"
@@ -51,7 +51,7 @@ const projects = () => {
         </div>
 
         {/* Airbnb Clone */}
-        <div className="max-w-xs mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0">
+        <div className="max-w-xs mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
           <div className="px-4 py-4">
             <Link
               target="_blank"
@@ -88,7 +88,7 @@ const projects = () => {
         </div>
 
         {/* Shoe Product Card */}
-        <div className="max-w-xs mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0">
+        <div className="max-w-xs mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
           <div className="px-4 py-4">
             <Link
               target="_blank"
@@ -126,7 +126,7 @@ const projects = () => {
         </div>
 
         {/* Meme Generator */}
-        <div className="max-w-xs mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0">
+        <div className="max-w-xs mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
           <div className="px-4 py-4">
             <Link
               target="_blank"
