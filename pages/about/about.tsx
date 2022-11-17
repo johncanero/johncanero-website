@@ -63,7 +63,7 @@ const about = () => {
           </p>
 
           {/* Archi Student Jam */}
-          <div className="mt-6 mb-6 md:w-8/12 md:mx-auto">
+          <div className="mt-6 mb-6 md:w-8/12 md:mx-aut">
             <Image
               src="/images/jam2.jpg"
               width={600}
@@ -153,7 +153,7 @@ const about = () => {
         </div>
       </div>
 
-      {/* Certificaitons and Resume */}
+      {/* Certifications and Resume */}
       <div className="mx-4">
         <h1 className="mt-6 text-left font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500 font-Poppins">
           CERTIFICATES
