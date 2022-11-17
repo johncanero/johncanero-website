@@ -25,7 +25,7 @@ const projects = () => {
                 width={250}
                 height={250}
                 alt="Remote Landing Page"
-                className="w-full animate__animated animate__fadeIn"
+                className="w-full animate__animated animate__fadeIn rounded-2xl"
               />
             </Link>
             <div className="font-bold text-xl mt-2 mb-1 dark:text-black">
@@ -62,7 +62,7 @@ const projects = () => {
                 width={250}
                 height={250}
                 alt="Airbnb Clone"
-                className="w-full animate__animated animate__fadeIn"
+                className="w-full animate__animated animate__fadeIn rounded-2xl"
               />
             </Link>
             <div className="font-bold text-xl mt-2 mb-1 dark:text-black">
@@ -99,7 +99,7 @@ const projects = () => {
                 width={250}
                 height={250}
                 alt="Shoe Product Card"
-                className="w-full animate__animated animate__fadeIn"
+                className="w-full animate__animated animate__fadeIn rounded-2xl"
               />
             </Link>
             <div className="font-bold text-xl mt-2 mb-1 dark:text-black">
