@@ -15,6 +15,8 @@ import { AiOutlineProject } from "@react-icons/all-files/ai/AiOutlineProject";
 const Header = () => {
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
+  
+  
 
   useEffect(() => {
     setMounted(true);
@@ -79,6 +81,7 @@ const Header = () => {
                   className="animate__animated animate__fadeIn"
                 />
               </Link>
+              
 
               {/* Header Links */}
               <Link
@@ -118,6 +121,7 @@ const Header = () => {
               </Link>
             </ul>
           </div>
+          
 
           <div className="flex">
             <Link

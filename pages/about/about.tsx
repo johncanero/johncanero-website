@@ -8,7 +8,7 @@ const about = () => {
     <div className="md:flex">
       {/* First Column */}
       <div>
-        <div className=" font-Poppins mx-4 md:mx-8 lg:mr-36">
+        <div className=" font-Poppins mx-4 md:mx-8 lg:mr-28">
           <div className="text-center text-gray-600 font-Poppins font-semibold mt-4 text-2xl">
             About Me
           </div>
