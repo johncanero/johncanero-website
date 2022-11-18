@@ -9,6 +9,7 @@ import { GiRunningShoe } from "@react-icons/all-files/gi/GiRunningShoe";
 import { FaAirbnb } from "@react-icons/all-files/fa/FaAirbnb";
 import { RiEmotionLaughLine } from "@react-icons/all-files/ri/RiEmotionLaughLine";
 import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
+import { FaGlobeAsia } from "@react-icons/all-files/fa/FaGlobeAsia";
 
 const projects = () => {
   return (
@@ -217,6 +218,55 @@ const projects = () => {
           </div>
         </div>
 
+        {/* Travel Journal */}
+        <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
+          <div className="px-4 py-4">
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://travel-journal-by-johncanero.vercel.app/"
+            >
+              <Image
+                src="/projects/travelJournal.png"
+                width={250}
+                height={250}
+                alt="Travel Journal"
+                className="w-full animate__animated animate__fadeIn rounded-2xl"
+              />
+            </Link>
+            <div className="flex font-bold text-xl mt-2 mb-1 dark:text-black">
+              Travel Journal <FaGlobeAsia className=" mt-1 ml-1" />
+            </div>
+            <p className="text-gray-700 text-base">
+              Come on and let's travel and have adventure around the world! A
+              travel journal of experience and fun times in life.
+            </p>
+
+            {/* Source Code */}
+            <p className="flex text-gray-700 text-base mt-3">
+              Source Code:{" "}
+              <Link
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/johncanero/travel-journal"
+              >
+                <FaGithub className="ml-1 hover:text-gray-900" size={20} />
+              </Link>
+            </p>
+          </div>
+          <div className="px-4 mt-1 pb-2">
+            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+              #airbnb
+            </span>
+            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+              #clone
+            </span>
+            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+              #feature
+            </span>
+          </div>
+        </div>
+
         {/* Meme Generator */}
         <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
           <div className="px-4 py-4">
@@ -241,7 +291,6 @@ const projects = () => {
               have a Meme!
             </p>
 
-            
             {/* Source Code */}
             <p className="flex text-gray-700 text-base mt-3">
               Source Code:{" "}
