@@ -3,7 +3,12 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { VscLinkExternal } from "@react-icons/all-files/vsc/VscLinkExternal";
+import { CgWebsite } from "@react-icons/all-files/cg/CgWebsite";
+import { RiRemoteControlLine } from "@react-icons/all-files/ri/RiRemoteControlLine";
+import { GiRunningShoe } from "@react-icons/all-files/gi/GiRunningShoe";
+import { FaAirbnb } from "@react-icons/all-files/fa/FaAirbnb";
+import { RiEmotionLaughLine } from "@react-icons/all-files/ri/RiEmotionLaughLine";
+
 
 const projects = () => {
   return (
@@ -29,8 +34,8 @@ const projects = () => {
                 className="w-full animate__animated animate__fadeIn rounded-2xl"
               />
             </Link>
-            <div className="font-bold text-xl mt-2 mb-1 dark:text-black">
-              John Cañero Website
+            <div className="flex font-bold text-xl mt-2 mb-1 dark:text-black">
+              John Cañero Website <CgWebsite className=" mt-1 ml-1" />
             </div>
             <p className="text-gray-700 text-base">
               A Portfolio x Website that features the developer's story,
@@ -67,8 +72,8 @@ const projects = () => {
                 className="w-full animate__animated animate__fadeIn rounded-2xl"
               />
             </Link>
-            <div className="font-bold text-xl mt-2 mb-1 dark:text-black">
-              Remote Landing Page
+            <div className="flex font-bold text-xl mt-2 mb-1 dark:text-black">
+              Remote Landing Page <RiRemoteControlLine className=" mt-1 ml-1" />
             </div>
             <p className="text-gray-700 text-base">
               Get your team in sync, no matter your location. Streamline
@@ -104,8 +109,8 @@ const projects = () => {
                 className="w-full animate__animated animate__fadeIn rounded-2xl"
               />
             </Link>
-            <div className="font-bold text-xl mt-2 mb-1 dark:text-black">
-              Shoe Product Card
+            <div className="flex font-bold text-xl mt-2 mb-1 dark:text-black">
+              Shoe Product Card <GiRunningShoe className=" mt-1 ml-1" />
             </div>
             <p className="text-gray-700 text-base">
               Where previous Air Max models filled the sole with as much air as
@@ -142,8 +147,8 @@ const projects = () => {
                 className="w-full animate__animated animate__fadeIn rounded-2xl"
               />
             </Link>
-            <div className="font-bold text-xl mt-2 mb-1 dark:text-black">
-              Airbnb Clone
+            <div className="flex font-bold text-xl mt-2 mb-1 dark:text-black">
+              Airbnb Clone <FaAirbnb className=" mt-1 ml-1 text-red-400" />
             </div>
             <p className="text-gray-700 text-base">
               Join unique interactive activities led by one-of-a-kind hosts-all
@@ -179,8 +184,8 @@ const projects = () => {
                 className="w-full animate__animated animate__fadeIn rounded-2xl"
               />
             </Link>
-            <div className="font-bold text-xl mt-2 mb-1 dark:text-black">
-              Meme Generator
+            <div className="flex font-bold text-xl mt-2 mb-1 dark:text-black">
+              Meme Generator <RiEmotionLaughLine className=" mt-1 ml-1" />
             </div>
             <p className="text-gray-700 text-base">
               Looking for a Meme and create custom texts? Let's take a break and
