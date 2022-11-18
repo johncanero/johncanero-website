@@ -8,7 +8,7 @@ import { RiRemoteControlLine } from "@react-icons/all-files/ri/RiRemoteControlLi
 import { GiRunningShoe } from "@react-icons/all-files/gi/GiRunningShoe";
 import { FaAirbnb } from "@react-icons/all-files/fa/FaAirbnb";
 import { RiEmotionLaughLine } from "@react-icons/all-files/ri/RiEmotionLaughLine";
-
+import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
 
 const projects = () => {
   return (
@@ -42,6 +42,18 @@ const projects = () => {
               certifications, techstack (skills) and list of projects to be
               showcased.
             </p>
+
+            {/* Source Code */}
+            <p className="flex text-gray-700 text-base mt-3">
+              Source Code:{" "}
+              <Link
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/johncanero/johncanero-website"
+              >
+                <FaGithub className="ml-1 hover:text-gray-900" size={20} />
+              </Link>
+            </p>
           </div>
           <div className="px-4 mt-1 pb-2">
             <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
@@ -57,7 +69,7 @@ const projects = () => {
         </div>
 
         {/* Remote Landing Page Card */}
-        <div className="max-w-xs mx-auto md:mx-0 rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
+        <div className="max-w-xs mx-auto md:mx-0 rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
           <div className="px-4 py-4">
             <Link
               target="_blank"
@@ -79,7 +91,20 @@ const projects = () => {
               Get your team in sync, no matter your location. Streamline
               processes, create team rituals, and watch productivity soar.
             </p>
+
+            {/* Source Code */}
+            <p className="flex text-gray-700 text-base mt-3">
+              Source Code:{" "}
+              <Link
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/johncanero/remote-landing-page"
+              >
+                <FaGithub className="ml-1 hover:text-gray-900" size={20} />
+              </Link>
+            </p>
           </div>
+
           <div className="px-4 mt-1 pb-2">
             <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
               #remote
