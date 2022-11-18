@@ -218,6 +218,104 @@ const projects = () => {
           </div>
         </div>
 
+        {/* About React */}
+        <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
+          <div className="px-4 py-4">
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://react-website-by-johncanero.vercel.app/"
+            >
+              <Image
+                src="/projects/reactWebsite.png"
+                width={250}
+                height={250}
+                alt="About React"
+                className="w-full animate__animated animate__fadeIn rounded-2xl"
+              />
+            </Link>
+            <div className="flex font-bold text-xl mt-2 mb-1 dark:text-black">
+              About React <RiEmotionLaughLine className=" mt-1 ml-1" />
+            </div>
+            <p className="text-gray-700 text-base">
+              Know more about the information and fun facts about React Js.
+              Toggle Feature for Dark Mode is available
+            </p>
+
+            {/* Source Code */}
+            <p className="flex text-gray-700 text-base mt-3">
+              Source Code:{" "}
+              <Link
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/johncanero/react-website"
+              >
+                <FaGithub className="ml-1 hover:text-gray-900" size={20} />
+              </Link>
+            </p>
+          </div>
+          <div className="px-4 mt-1 pb-2">
+            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+              #react
+            </span>
+            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+              #javascript
+            </span>
+            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+              #darkmode
+            </span>
+          </div>
+        </div>
+
+        {/* Meme Generator */}
+        <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
+          <div className="px-4 py-4">
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://meme-generator-rose-by-johncanero.vercel.app/"
+            >
+              <Image
+                src="/projects/memeGenerator.png"
+                width={250}
+                height={250}
+                alt="Meme Generator"
+                className="w-full animate__animated animate__fadeIn rounded-2xl"
+              />
+            </Link>
+            <div className="flex font-bold text-xl mt-2 mb-1 dark:text-black">
+              Meme Generator <RiEmotionLaughLine className=" mt-1 ml-1" />
+            </div>
+            <p className="text-gray-700 text-base">
+              Looking for a Meme and create custom texts? Let's take a break and
+              have a Meme!
+            </p>
+
+            {/* Source Code */}
+            <p className="flex text-gray-700 text-base mt-3">
+              Source Code:{" "}
+              <Link
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/johncanero/meme-generator"
+              >
+                <FaGithub className="ml-1 hover:text-gray-900" size={20} />
+              </Link>
+            </p>
+          </div>
+          <div className="px-4 mt-1 pb-2">
+            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+              #meme
+            </span>
+            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+              #generator
+            </span>
+            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+              #state&hooks
+            </span>
+          </div>
+        </div>
+
         {/* Travel Journal */}
         <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
           <div className="px-4 py-4">
@@ -267,27 +365,28 @@ const projects = () => {
           </div>
         </div>
 
-        {/* About React */}
+        {/* Digital Card - Jam */}
         <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
           <div className="px-4 py-4">
             <Link
               target="_blank"
               rel="noopener noreferrer"
-              href="https://react-website-by-johncanero.vercel.app/"
+              href="https://johncanero-digitalcard.vercel.app/"
             >
               <Image
-                src="/projects/reactWebsite.png"
+                src="/projects/digitalCardJam.png"
                 width={250}
                 height={250}
-                alt="About React"
+                alt="Digital Card"
                 className="w-full animate__animated animate__fadeIn rounded-2xl"
               />
             </Link>
             <div className="flex font-bold text-xl mt-2 mb-1 dark:text-black">
-              About React <RiEmotionLaughLine className=" mt-1 ml-1" />
+              Digital Card <RiEmotionLaughLine className=" mt-1 ml-1" />
             </div>
             <p className="text-gray-700 text-base">
-              Know more about the information and fun facts about React Js. Toggle Feature for Dark Mode is available
+              A Digital Card to represent the person's purpose and identity. A digital card
+              shows presence and information for contact.
             </p>
 
             {/* Source Code */}
@@ -296,7 +395,7 @@ const projects = () => {
               <Link
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://github.com/johncanero/react-website"
+                href="https://github.com/johncanero/digital-business-card"
               >
                 <FaGithub className="ml-1 hover:text-gray-900" size={20} />
               </Link>
@@ -304,64 +403,13 @@ const projects = () => {
           </div>
           <div className="px-4 mt-1 pb-2">
             <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
-              #react
+              #digitalCard
             </span>
             <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
-              #javascript
+              #introductory
             </span>
             <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
-              #darkmode
-            </span>
-          </div>
-        </div>
-
-
-        
-        {/* Meme Generator */}
-        <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
-          <div className="px-4 py-4">
-            <Link
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://meme-generator-rose-by-johncanero.vercel.app/"
-            >
-              <Image
-                src="/projects/memeGenerator.png"
-                width={250}
-                height={250}
-                alt="Meme Generator"
-                className="w-full animate__animated animate__fadeIn rounded-2xl"
-              />
-            </Link>
-            <div className="flex font-bold text-xl mt-2 mb-1 dark:text-black">
-              Meme Generator <RiEmotionLaughLine className=" mt-1 ml-1" />
-            </div>
-            <p className="text-gray-700 text-base">
-              Looking for a Meme and create custom texts? Let's take a break and
-              have a Meme!
-            </p>
-
-            {/* Source Code */}
-            <p className="flex text-gray-700 text-base mt-3">
-              Source Code:{" "}
-              <Link
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/johncanero/meme-generator"
-              >
-                <FaGithub className="ml-1 hover:text-gray-900" size={20} />
-              </Link>
-            </p>
-          </div>
-          <div className="px-4 mt-1 pb-2">
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
-              #meme
-            </span>
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
-              #generator
-            </span>
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
-              #state&hooks
+              #contact
             </span>
           </div>
         </div>
