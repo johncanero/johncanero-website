@@ -13,6 +13,44 @@ const projects = () => {
       </div>
 
       <div className="md:flex md:flex-wrap md:gap-12 justify-center mt-8">
+        {/* John Cañero Website */}
+        <div className="max-w-xs mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
+          <div className="px-4 py-4">
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://johncanero-website.vercel.app/projects"
+            >
+              <Image
+                src="/projects/johncaneroWebsite.png"
+                width={250}
+                height={250}
+                alt="John Cañero Website"
+                className="w-full animate__animated animate__fadeIn rounded-2xl"
+              />
+            </Link>
+            <div className="font-bold text-xl mt-2 mb-1 dark:text-black">
+              John Cañero Website
+            </div>
+            <p className="text-gray-700 text-base">
+              A Portfolio x Website that features the developer's story,
+              certifications, techstack (skills) and list of projects to be
+              showcased.
+            </p>
+          </div>
+          <div className="px-4 mt-1 pb-2">
+            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+              #portfolio
+            </span>
+            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+              #website
+            </span>
+            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+              #resume
+            </span>
+          </div>
+        </div>
+
         {/* Remote Landing Page Card */}
         <div className="max-w-xs mx-auto md:mx-0 rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
           <div className="px-4 py-4">
@@ -46,43 +84,6 @@ const projects = () => {
             </span>
             <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
               #work
-            </span>
-          </div>
-        </div>
-
-        {/* Airbnb Clone */}
-        <div className="max-w-xs mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
-          <div className="px-4 py-4">
-            <Link
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://airbnb-clone-by-johncanero.vercel.app/"
-            >
-              <Image
-                src="/projects/airBnbClone2.png"
-                width={250}
-                height={250}
-                alt="Airbnb Clone"
-                className="w-full animate__animated animate__fadeIn rounded-2xl"
-              />
-            </Link>
-            <div className="font-bold text-xl mt-2 mb-1 dark:text-black">
-              Airbnb Clone
-            </div>
-            <p className="text-gray-700 text-base">
-              Join unique interactive activities led by one-of-a-kind hosts-all
-              without leaving home.
-            </p>
-          </div>
-          <div className="px-4 mt-1 pb-2">
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
-              #airbnb
-            </span>
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
-              #clone
-            </span>
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
-              #feature
             </span>
           </div>
         </div>
@@ -125,6 +126,43 @@ const projects = () => {
           </div>
         </div>
 
+        {/* Airbnb Clone */}
+        <div className="max-w-xs mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
+          <div className="px-4 py-4">
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://airbnb-clone-by-johncanero.vercel.app/"
+            >
+              <Image
+                src="/projects/airBnbClone2.png"
+                width={250}
+                height={250}
+                alt="Airbnb Clone"
+                className="w-full animate__animated animate__fadeIn rounded-2xl"
+              />
+            </Link>
+            <div className="font-bold text-xl mt-2 mb-1 dark:text-black">
+              Airbnb Clone
+            </div>
+            <p className="text-gray-700 text-base">
+              Join unique interactive activities led by one-of-a-kind hosts-all
+              without leaving home.
+            </p>
+          </div>
+          <div className="px-4 mt-1 pb-2">
+            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+              #airbnb
+            </span>
+            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+              #clone
+            </span>
+            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+              #feature
+            </span>
+          </div>
+        </div>
+
         {/* Meme Generator */}
         <div className="max-w-xs mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
           <div className="px-4 py-4">
@@ -145,7 +183,8 @@ const projects = () => {
               Meme Generator
             </div>
             <p className="text-gray-700 text-base">
-              Looking for a Meme and create custom texts? Let's take a break and have a Meme! 
+              Looking for a Meme and create custom texts? Let's take a break and
+              have a Meme!
             </p>
           </div>
           <div className="px-4 mt-1 pb-2">
