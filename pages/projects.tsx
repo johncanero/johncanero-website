@@ -142,6 +142,18 @@ const projects = () => {
               possible, the VaporMax focuses on using less air, more
               efficiently.
             </p>
+
+            {/* Source Code */}
+            <p className="flex text-gray-700 text-base mt-3">
+              Source Code:{" "}
+              <Link
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/johncanero/shoe-product-card"
+              >
+                <FaGithub className="ml-1 hover:text-gray-900" size={20} />
+              </Link>
+            </p>
           </div>
           <div className="px-4 mt-1 pb-2">
             <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
@@ -179,6 +191,18 @@ const projects = () => {
               Join unique interactive activities led by one-of-a-kind hosts-all
               without leaving home.
             </p>
+
+            {/* Source Code */}
+            <p className="flex text-gray-700 text-base mt-3">
+              Source Code:{" "}
+              <Link
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/johncanero/airbnb-clone"
+              >
+                <FaGithub className="ml-1 hover:text-gray-900" size={20} />
+              </Link>
+            </p>
           </div>
           <div className="px-4 mt-1 pb-2">
             <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
@@ -215,6 +239,19 @@ const projects = () => {
             <p className="text-gray-700 text-base">
               Looking for a Meme and create custom texts? Let's take a break and
               have a Meme!
+            </p>
+
+            
+            {/* Source Code */}
+            <p className="flex text-gray-700 text-base mt-3">
+              Source Code:{" "}
+              <Link
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/johncanero/meme-generator"
+              >
+                <FaGithub className="ml-1 hover:text-gray-900" size={20} />
+              </Link>
             </p>
           </div>
           <div className="px-4 mt-1 pb-2">
