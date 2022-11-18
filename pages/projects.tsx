@@ -3,6 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+// Icons
 import { CgWebsite } from "@react-icons/all-files/cg/CgWebsite";
 import { RiRemoteControlLine } from "@react-icons/all-files/ri/RiRemoteControlLine";
 import { GiRunningShoe } from "@react-icons/all-files/gi/GiRunningShoe";
@@ -10,6 +11,9 @@ import { FaAirbnb } from "@react-icons/all-files/fa/FaAirbnb";
 import { RiEmotionLaughLine } from "@react-icons/all-files/ri/RiEmotionLaughLine";
 import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
 import { FaGlobeAsia } from "@react-icons/all-files/fa/FaGlobeAsia";
+import { FaReact } from "@react-icons/all-files/fa/FaReact";
+import { IoIosRocket } from "@react-icons/all-files/io/IoIosRocket";
+import { BsFillPersonFill } from "@react-icons/all-files/bs/BsFillPersonFill";
 
 const projects = () => {
   return (
@@ -186,7 +190,7 @@ const projects = () => {
               />
             </Link>
             <div className="flex font-bold text-xl mt-2 mb-1 dark:text-black">
-              About React <RiEmotionLaughLine className=" mt-1 ml-1" />
+              About React <FaReact className=" mt-1 ml-1" />
             </div>
             <p className="text-gray-700 text-base">
               Know more about the information and fun facts about React Js.
@@ -333,10 +337,11 @@ const projects = () => {
               />
             </Link>
             <div className="flex font-bold text-xl mt-2 mb-1 dark:text-black">
-              Emojipedia <RiEmotionLaughLine className=" mt-1 ml-1" />
+              Emojipedia <IoIosRocket className=" mt-1 ml-1" />
             </div>
             <p className="text-gray-700 text-base">
-             A list of Emojipedia Preferences and its own dictionary, phrases and its use. 
+              A list of Emojipedia Preferences and its own dictionary, phrases
+              and its use.
             </p>
 
             {/* Source Code */}
@@ -364,9 +369,8 @@ const projects = () => {
           </div>
         </div>
 
-
-         {/* Digital Card - Jam */}
-         <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
+        {/* Digital Card - Jam */}
+        <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
           <div className="px-4 py-4">
             <Link
               target="_blank"
@@ -382,7 +386,7 @@ const projects = () => {
               />
             </Link>
             <div className="flex font-bold text-xl mt-2 mb-1 dark:text-black">
-              Digital Card <RiEmotionLaughLine className=" mt-1 ml-1" />
+              Digital Card <BsFillPersonFill className=" mt-1 ml-1" />
             </div>
             <p className="text-gray-700 text-base">
               A Digital Card to represent the person's purpose and identity. A
