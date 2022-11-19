@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Header from "../sections/Header";
 import Footer from "../sections/Footer";
+import MobileFooterButtons from "../sections/MobileFooterButtons";
 
 const Layout = ({ children }) => {
   return (
@@ -20,11 +21,13 @@ const Layout = ({ children }) => {
       </Head>
 
       {/* Header, Main & Footer */}
-      <div className="min-h-screen flex flex-col">
+      <div className="min-h-screen flex flex-col px-4">
         <Header />
         <main className="flex-grow">{children}</main>
         <Footer />
       </div>
+      {/* Mobile Icons */}
+      <MobileFooterButtons />
     </>
   );
 };

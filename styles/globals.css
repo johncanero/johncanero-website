@@ -5,7 +5,7 @@
 /* Layer Base */
 @layer base {
     body {
-        @apply sm:max-w-sm md:max-w-2xl lg:max-w-7xl mx-auto px-4;
+        @apply sm:max-w-sm md:max-w-2xl lg:max-w-7xl mx-auto;
         @apply dark:bg-black dark:text-gray-100 bg-gray-100 text-gray-900
     }
 
