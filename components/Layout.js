@@ -21,12 +21,11 @@ const Layout = ({ children }) => {
       </Head>
 
       {/* Header, Main & Footer */}
-      <div className="min-h-screen flex flex-col px-4">
+      <div className="min-h-screen flex flex-col">
         <Header />
         <main className="flex-grow">{children}</main>
         <Footer />
       </div>
-      {/* Mobile Icons */}
       <MobileFooterButtons />
     </>
   );
