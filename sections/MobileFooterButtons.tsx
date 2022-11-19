@@ -42,11 +42,9 @@ const MobileFooterButtons = () => {
         {/* Bio Link*/}
         <Link href="https://bio.link/johncanero" rel="noopener noreferrer">
           <button>
-          <VscLinkExternal size={25} />
+            <VscLinkExternal size={25} />
           </button>
         </Link>
-
- 
       </div>
     </div>
   );
