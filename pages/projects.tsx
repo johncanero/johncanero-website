@@ -174,7 +174,7 @@ const projects = () => {
         </div>
 
         {/* About React */}
-        <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
+        {/* <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
           <div className="px-4 py-4">
             <Link
               target="_blank"
@@ -196,8 +196,7 @@ const projects = () => {
               Know more about the information and fun facts about React Js.
               Toggle Feature for Dark Mode is available
             </p>
-
-            {/* Source Code */}
+      
             <p className="flex text-gray-700 text-base mt-3">
               Source Code:{" "}
               <Link
@@ -220,7 +219,7 @@ const projects = () => {
               #darkmode
             </span>
           </div>
-        </div>
+        </div> */}
 
         {/* Airbnb Clone */}
         <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
@@ -272,7 +271,7 @@ const projects = () => {
         </div>
 
         {/* Meme Generator */}
-        <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
+        {/* <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
           <div className="px-4 py-4">
             <Link
               target="_blank"
@@ -295,7 +294,6 @@ const projects = () => {
               have a Meme!
             </p>
 
-            {/* Source Code */}
             <p className="flex text-gray-700 text-base mt-3">
               Source Code:{" "}
               <Link
@@ -318,10 +316,10 @@ const projects = () => {
               #state&hooks
             </span>
           </div>
-        </div>
+        </div> */}
 
         {/* Emojipedia */}
-        <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
+        {/* <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
           <div className="px-4 py-4">
             <Link
               target="_blank"
@@ -344,7 +342,6 @@ const projects = () => {
               and its use.
             </p>
 
-            {/* Source Code */}
             <p className="flex text-gray-700 text-base mt-3">
               Source Code:{" "}
               <Link
@@ -367,10 +364,10 @@ const projects = () => {
               #emoji
             </span>
           </div>
-        </div>
+        </div> */}
 
         {/* Digital Card - Jam */}
-        <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
+        {/* <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
           <div className="px-4 py-4">
             <Link
               target="_blank"
@@ -393,7 +390,6 @@ const projects = () => {
               digital card shows presence and information for contact.
             </p>
 
-            {/* Source Code */}
             <p className="flex text-gray-700 text-base mt-3">
               Source Code:{" "}
               <Link
@@ -416,10 +412,10 @@ const projects = () => {
               #contact
             </span>
           </div>
-        </div>
+        </div> */}
 
         {/* Travel Journal */}
-        <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
+        {/* <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
           <div className="px-4 py-4">
             <Link
               target="_blank"
@@ -442,7 +438,6 @@ const projects = () => {
               travel journal of experience and fun times in life.
             </p>
 
-            {/* Source Code */}
             <p className="flex text-gray-700 text-base mt-3">
               Source Code:{" "}
               <Link
@@ -465,7 +460,8 @@ const projects = () => {
               #world
             </span>
           </div>
-        </div>
+        </div> */}
+        
       </div>
     </div>
   );
