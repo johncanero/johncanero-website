@@ -14,14 +14,14 @@ const MobileFooterButtons = () => {
         {/* Home */}
         <Link href="/" rel="noopener noreferrer">
           <button>
-            <FaHome size={30} />
+            <FaHome size={28} />
           </button>
         </Link>
 
-        <IoMdPerson size={30} />
-        <FaConnectdevelop size={30} />
-        <AiOutlineProject size={30} />
-        <VscLinkExternal size={30} />
+        <IoMdPerson size={28} />
+        <FaConnectdevelop size={28} />
+        <AiOutlineProject size={28} />
+        <VscLinkExternal size={28} />
       </div>
     </div>
   );
