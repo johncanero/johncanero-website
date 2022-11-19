@@ -25,8 +25,9 @@ const Layout = ({ children }) => {
         <Header />
         <main className="flex-grow">{children}</main>
         <Footer />
+        <MobileFooterButtons />
       </div>
-      <MobileFooterButtons />
+     
     </>
   );
 };

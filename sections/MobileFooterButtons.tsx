@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import Footer from "./Footer";
 // Icons
 import { FaHome } from "@react-icons/all-files/fa/FaHome";
 import { IoMdPerson } from "@react-icons/all-files/io/IoMdPerson";
