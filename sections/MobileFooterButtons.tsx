@@ -18,10 +18,35 @@ const MobileFooterButtons = () => {
           </button>
         </Link>
 
-        <IoMdPerson size={25} />
-        <FaConnectdevelop size={25} />
-        <AiOutlineProject size={25} />
-        <VscLinkExternal size={25} />
+        {/* About Me */}
+        <Link href="/about/about" rel="noopener noreferrer">
+          <button>
+            <IoMdPerson size={25} />
+          </button>
+        </Link>
+
+        {/* Tech Stack */}
+        <Link href="/techstack/techstack" rel="noopener noreferrer">
+          <button>
+            <FaConnectdevelop size={25} />
+          </button>
+        </Link>
+
+        {/* Projects */}
+        <Link href="/projects" rel="noopener noreferrer">
+          <button>
+            <AiOutlineProject size={25} />
+          </button>
+        </Link>
+
+        {/* Bio Link*/}
+        <Link href="https://bio.link/johncanero" rel="noopener noreferrer">
+          <button>
+          <VscLinkExternal size={25} />
+          </button>
+        </Link>
+
+ 
       </div>
     </div>
   );
