@@ -106,6 +106,7 @@ const Hero = () => {
         </Link>
       </div>
 
+
       {/* Hire Me Button */}
       {/* <div className="flex justify-center items-center md:justify-between">
         <div>
