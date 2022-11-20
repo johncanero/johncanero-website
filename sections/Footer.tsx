@@ -2,7 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="sm:hidden md:py-6 text-center text-gray-500 text-sm">
+    // Hide in Mobile
+    <footer className="hidden md:block md:py-6 text-center text-gray-500 text-sm">
       <span className="dark:text-gray-100 text-gray-900 font-bold text-lg mr-2">
         John Cañero
       </span>

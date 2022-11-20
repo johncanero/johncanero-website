@@ -106,6 +106,12 @@ const Hero = () => {
         </Link>
       </div>
 
+      <footer className="block md:hidden fixed bottom-20 w-screen left-0 text-center text-gray-500 text-sm">
+        <span className="dark:text-gray-100 text-gray-900 font-bold text-lg mr-2">
+          John Cañero
+        </span>
+        &copy; {new Date().getFullYear()} All Rights Reserved
+      </footer>
 
       {/* Hire Me Button */}
       {/* <div className="flex justify-center items-center md:justify-between">

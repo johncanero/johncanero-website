@@ -46,13 +46,6 @@ const MobileFooterButtons = () => {
           </button>
         </Link>
       </div>
-
-      <footer className="fixed bottom-20 left-0 w-screen text-center text-gray-500 text-sm">
-        <span className="dark:text-gray-100 text-gray-900 font-bold text-lg mr-2">
-          John Cañero
-        </span>
-        &copy; {new Date().getFullYear()} All Rights Reserved
-      </footer>
     </div>
   );
 };
