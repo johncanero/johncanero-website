@@ -5,7 +5,7 @@ import { BsPencilSquare } from "@react-icons/all-files/bs/BsPencilSquare";
 
 const techstack = () => {
   return (
-    <div className="justify-center lg:mr-14">
+    <div className="justify-center mb-20 lg:mr-14">
       <div className="mt-4">
         {/* <div className="flex justify-center text-gray-600 dark:text-gray-300">
           <FaConnectdevelop size={60} />
