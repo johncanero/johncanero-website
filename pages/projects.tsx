@@ -27,92 +27,71 @@ const projects = () => {
       <div className="md:flex md:flex-wrap md:gap-12 justify-center mt-8 mb-20">
         {/* John Cañero Website */}
         <CardItem
-          title="John Cañero Website" 
+          title="John Cañero Website"
           iconTitle={<CgWebsite className="mt-1 ml-1" />}
           description="A Portfolio x Website that features the developer's story,
           certifications, techstack (skills) and list of projects to be
           showcased."
           src="/projects/johncaneroWebsite.png"
           path="https://johncanero-website.vercel.app/"
-
           // Source Code:
           source="Source Code:"
-          iconSource= {<FaGithub className="ml-1 mt-3 text-gray-700 hover:text-gray-900" size={20} />}
+          iconSource={
+            <FaGithub
+              className="ml-1 mt-3 text-gray-700 hover:text-gray-900"
+              size={20}
+            />
+          }
           sourceLink="https://github.com/johncanero/johncanero-website"
           hashtag1="portfolio"
           hashtag2="website"
           hashtag3="resume"
         />
 
-
-      {/* Remote Landing Page*/}
-      <CardItem
-          title="John Cañero Website" 
+        {/* Remote Landing Page*/}
+        <CardItem
+          title="John Cañero Website"
           iconTitle={<RiRemoteControlLine className=" mt-1 ml-1" />}
           description=" Get your team in sync, no matter your location. Streamline
           processes, create team rituals, and watch productivity soar."
           src="/projects/remoteLandingPage.png"
           path="https://remote-landing-page-by-johncanero.vercel.app/"
-
           // Source Code:
           source="Source Code:"
-          iconSource= {<FaGithub className="ml-1 mt-3 text-gray-700 hover:text-gray-900" size={20} />}
+          iconSource={
+            <FaGithub
+              className="ml-1 mt-3 text-gray-700 hover:text-gray-900"
+              size={20}
+            />
+          }
           sourceLink="https://github.com/johncanero/remote-landing-page"
           hashtag1="remote"
           hashtag2="landingpage"
           hashtag3="work"
         />
 
-
         {/* Shoe Product Card */}
-        <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
-          <div className="px-4 py-4">
-            <Link
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://shoe-product-card-by-johncanero.vercel.app/"
-            >
-              <Image
-                src="/projects/shoeProductCard.png"
-                width={250}
-                height={250}
-                alt="Shoe Product Card"
-                className="w-full animate__animated animate__fadeIn rounded-2xl"
-              />
-            </Link>
-            <div className="flex font-bold text-xl mt-2 mb-1 dark:text-black">
-              Shoe Product Card <GiRunningShoe className=" mt-1 ml-1" />
-            </div>
-            <p className="text-gray-700 text-base">
-              Where previous Air Max models filled the sole with as much air as
-              possible, the VaporMax focuses on using less air, more
-              efficiently.
-            </p>
-
-            {/* Source Code */}
-            <p className="flex text-gray-700 text-base mt-3">
-              Source Code:{" "}
-              <Link
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/johncanero/shoe-product-card"
-              >
-                <FaGithub className="ml-1 hover:text-gray-900" size={20} />
-              </Link>
-            </p>
-          </div>
-          <div className="px-4 mt-1 pb-2">
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
-              #shoe
-            </span>
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
-              #product
-            </span>
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
-              #sale
-            </span>
-          </div>
-        </div>
+        <CardItem
+          title="Shoe Product Card "
+          iconTitle={<GiRunningShoe className=" mt-1 ml-1" />}
+          description="Where previous Air Max models filled the sole with as much air as
+          possible, the VaporMax focuses on using less air, more
+          efficiently."
+          src="/projects/shoeProductCard.png"
+          path="https://shoe-product-card-by-johncanero.vercel.app/"
+          // Source Code:
+          source="Source Code:"
+          iconSource={
+            <FaGithub
+              className="ml-1 mt-3 text-gray-700 hover:text-gray-900"
+              size={20}
+            />
+          }
+          sourceLink="https://github.com/johncanero/shoe-product-card"
+          hashtag1="shoe"
+          hashtag2="product"
+          hashtag3="sale"
+        />
 
         {/* About React */}
         {/* <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
@@ -162,54 +141,30 @@ const projects = () => {
           </div>
         </div> */}
 
-        {/* Airbnb Clone */}
-        <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
-          <div className="px-4 py-4">
-            <Link
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://airbnb-clone-by-johncanero.vercel.app/"
-            >
-              <Image
-                src="/projects/airBnbClone2.png"
-                width={250}
-                height={250}
-                alt="Airbnb Clone"
-                className="w-full animate__animated animate__fadeIn rounded-2xl"
-              />
-            </Link>
-            <div className="flex font-bold text-xl mt-2 mb-1 dark:text-black">
-              Airbnb Clone <FaAirbnb className=" mt-1 ml-1 text-red-400" />
-            </div>
-            <p className="text-gray-700 text-base">
-              Join unique interactive activities led by one-of-a-kind hosts-all
-              without leaving home.
-            </p>
 
-            {/* Source Code */}
-            <p className="flex text-gray-700 text-base mt-3">
-              Source Code:{" "}
-              <Link
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/johncanero/airbnb-clone"
-              >
-                <FaGithub className="ml-1 hover:text-gray-900" size={20} />
-              </Link>
-            </p>
-          </div>
-          <div className="px-4 mt-1 pb-2">
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
-              #airbnb
-            </span>
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
-              #clone
-            </span>
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
-              #feature
-            </span>
-          </div>
-        </div>
+        {/* Airbnb Clone */}
+        <CardItem
+          title="Airbnb Clone"
+          iconTitle={<FaAirbnb className=" mt-1 ml-1 text-red-400" />}
+          description="Join unique interactive activities led by one-of-a-kind hosts-all
+          without leaving home."
+          src="/projects/airBnbClone2.png"
+          path="https://airbnb-clone-by-johncanero.vercel.app/"
+          // Source Code:
+          source="Source Code:"
+          iconSource={
+            <FaGithub
+              className="ml-1 mt-3 text-gray-700 hover:text-gray-900"
+              size={20}
+            />
+          }
+          sourceLink="https://github.com/johncanero/airbnb-clone"
+          hashtag1="airbnb"
+          hashtag2="clone"
+          hashtag3="feature"
+        />
+
+      
 
         {/* Meme Generator */}
         {/* <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
