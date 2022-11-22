@@ -15,6 +15,8 @@ import { FaReact } from "@react-icons/all-files/fa/FaReact";
 import { IoIosRocket } from "@react-icons/all-files/io/IoIosRocket";
 import { BsFillPersonFill } from "@react-icons/all-files/bs/BsFillPersonFill";
 
+import CardItem from "../components/CardItem";
+
 const projects = () => {
   return (
     <div>
@@ -24,104 +26,43 @@ const projects = () => {
 
       <div className="md:flex md:flex-wrap md:gap-12 justify-center mt-8 mb-20">
         {/* John Cañero Website */}
-        <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
-          <div className="px-4 py-4">
-            <Link
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://johncanero-website.vercel.app/projects"
-            >
-              <Image
-                src="/projects/johncaneroWebsite.png"
-                width={250}
-                height={250}
-                alt="John Cañero Website"
-                className="w-full animate__animated animate__fadeIn rounded-2xl"
-              />
-            </Link>
-            <div className="flex font-bold text-xl mt-2 mb-1 dark:text-black">
-              John Cañero Website <CgWebsite className=" mt-1 ml-1" />
-            </div>
-            <p className="text-gray-700 text-base">
-              A Portfolio x Website that features the developer's story,
-              certifications, techstack (skills) and list of projects to be
-              showcased.
-            </p>
+        <CardItem
+          title="John Cañero Website" 
+          iconTitle={<CgWebsite className="mt-1 ml-1" />}
+          description="A Portfolio x Website that features the developer's story,
+          certifications, techstack (skills) and list of projects to be
+          showcased."
+          src="/projects/johncaneroWebsite.png"
+          path="https://johncanero-website.vercel.app/"
 
-            {/* Source Code */}
-            <p className="flex text-gray-700 text-base mt-3">
-              Source Code:{" "}
-              <Link
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/johncanero/johncanero-website"
-              >
-                <FaGithub className="ml-1 hover:text-gray-900" size={20} />
-              </Link>
-            </p>
-          </div>
-          <div className="px-4 mt-1 pb-2">
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
-              #portfolio
-            </span>
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
-              #website
-            </span>
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
-              #resume
-            </span>
-          </div>
-        </div>
+          // Source Code:
+          source="Source Code:"
+          iconSource= {<FaGithub className="ml-1 mt-3 text-gray-700 hover:text-gray-900" size={20} />}
+          sourceLink="https://github.com/johncanero/johncanero-website"
+          hashtag1="portfolio"
+          hashtag2="website"
+          hashtag3="resume"
+        />
 
-        {/* Remote Landing Page Card */}
-        <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0 rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
-          <div className="px-4 py-4">
-            <Link
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://remote-landing-page-by-johncanero.vercel.app/"
-            >
-              <Image
-                src="/projects/remoteLandingPage.png"
-                width={250}
-                height={250}
-                alt="Remote Landing Page"
-                className="w-full animate__animated animate__fadeIn rounded-2xl"
-              />
-            </Link>
-            <div className="flex font-bold text-xl mt-2 mb-1 dark:text-black">
-              Remote Landing Page <RiRemoteControlLine className=" mt-1 ml-1" />
-            </div>
-            <p className="text-gray-700 text-base">
-              Get your team in sync, no matter your location. Streamline
-              processes, create team rituals, and watch productivity soar.
-            </p>
 
-            {/* Source Code */}
-            <p className="flex text-gray-700 text-base mt-3">
-              Source Code:{" "}
-              <Link
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/johncanero/remote-landing-page"
-              >
-                <FaGithub className="ml-1 hover:text-gray-900" size={20} />
-              </Link>
-            </p>
-          </div>
+      {/* Remote Landing Page*/}
+      <CardItem
+          title="John Cañero Website" 
+          iconTitle={<RiRemoteControlLine className=" mt-1 ml-1" />}
+          description=" Get your team in sync, no matter your location. Streamline
+          processes, create team rituals, and watch productivity soar."
+          src="/projects/remoteLandingPage.png"
+          path="https://remote-landing-page-by-johncanero.vercel.app/"
 
-          <div className="px-4 mt-1 pb-2">
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
-              #remote
-            </span>
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
-              #landingpage
-            </span>
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
-              #work
-            </span>
-          </div>
-        </div>
+          // Source Code:
+          source="Source Code:"
+          iconSource= {<FaGithub className="ml-1 mt-3 text-gray-700 hover:text-gray-900" size={20} />}
+          sourceLink="https://github.com/johncanero/remote-landing-page"
+          hashtag1="remote"
+          hashtag2="landingpage"
+          hashtag3="work"
+        />
+
 
         {/* Shoe Product Card */}
         <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
@@ -461,9 +402,6 @@ const projects = () => {
             </span>
           </div>
         </div> */}
-
-
-        
       </div>
     </div>
   );
