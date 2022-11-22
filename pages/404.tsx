@@ -4,19 +4,19 @@ import Link from "next/link";
 const NotFound = () => {
   return (
     <div>
-      <div className="flex justify-center mt-10">
+      <div className="flex justify-center mt-2">
         <Image
-          src="/images/404Icon.png"
-          width={620}
-          height={620}
-          alt="Udemy Certificate"
+          src="/images/404IconPage5.png"
+          width={850}
+          height={850}
+          alt="404 Icon"
           className="rounded-2xl"
           // className="rounded-2xl transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300"
         />
       </div>
 
       <div className="text-center font-Poppins text-gray-600 font-semibold text-lg md:text-xl mt-3">
-        Oops! Page not found!😢
+        Oops! 404 Error: Page not found!😢
       </div>
 
       {/* Home and Contact Us Buttons */}
