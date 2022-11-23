@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.9.1",
     "@headlessui/react": "^1.7.4",
     "@heroicons/react": "^2.0.13",
     "@react-icons/all-files": "^4.1.0",
