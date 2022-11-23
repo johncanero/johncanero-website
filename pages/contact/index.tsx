@@ -15,7 +15,7 @@ const contact = () => {
               <Input id="name" name="name" placeholder="Your Name" label="Name" />
               <Input id="email" name="name" placeholder="email@gmail.com" label="Email" />
               <TextArea id="message" name="message" placeholder="Hi There!" label="Your message" />
-              <button className="py-2 mt-6 text-lg text-white bg-purple-500 rounded-md outline-none w-80 md:w-96 active:bg-purple-600 focus:ring-2 focus:ring-purple-400 disabled:bg-opacity-50 disabled:cursor-not-allowed" type="submit" 
+              <button className="py-2 mt-6 text-lg text-white rounded-md outline-none dark:text-neutral-900 bg-neutral-900 dark:bg-neutral-200 w-80 md:w-96 active:bg-neutral-500 dark:active:bg-neutral-500 focus:ring-2 focus:ring-neutral-800 disabled:bg-opacity-50 disabled:cursor-not-allowed" type="submit" 
               
               >Submit</button>
             </form>
