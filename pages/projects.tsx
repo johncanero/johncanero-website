@@ -141,30 +141,28 @@ const projects = () => {
           </div>
         </div> */}
 
-
         {/* Airbnb Clone */}
-        <CardItem
-          title="Airbnb Clone"
-          iconTitle={<FaAirbnb className=" mt-1 ml-1 text-red-400" />}
-          description="Join unique interactive activities led by one-of-a-kind hosts-all
-          without leaving home."
-          src="/projects/airBnbClone2.png"
-          path="https://airbnb-clone-by-johncanero.vercel.app/"
-          // Source Code:
-          source="Source Code:"
-          iconSource={
-            <FaGithub
-              className="ml-1 mt-3 text-gray-700 hover:text-gray-900"
-              size={20}
-            />
-          }
-          sourceLink="https://github.com/johncanero/airbnb-clone"
-          hashtag1="airbnb"
-          hashtag2="clone"
-          hashtag3="feature"
-        />
+          <CardItem
+            title="Airbnb Clone"
+            iconTitle={<FaAirbnb className=" mt-1 ml-1 text-red-400" />}
+            description="Join unique interactive activities led by one-of-a-kind hosts-all
+          without leaving home. An online marketplace for talks and inspiring influencers."
+            src="/projects/airBnbClone2.png"
+            path="https://airbnb-clone-by-johncanero.vercel.app/"
+            // Source Code:
+            source="Source Code:"
+            iconSource={
+              <FaGithub
+                className="ml-1 mt-3 text-gray-700 hover:text-gray-900"
+                size={20}
+              />
+            }
+            sourceLink="https://github.com/johncanero/airbnb-clone"
+            hashtag1="airbnb"
+            hashtag2="clone"
+            hashtag3="feature"
+          />
 
-      
 
         {/* Meme Generator */}
         {/* <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
