@@ -19,14 +19,14 @@ const MobileFooterButtons = () => {
         </Link>
 
         {/* About Me */}
-        <Link href="/about/about" rel="noopener noreferrer">
+        <Link href="/about" rel="noopener noreferrer">
           <button className="hover:text-gray-800 dark:hover:text-gray-50">
             <IoMdPerson size={25} />
           </button>
         </Link>
 
         {/* Tech Stack */}
-        <Link href="/techstack/techstack" rel="noopener noreferrer">
+        <Link href="/techstack" rel="noopener noreferrer">
           <button className="hover:text-gray-800 dark:hover:text-gray-50">
             <FaConnectdevelop size={25} />
           </button>
