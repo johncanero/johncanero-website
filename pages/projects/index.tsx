@@ -50,7 +50,7 @@ const projects = () => {
 
         {/* Remote Landing Page*/}
         <CardItem
-          title="John Cañero Website"
+          title="Remote Landing Page"
           iconTitle={<RiRemoteControlLine className=" mt-1 ml-1" />}
           description=" Get your team in sync, no matter your location. Streamline
           processes, create team rituals, and watch productivity soar."
