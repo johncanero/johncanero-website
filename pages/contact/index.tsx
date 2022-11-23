@@ -9,7 +9,7 @@ const contact = () => {
         Contact
       </div>
 
-      <div className="w-full h-screen bg-blue-50">
+      <div className="w-full h-screen">
         <div className="px-3 mt-6">
             <form className="flex flex-col items-center w-1/3 mx-auto">
               <Input id="name" name="name" placeholder="Your Name" label="Name" />
