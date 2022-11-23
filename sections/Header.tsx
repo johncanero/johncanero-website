@@ -11,12 +11,11 @@ import { FaHome } from "@react-icons/all-files/fa/FaHome";
 import { IoMdPerson } from "@react-icons/all-files/io/IoMdPerson";
 import { FaConnectdevelop } from "@react-icons/all-files/fa/FaConnectdevelop";
 import { AiOutlineProject } from "@react-icons/all-files/ai/AiOutlineProject";
+import { AiOutlineMail } from "@react-icons/all-files/ai/AiOutlineMail"
 
 const Header = () => {
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
-  
-  
 
   useEffect(() => {
     setMounted(true);
@@ -81,7 +80,6 @@ const Header = () => {
                   className="animate__animated animate__fadeIn"
                 />
               </Link>
-              
 
               {/* Header Links */}
               <Link
@@ -95,7 +93,7 @@ const Header = () => {
 
               <Link
                 rel="noopener noreferrer"
-                href="/about/about"
+                href="/about"
                 className="font-semibold text-gray-600 dark:text-gray-300 hover:text-gray-800 border-b-2 border-transparent hover:border-gray-600 dark:hover:border-gray-300"
               >
                 <IoMdPerson size={23} className="ml-5" />
@@ -104,7 +102,7 @@ const Header = () => {
 
               <Link
                 rel="noopener noreferrer"
-                href="/techstack/techstack"
+                href="/techstack"
                 className="font-semibold text-gray-600 dark:text-gray-300 hover:text-gray-800 border-b-2 border-transparent hover:border-gray-600 dark:hover:border-gray-300"
               >
                 <FaConnectdevelop size={23} className="ml-5" />
@@ -119,9 +117,17 @@ const Header = () => {
                 <AiOutlineProject size={23} className="ml-3" />
                 Projects
               </Link>
+
+              <Link
+                rel="noopener noreferrer"
+                href="/contact"
+                className="font-semibold text-gray-600 dark:text-gray-300 hover:text-gray-800 border-b-2 border-transparent hover:border-gray-600 dark:hover:border-gray-300"
+              >
+                <AiOutlineMail size={23} className="ml-3" />
+                Contact
+              </Link>
             </ul>
           </div>
-          
 
           <div className="flex">
             <Link

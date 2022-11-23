@@ -15,7 +15,7 @@ import { FaReact } from "@react-icons/all-files/fa/FaReact";
 import { IoIosRocket } from "@react-icons/all-files/io/IoIosRocket";
 import { BsFillPersonFill } from "@react-icons/all-files/bs/BsFillPersonFill";
 
-import CardItem from "../components/CardItem";
+import CardItem from "../../components/CardItem";
 
 const projects = () => {
   return (
