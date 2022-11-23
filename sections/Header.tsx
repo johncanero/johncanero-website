@@ -29,12 +29,12 @@ const Header = () => {
     if (currentTheme === "light") {
       return (
         <Button
-          className="bg-neutral-800 text-white"
+          className="text-white bg-neutral-800"
           onClick={() => setTheme("dark")}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5"
+            className="w-5 h-5"
             viewBox="0 0 20 20"
             fill="currentColor"
           >
@@ -50,7 +50,7 @@ const Header = () => {
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5"
+            className="w-5 h-5"
             viewBox="0 0 20 20"
             fill="currentColor"
           >
@@ -68,9 +68,9 @@ const Header = () => {
   return (
     <div>
       <div className="hidden md:block">
-        <header className="h-20 flex items-center justify-between">
+        <header className="flex items-center justify-between h-20">
           <div className="">
-            <ul className="flex gap-5 md:gap-7 text-sm">
+            <ul className="flex gap-5 text-sm md:gap-7">
               <Link rel="noopener noreferrer" href="/">
                 <Image
                   src="/images/letterJ.png"
@@ -85,7 +85,7 @@ const Header = () => {
               <Link
                 rel="noopener noreferrer"
                 href="/"
-                className="font-semibold text-gray-600 dark:text-gray-300 border-b-2 border-transparent hover:border-gray-600 dark:hover:border-gray-300"
+                className="font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300"
               >
                 <FaHome size={23} className="ml-2" />
                 Home
@@ -94,7 +94,7 @@ const Header = () => {
               <Link
                 rel="noopener noreferrer"
                 href="/about"
-                className="font-semibold text-gray-600 dark:text-gray-300 hover:text-gray-800 border-b-2 border-transparent hover:border-gray-600 dark:hover:border-gray-300"
+                className="font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:text-gray-800 hover:border-gray-600 dark:hover:border-gray-300"
               >
                 <IoMdPerson size={23} className="ml-5" />
                 About Me
@@ -103,7 +103,7 @@ const Header = () => {
               <Link
                 rel="noopener noreferrer"
                 href="/techstack"
-                className="font-semibold text-gray-600 dark:text-gray-300 hover:text-gray-800 border-b-2 border-transparent hover:border-gray-600 dark:hover:border-gray-300"
+                className="font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:text-gray-800 hover:border-gray-600 dark:hover:border-gray-300"
               >
                 <FaConnectdevelop size={23} className="ml-5" />
                 Tech Stack
@@ -112,7 +112,7 @@ const Header = () => {
               <Link
                 rel="noopener noreferrer"
                 href="/projects"
-                className="font-semibold text-gray-600 dark:text-gray-300 hover:text-gray-800 border-b-2 border-transparent hover:border-gray-600 dark:hover:border-gray-300"
+                className="font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:text-gray-800 hover:border-gray-600 dark:hover:border-gray-300"
               >
                 <AiOutlineProject size={23} className="ml-3" />
                 Projects
@@ -121,7 +121,7 @@ const Header = () => {
               <Link
                 rel="noopener noreferrer"
                 href="/contact"
-                className="font-semibold text-gray-600 dark:text-gray-300 hover:text-gray-800 border-b-2 border-transparent hover:border-gray-600 dark:hover:border-gray-300"
+                className="font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:text-gray-800 hover:border-gray-600 dark:hover:border-gray-300"
               >
                 <AiOutlineMail size={23} className="ml-3" />
                 Contact
@@ -134,7 +134,7 @@ const Header = () => {
               // target="_blank"
               rel="noopener noreferrer"
               href="https://bio.link/johncanero"
-              className="flex mt-1 mr-4 font-Poppis font-semibold text-gray-600 hover:text-gray-800 animate__animated animate__bounceInDown"
+              className="flex mt-1 mr-4 font-semibold text-gray-600 font-Poppis hover:text-gray-800 animate__animated animate__bounceInDown"
             >
               @johncanero
             </Link>

@@ -12,6 +12,7 @@ import { IoMdPerson } from "@react-icons/all-files/io/IoMdPerson";
 import { VscLinkExternal } from "@react-icons/all-files/vsc/VscLinkExternal";
 import { FaConnectdevelop } from "@react-icons/all-files/fa/FaConnectdevelop";
 import { AiOutlineProject } from "@react-icons/all-files/ai/AiOutlineProject";
+import { AiOutlineMail } from "@react-icons/all-files/ai/AiOutlineMail";
 
 const MenuDropdown = () => {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -29,12 +30,12 @@ const MenuDropdown = () => {
     if (currentTheme === "dark") {
       return (
         <Button
-          className="bg-gray-200 dark:bg-neutral-900 mr-3"
+          className="mr-3 bg-gray-200 dark:bg-neutral-900"
           onClick={() => setTheme("light")}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5"
+            className="w-5 h-5"
             viewBox="0 0 20 20"
             fill="currentColor"
           >
@@ -49,12 +50,12 @@ const MenuDropdown = () => {
     } else {
       return (
         <Button
-          className="bg-neutral-800 text-white mr-3"
+          className="mr-3 text-white bg-neutral-800"
           onClick={() => setTheme("dark")}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5"
+            className="w-5 h-5"
             viewBox="0 0 20 20"
             fill="currentColor"
           >
@@ -67,11 +68,17 @@ const MenuDropdown = () => {
 
   return (
     // Mobile Visiblity
-    <div className="flex justify-between md:hidden top-16 w-96 mt-3 text-right">
+    <div className="flex justify-between mt-3 text-right md:hidden top-16 w-96">
       {/* Image */}
       <Link rel="noopener noreferrer" href="/">
         <div>
-          <Image src="/images/letterJ.png" width={33} height={33} alt="jLogo" className="animate__animated animate__fadeIn" />
+          <Image
+            src="/images/letterJ.png"
+            width={33}
+            height={33}
+            alt="jLogo"
+            className="animate__animated animate__fadeIn"
+          />
         </div>
       </Link>
       {/* Dark Mode and Toggle */}
@@ -79,8 +86,8 @@ const MenuDropdown = () => {
         {renderThemeChanger()}
         <Menu as="div" className="relative inline-block text-left mr-7">
           <div>
-            <Menu.Button className="inline-flex w-full justify-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 px-2 py-2 text-sm font-medium text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-white">
-              <Bars3Icon className="h-5 w-5 text-white" aria-hidden="true" />
+            <Menu.Button className="inline-flex justify-center w-full px-2 py-2 text-sm font-medium text-white rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-white">
+              <Bars3Icon className="w-5 h-5 text-white" aria-hidden="true" />
             </Menu.Button>
           </div>
           <Transition
@@ -92,7 +99,7 @@ const MenuDropdown = () => {
             leaveFrom="transform opacity-100 scale-100"
             leaveTo="transform opacity-0 scale-95"
           >
-            <Menu.Items className="absolute right-0 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+            <Menu.Items className="absolute right-0 w-56 mt-2 origin-top-right bg-white divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
               {/* Home and About Section */}
               <div className="px-1 py-1 ">
                 <Menu.Item>
@@ -157,8 +164,30 @@ const MenuDropdown = () => {
                   )}
                 </Menu.Item>
               </div>
+              
+              {/* Contact */}
+              <div className="px-1 py-1 pb-2">
+                <Menu.Item>
+                  {({ active }) => (
+                    <Link
+                      // target="_blank"
+                      rel="noopener noreferrer"
+                      href="/contact"
+                    >
+                      <button
+                        className={`${
+                          active ? "bg-violet-500 text-white" : "text-gray-900"
+                        } group flex w-72 items-center rounded-md px-2 py-1 text-sm font-Poppins`}
+                      >
+                        <AiOutlineMail size={17} />{" "}
+                        <span className="ml-2">Contact</span>
+                      </button>
+                    </Link>
+                  )}
+                </Menu.Item>
+              </div>
 
-              {/* Create a New Section */}
+              {/* Bio Link */}
               <div className="px-1 py-1 pb-2">
                 <Menu.Item>
                   {({ active }) => (
