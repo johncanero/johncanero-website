@@ -1,9 +1,7 @@
 import React from "react";
+import { useState } from "react";
 import Input from "../../components/Input";
 import TextArea from "../../components/TextArea";
-
-// Send Grid
-import { useState } from "react";
 import { validate } from "../../utils/validate";
 import Image from "next/image";
 
