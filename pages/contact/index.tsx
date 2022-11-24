@@ -107,7 +107,7 @@ const contact = () => {
             />
          
 
-            <button className="py-2 mt-6 text-lg text-white rounded-md outline-none dark:text-neutral-900 bg-neutral-900 dark:bg-neutral-200 w-80 md:w-full active:bg-neutral-500 dark:active:bg-neutral-500 focus:ring-2 focus:ring-neutral-800 disabled:bg-opacity-50 disabled:cursor-not-allowed"
+            <button className="py-2 mt-6 text-lg text-white rounded-md outline-none dark:text-neutral-900 bg-neutral-900 dark:bg-neutral-200 w-80 md:w-96 active:bg-neutral-500 dark:active:bg-neutral-500 focus:ring-2 focus:ring-neutral-800 disabled:bg-opacity-50 disabled:cursor-not-allowed"
               type="submit"
               disabled={loading}
             >
