@@ -7,7 +7,6 @@ const contact = () => {
       {/* <div className="mt-4 text-2xl font-semibold text-center text-gray-600 font-Poppins">
         Contact
       </div> */}
-
       <div className="container flex justify-center mx-auto mt-8 md:px-6">
         <section className="mb-32 text-gray-800">
           {/* Background Image */}
@@ -22,19 +21,20 @@ const contact = () => {
           </div>
 
           {/* Get in Touch and Forms */}
-          <div className="relative flex justify-center bg-white md:px-6 items-top dark:bg-gray-900 sm:items-center">
+          <div className="relative flex justify-center bg-white md:px-6 items-top dark:bg-gray-900 sm:items-center font-Poppins">
             <div className="mx-auto md:max-w-5xl sm:px-3 lg:px-6">
               <div className="mt-3 md:mt-8 md:overflow-hidden">
                 <div className="grid grid-cols-1 md:grid-cols-2">
-                  <div className="p-3 mb-8 mr-2 md:p-6 md:dark:bg-gray-800 sm:rounded-lg">
+                  <div className="p-3 mb-8 mr-2 md:px-12 md:py-0 sm:rounded-lg">
                     <h1 className="text-4xl font-extrabold tracking-tight text-center text-gray-800 md:text-left dark:text-white">
                       Get in touch
                     </h1>
-                    <p className="mt-2 text-lg font-medium text-center text-gray-600 md:text-left text-normal sm:text-2xl dark:text-gray-400">
+                    <p className="mt-2 text-lg font-medium text-center text-gray-600 md:text-left text-normal dark:text-gray-400">
                       Fill in the form to start a conversation
                     </p>
 
-                    <div className="flex items-center mt-8 text-gray-600 dark:text-gray-400">
+                    {/* Location */}
+                    <div className="flex items-center mt-5 text-gray-600 dark:text-gray-400">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -57,7 +57,7 @@ const contact = () => {
                           d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                         />
                       </svg>
-                      <div className="w-40 ml-4 font-semibold tracking-wide text-md">
+                      <div className="ml-4 font-semibold tracking-wide w-72 text-md">
                         Manila, NCR, Philippines
                       </div>
                     </div>
@@ -80,7 +80,7 @@ const contact = () => {
                         />
                       </svg>
                       <div className="w-40 ml-4 font-semibold tracking-wide text-md">
-                        +44 1234567890
+                        +63 9876543210
                       </div>
                     </div>
 
@@ -107,9 +107,10 @@ const contact = () => {
                     </div>
                   </div>
 
-                  {/* Form */}
-                  <form className="flex flex-col md:p-6">
+                  {/* Form and Input */}
+                  <form className="flex flex-col font-Poppins">
                     {/* Name */}
+                    <h1 className="font-bold dark:text-white">Your Name</h1>
                     <div className="flex flex-col">
                       <label htmlFor="name" className="hidden">
                         Full Name
@@ -118,13 +119,16 @@ const contact = () => {
                         type="name"
                         name="name"
                         id="name"
-                        placeholder="Full Name"
-                        className="px-3 py-3 mx-auto mt-2 font-semibold text-gray-800 bg-white border border-gray-400 rounded-lg dark:text-white md:mx-0 lg:w-100 md:w-56 w-72 dark:bg-gray-800 dark:border-gray-700 focus:border-indigo-500 focus:outline-none"
+                        placeholder="Enter your name"
+                        className="px-3 py-3 mx-auto mt-2 font-semibold text-gray-800 bg-white border border-gray-400 rounded-lg dark:text-white md:mx-0 lg:w-full md:w-56 w-72 dark:bg-gray-800 dark:border-gray-700 focus:border-gray-800 focus:outline-none"
                       />
                     </div>
 
                     {/* Email */}
                     <div className="flex flex-col mt-2">
+                      <h1 className="font-bold dark:text-white">
+                        Email Address
+                      </h1>
                       <label htmlFor="email" className="hidden">
                         Email
                       </label>
@@ -132,30 +136,73 @@ const contact = () => {
                         type="email"
                         name="email"
                         id="email"
-                        placeholder="Email"
-                        className="px-3 py-3 mx-auto mt-2 font-semibold text-gray-800 bg-white border border-gray-400 rounded-lg dark:text-white md:mx-0 lg:w-100 md:w-56 w-72 dark:bg-gray-800 dark:border-gray-700 focus:border-indigo-500 focus:outline-none"
+                        placeholder="Enter your email address"
+                        className="px-3 py-3 mx-auto mt-2 font-semibold text-gray-800 bg-white border border-gray-400 rounded-lg dark:text-white md:mx-0 lg:w-full md:w-56 w-72 dark:bg-gray-800 dark:border-gray-700 focus:border-gray-800 focus:outline-none"
                       />
                     </div>
 
                     {/* Number */}
-                    <div className="flex flex-col mt-2">
+                    {/* <div className="flex flex-col mt-2">
+                      <h1 className="font-bold dark:text-white">
+                        Message
+                      </h1>
                       <label htmlFor="tel" className="hidden">
-                        Number
+                        Your Message
                       </label>
                       <input
                         type="tel"
                         name="tel"
                         id="tel"
-                        placeholder="Telephone Number"
-                        className="px-3 py-3 mx-auto mt-2 font-semibold text-gray-800 bg-white border border-gray-400 rounded-lg dark:text-white lg:w-100 md:mx-0 md:w-56 w-72 dark:bg-gray-800 dark:border-gray-700 focus:border-indigo-500 focus:outline-none"
+                        placeholder="Enter your telephone number"
+                        className="px-3 py-3 mx-auto mt-2 font-semibold text-gray-800 bg-white border border-gray-400 rounded-lg dark:text-white lg:w-100 md:mx-0 md:w-56 w-72 dark:bg-gray-800 dark:border-gray-700 focus:border-gray-800 focus:outline-none"
                       />
-                    </div>
+                    </div> */}
 
+                    <div className="mb-6 form-group">
+                      <h1 className="mt-2 font-bold dark:text-white">
+                        Your Message
+                      </h1>
+                      <textarea
+                        className="
+              form-control
+              block
+              lg:w-full md:w-56 w-72
+              h-52
+              px-3
+              py-1.5
+              text-base
+              font-normal
+              text-gray-700
+              bg-white dark:bg-gray-800 bg-clip-padding
+              rounded
+              transition
+              ease-in-out
+              mt-2
+              dark:border-gray-700 focus:border-gray-800 focus:outline-none
+            "
+                        id="exampleFormControlTextarea13"
+                        placeholder="Message"
+                      ></textarea>
+                    </div>
+                    <div className="mb-6 text-center form-group form-check">
+                      <input
+                        type="checkbox"
+                        className="w-4 h-4 mt-1 mr-2 align-top transition duration-200 bg-white bg-center bg-no-repeat bg-contain border border-gray-300 rounded-sm appearance-none cursor-pointer form-check-input checked:bg-blue-600 checked:border-blue-600 focus:outline-none"
+                        id="exampleCheck87"
+                        checked
+                      />
+                      <label
+                        className="inline-block text-gray-800 dark:text-gray-400 form-check-label"
+                        htmlFor="exampleCheck87"
+                      >
+                        Send me a copy of this message
+                      </label>
+                    </div>
                     {/* Button */}
 
                     <button
                       type="submit"
-                      className="px-6 py-3 mt-4 mb-8 font-bold text-white transition duration-300 ease-in-out bg-indigo-600 rounded-lg md:mt-4 md:w-32 hover:bg-blue-dark hover:bg-indigo-500"
+                      className="px-6 py-3 mb-6 font-bold text-white transition duration-300 ease-in-out bg-indigo-600 rounded-lg mb- md:mt-4 md:w-32 hover:bg-blue-dark hover:bg-indigo-500"
                     >
                       Submit
                     </button>
