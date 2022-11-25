@@ -20,7 +20,7 @@ const contact = () => {
               width={1150}
               height={800}
               alt="contactBackground"
-              className="md:h-80"
+              className="md:h-80 animate__animated animate__fadeIn"
             />
           </div>
 
@@ -116,7 +116,7 @@ const contact = () => {
                         Your Message
                       </h1>
                       <textarea
-                        className="block mt-2 text-gray-700 transition ease-in-out bg-white rounded form-control lg:w-11/12 md:w-56 w-72 h-52 dark:text-white dark:bg-gray-800 bg-clip-padding font-Poppins dark:bg-neutral-800 dark:border-neutral-700 focus:outline-none"
+                        className="block mt-2 text-gray-700 transition ease-in-out bg-white rounded form-control lg:w-11/12 md:w-56 w-72 h-52 dark:text-white bg-clip-padding font-Poppins dark:bg-neutral-800 dark:border-neutral-700 focus:outline-none"
                         id="exampleFormControlTextarea13"
                         placeholder="Message"
                       ></textarea>

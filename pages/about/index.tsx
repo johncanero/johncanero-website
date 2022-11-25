@@ -22,7 +22,7 @@ const about = () => {
               width={250}
               height={250}
               alt="John Cañero Logo"
-              className=""
+              className="transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-100"
             />
           </div>
 
