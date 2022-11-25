@@ -119,7 +119,7 @@ const contact = () => {
                         name="name"
                         id="name"
                         placeholder="Full Name"
-                        className="px-3 py-3 mx-auto mt-2 font-semibold text-gray-800 bg-white border border-gray-400 rounded-lg md:mx-0 lg:w-100 md:w-56 w-72 dark:bg-gray-800 dark:border-gray-700 focus:border-indigo-500 focus:outline-none"
+                        className="px-3 py-3 mx-auto mt-2 font-semibold text-gray-800 bg-white border border-gray-400 rounded-lg dark:text-white md:mx-0 lg:w-100 md:w-56 w-72 dark:bg-gray-800 dark:border-gray-700 focus:border-indigo-500 focus:outline-none"
                       />
                     </div>
 
@@ -133,7 +133,7 @@ const contact = () => {
                         name="email"
                         id="email"
                         placeholder="Email"
-                        className="px-3 py-3 mx-auto mt-2 font-semibold text-gray-800 bg-white border border-gray-400 rounded-lg md:mx-0 lg:w-100 md:w-56 w-72 dark:bg-gray-800 dark:border-gray-700 focus:border-indigo-500 focus:outline-none"
+                        className="px-3 py-3 mx-auto mt-2 font-semibold text-gray-800 bg-white border border-gray-400 rounded-lg dark:text-white md:mx-0 lg:w-100 md:w-56 w-72 dark:bg-gray-800 dark:border-gray-700 focus:border-indigo-500 focus:outline-none"
                       />
                     </div>
 
@@ -147,7 +147,7 @@ const contact = () => {
                         name="tel"
                         id="tel"
                         placeholder="Telephone Number"
-                        className="px-3 py-3 mx-auto mt-2 font-semibold text-gray-800 bg-white border border-gray-400 rounded-lg lg:w-100 md:mx-0 md:w-56 w-72 dark:bg-gray-800 dark:border-gray-700 focus:border-indigo-500 focus:outline-none"
+                        className="px-3 py-3 mx-auto mt-2 font-semibold text-gray-800 bg-white border border-gray-400 rounded-lg dark:text-white lg:w-100 md:mx-0 md:w-56 w-72 dark:bg-gray-800 dark:border-gray-700 focus:border-indigo-500 focus:outline-none"
                       />
                     </div>
 
@@ -155,7 +155,7 @@ const contact = () => {
 
                     <button
                       type="submit"
-                      className="px-6 py-3 mt-4 font-bold text-white transition duration-300 ease-in-out bg-indigo-600 rounded-lg md:w-32 hover:bg-blue-dark hover:bg-indigo-500"
+                      className="px-6 py-3 mt-4 mb-8 font-bold text-white transition duration-300 ease-in-out bg-indigo-600 rounded-lg md:mt-4 md:w-32 hover:bg-blue-dark hover:bg-indigo-500"
                     >
                       Submit
                     </button>
