@@ -121,7 +121,7 @@ const contact = () => {
                         placeholder="Message"
                       ></textarea>
                     </div>
-                    <div className="flex mb-6 text-center form-group form-check">
+                    {/* <div className="flex mb-6 text-center form-group form-check">
                       <input
                         type="checkbox"
                         className="w-4 h-4 mt-1 mr-2 align-top transition duration-200 bg-white bg-center bg-no-repeat bg-contain border border-gray-300 rounded-sm appearance-none cursor-pointer form-check-input checked:bg-blue-600 checked:border-blue-600 focus:outline-none"
@@ -134,21 +134,22 @@ const contact = () => {
                       >
                         Send me a copy of this message
                       </label>
-                    </div>
+                    </div> */}
 
                     {/* Button */}
-                    <Link
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+                    <button
+                      type="submit"
+                      className="px-6 py-3 mb-6 font-bold text-center text-white transition duration-300 ease-in-out bg-gray-900 rounded-lg dark:text-gray-800 hover:dark:text-white dark:bg-gray-100 md:w-32 hover:bg-blue-dark hover:bg-gray-700 dark:hover:bg-gray-800"
                     >
-                      <button
-                        type="submit"
-                        className="px-6 py-3 mb-6 font-bold text-white transition duration-300 ease-in-out bg-gray-900 rounded-lg dark:text-gray-800 hover:dark:text-white dark:bg-gray-100 md:w-32 hover:bg-blue-dark hover:bg-gray-700 dark:hover:bg-gray-800"
+                      <Link
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+                
                       >
                         Submit
-                      </button>
-                    </Link>
+                      </Link>
+                    </button>
                   </form>
                 </div>
               </div>
