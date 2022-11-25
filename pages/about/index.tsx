@@ -10,7 +10,7 @@ const about = () => {
     <div className="mb-20 md:flex">
       {/* First Column */}
       <div>
-        <div className="mx-4  font-Poppins md:mx-8 lg:mr-28">
+        <div className="mx-4 font-Poppins md:mx-8 lg:mr-28">
           <div className="mt-4 text-2xl font-semibold text-center text-gray-600 font-Poppins">
             About Me
           </div>
@@ -22,7 +22,7 @@ const about = () => {
               width={250}
               height={250}
               alt="John Cañero Logo"
-              className="animate__animated animate__fadeIn"
+              className=""
             />
           </div>
 
@@ -37,7 +37,7 @@ const about = () => {
           </p>
 
           {/* Baby Jam */}
-          <div className="mx-auto mt-6 mb-6 md:w-8/12">
+          <div className="mx-auto mt-6 mb-6 md:w-10/12">
             <Image
               src="/images/jam1.jpg"
               width={580}
@@ -45,7 +45,7 @@ const about = () => {
               alt="Baby Jam"
               className="transition duration-300 ease-in-out rounded-2xl hover:-translate-y-1 hover:scale-100"
             />
-            <p className="mt-1 text-xs font-medium text-left  text-neutral-400">
+            <p className="mt-1 text-xs font-medium text-left text-neutral-400">
               PHOTO from the archives of the Cañero Family: Young Jam
             </p>
           </div>
@@ -63,7 +63,7 @@ const about = () => {
           </p>
 
           {/* Archi Student Jam */}
-          <div className="mt-6 mb-6 md:w-8/12 md:mx-auto">
+          <div className="mt-6 mb-6 md:w-10/12 md:mx-auto">
             <Image
               src="/images/jam2.jpg"
               width={600}
@@ -71,7 +71,7 @@ const about = () => {
               alt="Archi Student Jam"
               className="transition duration-300 ease-in-out rounded-2xl hover:-translate-y-1 hover:scale-100"
             />
-            <p className="mt-1 text-xs font-medium text-left  text-neutral-400">
+            <p className="mt-1 text-xs font-medium text-left text-neutral-400">
               PHOTO from the archives of John Cañero - University Pictures:
               Architecture Design Project: Fine Dining Restaurant
             </p>
@@ -113,7 +113,7 @@ const about = () => {
           
         
           {/* Jam Tech */}
-          <div className="mx-auto mt-8 mb-6 md:w-8/12">
+          <div className="mx-auto mt-8 mb-6 md:w-10/12">
             <Image
               src="/images/jamTech.jpg"
               width={580}
@@ -121,7 +121,7 @@ const about = () => {
               alt="Jam Tech"
               className="transition duration-300 ease-in-out rounded-2xl hover:-translate-y-1 hover:scale-100"
             />
-            <p className="mt-1 text-xs font-medium text-left  text-neutral-400">
+            <p className="mt-1 text-xs font-medium text-left text-neutral-400">
               PHOTO from the gallery of John Cañero's phone: Selfie - Jam Tech
             </p>
           </div>
