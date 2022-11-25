@@ -10,13 +10,13 @@ const techstack = () => {
         {/* <div className="flex justify-center text-gray-600 dark:text-gray-300">
           <FaConnectdevelop size={60} />
         </div> */}
-        <div className="text-center text-gray-600 font-Poppins font-semibold text-xl mx-9 md:text-2xl md:mx-0 mt-4">
+        <div className="mt-4 text-xl font-semibold text-center text-gray-600 font-Poppins mx-9 md:text-2xl md:mx-0">
           My Tech Stack
         </div>
 
         {/* Tech Stack */}
         <div className="flex flex-wrap justify-center font-Poppins lg:mx-48">
-          <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36 mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
+          <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeIn">
             {/* Javasript */}
             <div className="w-12">
               <Image
@@ -30,7 +30,7 @@ const techstack = () => {
           </div>
 
           {/* Typescript */}
-          <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
+          <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeIn">
             <div className="w-12">
               <Image
                 src="/techstack/typescript.png"
@@ -43,7 +43,7 @@ const techstack = () => {
           </div>
 
           {/* HTML 5 */}
-          <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36 mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
+          <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeIn">
             <div className="w-12">
               <Image
                 src="/techstack/html5.png"
@@ -56,7 +56,7 @@ const techstack = () => {
           </div>
 
           {/* CSS */}
-          <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl mr-3 w-36  mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
+          <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeIn">
             <div className="w-12">
               <Image
                 src="/techstack/css.png"
@@ -69,7 +69,7 @@ const techstack = () => {
           </div>
 
           {/* Tailwind CSS */}
-          <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
+          <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeIn">
             <div className="w-12">
               <Image
                 src="/techstack/tailwind.png"
@@ -82,7 +82,7 @@ const techstack = () => {
           </div>
 
           {/* Bootstrap */}
-          <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeInanimate__animated animate__fadeIn">
+          <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeInanimate__animated animate__fadeIn">
             <div className="w-12">
               <Image
                 src="/techstack/bootstrap5.png"
@@ -95,7 +95,7 @@ const techstack = () => {
           </div>
 
           {/* React Js */}
-          <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeInanimate__animated animate__fadeIn">
+          <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeInanimate__animated animate__fadeIn">
             <div className="w-12">
               <Image
                 src="/techstack/reactjs.png"
@@ -108,7 +108,7 @@ const techstack = () => {
           </div>
 
           {/* Next Js */}
-          <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
+          <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeIn">
             <div className="w-12">
               <Image
                 src="/techstack/nextjs.png"
@@ -121,7 +121,7 @@ const techstack = () => {
           </div>
 
           {/* Vercel */}
-          <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
+          <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeIn">
             <div className="w-12">
               <Image
                 src="/techstack/vercel.png"
@@ -134,7 +134,7 @@ const techstack = () => {
           </div>
 
           {/* Netlify */}
-          <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeInanimate__animated animate__fadeIn">
+          <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeInanimate__animated animate__fadeIn">
             <div className="w-12">
               <Image
                 src="/techstack/netlify.png"
@@ -147,7 +147,7 @@ const techstack = () => {
           </div>
 
           {/* Heroku */}
-          <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
+          <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeIn">
             <div className="w-12">
               <Image
                 src="/techstack/heroku.png"
@@ -160,7 +160,7 @@ const techstack = () => {
           </div>
 
           {/* GitHub */}
-          <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
+          <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeIn">
             <div className="w-12">
               <Image
                 src="/techstack/github.png"
@@ -173,7 +173,7 @@ const techstack = () => {
           </div>
 
           {/* Git */}
-          <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
+          <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeIn">
             <div className="w-12">
               <Image
                 src="/techstack/git.png"
@@ -186,7 +186,7 @@ const techstack = () => {
           </div>
 
           {/* Node Js */}
-          <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
+          <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeIn">
             <div className="w-12">
               <Image
                 src="/techstack/nodejs.png"
@@ -199,7 +199,7 @@ const techstack = () => {
           </div>
 
           {/* npm */}
-          <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
+          <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeIn">
             <div className="w-12">
               <Image
                 src="/techstack/npm.png"
@@ -212,7 +212,7 @@ const techstack = () => {
           </div>
 
           {/* mongodb */}
-          <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
+          <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeIn">
             <div className="w-12">
               <Image
                 src="/techstack/mongodb.png"
@@ -225,7 +225,7 @@ const techstack = () => {
           </div>
 
           {/* Visual Studio Code */}
-          <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-56  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
+          <div className="flex justify-center w-56 mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeIn">
             <div className="w-12">
               <Image
                 src="/techstack/vs.png"
@@ -239,7 +239,7 @@ const techstack = () => {
 
           {/* Tech Stack Description */}
           <div className="font-Poppins md:mt-1">
-            <p className="text-center mt-6 mx-auto md:mt-6 md:w-8/12">
+            <p className="mx-auto mt-6 text-center md:mt-6 md:w-8/12">
               These are the{" "}
               <span className="font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
                 Tech Stack Tools
@@ -253,16 +253,16 @@ const techstack = () => {
 
       <div className="mt-12">
         {/* Design Stack */}
-        {/* <div className="flex justify-center text-gray-600 dark:text-gray-300 mt-12">
+        {/* <div className="flex justify-center mt-12 text-gray-600 dark:text-gray-300">
           <BsPencilSquare size={50} />
         </div> */}
-        <div className="text-center text-gray-600 font-Poppins font-semibold text-xl mx-9 md:text-2xl md:mx-0">
+        <div className="text-xl font-semibold text-center text-gray-600 font-Poppins mx-9 md:text-2xl md:mx-0">
           My Tech - Design & Architecture Stack
         </div>
 
-        <div className="flex flex-wrap justify-center font-Poppins mb-8 lg:mx-48">
+        <div className="flex flex-wrap justify-center mb-8 font-Poppins lg:mx-48">
           {/* Figma */}
-          <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
+          <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeIn">
             <div className="w-12">
               <Image
                 src="/techstack/figma.png"
@@ -275,7 +275,7 @@ const techstack = () => {
           </div>
 
           {/* Canva */}
-          <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
+          <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeIn">
             <div className="w-12">
               <Image
                 src="/techstack/canva.png"
@@ -288,7 +288,7 @@ const techstack = () => {
           </div>
 
           {/* Adobe Photoshop */}
-          <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
+          <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeIn">
             <div className="w-12">
               <Image
                 src="/techstack/ps.png"
@@ -301,7 +301,7 @@ const techstack = () => {
           </div>
 
           {/* Adobe Illustrator */}
-          <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
+          <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeIn">
             <div className="w-12">
               <Image
                 src="/techstack/ai.png"
@@ -314,7 +314,7 @@ const techstack = () => {
           </div>
 
           {/* Adobe Premiere */}
-          <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
+          <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeIn">
             <div className="w-12">
               <Image
                 src="/techstack/pr.png"
@@ -327,7 +327,7 @@ const techstack = () => {
           </div>
 
           {/* AutoCAD */}
-          <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
+          <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeIn">
             <div className="w-12">
               <Image
                 src="/techstack/autocad.png"
@@ -340,7 +340,7 @@ const techstack = () => {
           </div>
 
           {/* Revit */}
-          <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
+          <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeIn">
             <div className="w-12">
               <Image
                 src="/techstack/revit.png"
@@ -353,7 +353,7 @@ const techstack = () => {
           </div>
 
           {/* SketchUp */}
-          <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
+          <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeIn">
             <div className="w-12">
               <Image
                 src="/techstack/sketchup.png"
@@ -366,7 +366,7 @@ const techstack = () => {
           </div>
 
           {/* Lumion */}
-          <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
+          <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeIn">
             <div className="w-12">
               <Image
                 src="/techstack/lumion.png"
@@ -379,7 +379,7 @@ const techstack = () => {
           </div>
 
           {/* Enscape */}
-          <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
+          <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeIn">
             <div className="w-12">
               <Image
                 src="/techstack/enscape.png"
@@ -392,7 +392,7 @@ const techstack = () => {
           </div>
 
           {/* V-Ray */}
-          <div className="flex justify-center bg-gray-200 dark:bg-gray-900 rounded-2xl w-36  mr-3 mt-4 transition ease-in-out  hover:-translate-y-1 hover:scale-105 duration-300 animate__animated animate__fadeIn">
+          <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeIn">
             <div className="w-12">
               <Image
                 src="/techstack/vray.png"
@@ -406,9 +406,9 @@ const techstack = () => {
 
           {/* Tech Stack Descroption */}
           <div className="font-Poppins md:mt-1">
-            <p className="text-center mt-6 mx-auto w-80 md:w-8/12">
+            <p className="mx-auto mt-6 text-center w-80 md:w-8/12">
               These are the the{" "}
-              <span className=" font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
+              <span className="font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
                 Tech Stack Design Tools
               </span>{" "}
               I used in designing architectural models, modelling, and rendering
