@@ -101,7 +101,7 @@ const contact = () => {
                           d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                         />
                       </svg>
-                      <div className="w-40 ml-4 text-sm font-semibold tracking-wide break-normal md:text-base">
+                      <div className="w-40 ml-4 text-xs font-semibold tracking-wide break-normal md:text-base">
                         johncanero.official@gmail.com
                       </div>
                     </div>
