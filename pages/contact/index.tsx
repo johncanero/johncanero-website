@@ -33,7 +33,7 @@ const contact = () => {
                     <h1 className="text-4xl font-extrabold tracking-tight text-center text-gray-800 md:text-left dark:text-white">
                       Get in touch
                     </h1>
-                    <p className="mt-3 text-base font-medium text-gray-600 md:text-lg md:text-left text-normal dark:text-gray-400">
+                    <p className="mt-4 text-base font-medium text-gray-600 md:mt-3 md:text-lg md:text-left text-normal dark:text-gray-400">
                       Fill in the form to start a conversation
                     </p>
 
