@@ -1,5 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import { GoLocation } from "@react-icons/all-files/go/GoLocation";
+import { IoMdCall } from "@react-icons/all-files/io/IoMdCall";
+import { BsEnvelope } from "@react-icons/all-files/bs/BsEnvelope";
 
 const contact = () => {
   return (
@@ -10,7 +13,7 @@ const contact = () => {
       <div className="container flex justify-center mx-auto mt-8 md:px-6">
         <section className="mb-32 text-gray-800">
           {/* Background Image */}
-          <div className="relative overflow-hidden bg-no-repeat bg-cover">
+          <div className="relative overflow-hidden bg-no-repeat bg-cover rounded-t-2xl">
             <Image
               src="/images/contactBackground.jpg"
               width={1150}
@@ -21,7 +24,7 @@ const contact = () => {
           </div>
 
           {/* Get in Touch and Forms */}
-          <div className="relative flex justify-center bg-white md:px-6 items-top dark:bg-gray-900 sm:items-center font-Poppins">
+          <div className="relative flex justify-center bg-white md:px-6 items-top rounded-b-3xl dark:bg-gray-900 sm:items-center font-Poppins">
             <div className="mx-auto md:max-w-5xl sm:px-3 lg:px-6">
               <div className="mt-3 md:mt-8 md:overflow-hidden">
                 <div className="grid grid-cols-1 md:grid-cols-2">
@@ -29,78 +32,27 @@ const contact = () => {
                     <h1 className="text-4xl font-extrabold tracking-tight text-center text-gray-800 md:text-left dark:text-white">
                       Get in touch
                     </h1>
-                    <p className="mt-2 text-lg font-medium text-center text-gray-600 md:text-left text-normal dark:text-gray-400">
+                    <p className="mt-3 text-base font-medium text-gray-600 md:text-lg md:text-left text-normal dark:text-gray-400">
                       Fill in the form to start a conversation
                     </p>
 
                     {/* Location */}
                     <div className="flex items-center mt-5 text-gray-600 dark:text-gray-400">
-                      <svg
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="1.5"
-                        viewBox="0 0 24 24"
-                        className="w-8 h-8 text-gray-500"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="1.5"
-                          d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                        />
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="1.5"
-                          d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                        />
-                      </svg>
+                      <GoLocation size={20} />
                       <div className="ml-4 font-semibold tracking-wide w-72 text-md">
-                        Manila, NCR, Philippines
+                        Quezon City, Philippines
                       </div>
                     </div>
 
                     <div className="flex items-center mt-4 text-gray-600 dark:text-gray-400">
-                      <svg
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="1.5"
-                        viewBox="0 0 24 24"
-                        className="w-8 h-8 text-gray-500"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="1.5"
-                          d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                        />
-                      </svg>
+                      <IoMdCall size={20} />
                       <div className="w-40 ml-4 font-semibold tracking-wide text-md">
                         +63 9876543210
                       </div>
                     </div>
 
                     <div className="flex items-center mt-2 text-gray-600 dark:text-gray-400">
-                      <svg
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="1.5"
-                        viewBox="0 0 24 24"
-                        className="w-8 h-8 text-gray-500"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="1.5"
-                          d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                        />
-                      </svg>
+                     <BsEnvelope size={20} />
                       <div className="w-40 ml-4 text-xs font-semibold tracking-wide break-normal md:text-base">
                         johncanero.official@gmail.com
                       </div>
@@ -120,14 +72,14 @@ const contact = () => {
                         name="name"
                         id="name"
                         placeholder="Enter your name"
-                        className="px-3 py-3 mx-auto mt-2 font-semibold text-gray-800 bg-white border border-gray-400 rounded-lg dark:text-white md:mx-0 lg:w-full md:w-56 w-72 dark:bg-gray-800 dark:border-gray-700 focus:border-gray-800 focus:outline-none"
+                        className="px-3 py-3 mx-auto mt-2 text-gray-800 bg-white border border-gray-400 rounded-lg dark:text-white md:mx-0 lg:w-11/12 md:w-56 w-72 dark:bg-gray-800 dark:border-gray-700 focus:border-gray-800 focus:outline-none"
                       />
                     </div>
 
                     {/* Email */}
                     <div className="flex flex-col mt-2">
                       <h1 className="font-bold dark:text-white">
-                        Email Address
+                        Email Address 
                       </h1>
                       <label htmlFor="email" className="hidden">
                         Email
@@ -137,7 +89,7 @@ const contact = () => {
                         name="email"
                         id="email"
                         placeholder="Enter your email address"
-                        className="px-3 py-3 mx-auto mt-2 font-semibold text-gray-800 bg-white border border-gray-400 rounded-lg dark:text-white md:mx-0 lg:w-full md:w-56 w-72 dark:bg-gray-800 dark:border-gray-700 focus:border-gray-800 focus:outline-none"
+                        className="px-3 py-3 mx-auto mt-2 text-gray-800 bg-white border border-gray-400 rounded-lg dark:text-white md:mx-0 lg:w-11/12 md:w-56 w-72 dark:bg-gray-800 dark:border-gray-700 focus:border-gray-800 focus:outline-none"
                       />
                     </div>
 
@@ -166,7 +118,7 @@ const contact = () => {
                         className="
               form-control
               block
-              lg:w-full md:w-56 w-72
+              lg:w-11/12 md:w-56 w-72
               h-52
               px-3
               py-1.5
@@ -176,7 +128,7 @@ const contact = () => {
               bg-white dark:bg-gray-800 bg-clip-padding
               rounded
               transition
-              ease-in-out
+              ease-in-out font-Poppins
               mt-2
               dark:border-gray-700 focus:border-gray-800 focus:outline-none
             "
@@ -202,7 +154,7 @@ const contact = () => {
 
                     <button
                       type="submit"
-                      className="px-6 py-3 mb-6 font-bold text-white transition duration-300 ease-in-out bg-indigo-600 rounded-lg mb- md:mt-4 md:w-32 hover:bg-blue-dark hover:bg-indigo-500"
+                      className="px-6 py-3 mb-6 font-bold text-white transition duration-300 ease-in-out bg-gray-900 rounded-lg mb- md:mt-4 md:w-32 hover:bg-blue-dark hover:bg-gray-700"
                     >
                       Submit
                     </button>
