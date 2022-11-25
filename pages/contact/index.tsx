@@ -116,23 +116,7 @@ const contact = () => {
                         Your Message
                       </h1>
                       <textarea
-                        className="
-              form-control
-              block
-              lg:w-11/12 md:w-56 w-72
-              h-52
-              px-3
-              py-1.5
-              text-base
-              font-normal
-              text-gray-700 dark:text-white
-              bg-white dark:bg-gray-800 bg-clip-padding
-              rounded
-              transition
-              ease-in-out font-Poppins
-              mt-2
-              dark:border-gray-700 focus:border-gray-800 focus:outline-none
-            "
+                        className="block mt-2 text-gray-700 transition ease-in-out bg-white rounded form-control lg:w-11/12 md:w-56 w-72 h-52 dark:text-white dark:bg-gray-800 bg-clip-padding font-Poppins dark:border-gray-700 focus:border-gray-800 focus:outline-none"
                         id="exampleFormControlTextarea13"
                         placeholder="Message"
                       ></textarea>
@@ -151,8 +135,8 @@ const contact = () => {
                         Send me a copy of this message
                       </label>
                     </div>
-                    {/* Button */}
 
+                    {/* Button */}
                     <Link
                       target="_blank"
                       rel="noopener noreferrer"
@@ -160,7 +144,7 @@ const contact = () => {
                     >
                       <button
                         type="submit"
-                        className="px-6 py-3 mb-6 font-bold text-white transition duration-300 ease-in-out bg-gray-900 rounded-lg dark:text-gray-800 hover:dark:text-white dark:bg-gray-100 md:w-32 hover:bg-blue-dark hover:bg-gray-700 dark:hover:bg-gray-800" 
+                        className="px-6 py-3 mb-6 font-bold text-white transition duration-300 ease-in-out bg-gray-900 rounded-lg dark:text-gray-800 hover:dark:text-white dark:bg-gray-100 md:w-32 hover:bg-blue-dark hover:bg-gray-700 dark:hover:bg-gray-800"
                       >
                         Submit
                       </button>
