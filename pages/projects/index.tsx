@@ -20,11 +20,11 @@ import CardItem from "../../components/CardItem";
 const projects = () => {
   return (
     <div>
-      <div className="text-center text-gray-600 font-Poppins font-semibold mt-4 text-2xl">
+      <div className="mt-4 text-2xl font-semibold text-center text-gray-600 dark:text-gray-400 font-Poppins">
         Projects
       </div>
 
-      <div className="md:flex md:flex-wrap md:gap-12 justify-center mt-8 mb-20">
+      <div className="justify-center mt-8 mb-20 md:flex md:flex-wrap md:gap-12">
         {/* John Cañero Website */}
         <CardItem
           title="John Cañero Website"
@@ -38,7 +38,7 @@ const projects = () => {
           source="Source Code:"
           iconSource={
             <FaGithub
-              className="ml-1 mt-3 text-gray-700 hover:text-gray-900"
+              className="mt-3 ml-1 text-gray-700 hover:text-gray-900"
               size={20}
             />
           }
@@ -51,7 +51,7 @@ const projects = () => {
         {/* Remote Landing Page*/}
         <CardItem
           title="Remote Landing Page"
-          iconTitle={<RiRemoteControlLine className=" mt-1 ml-1" />}
+          iconTitle={<RiRemoteControlLine className="mt-1 ml-1 " />}
           description=" Get your team in sync, no matter your location. Streamline
           processes, create team rituals, and watch productivity soar."
           src="/projects/remoteLandingPage.png"
@@ -60,7 +60,7 @@ const projects = () => {
           source="Source Code:"
           iconSource={
             <FaGithub
-              className="ml-1 mt-3 text-gray-700 hover:text-gray-900"
+              className="mt-3 ml-1 text-gray-700 hover:text-gray-900"
               size={20}
             />
           }
@@ -73,7 +73,7 @@ const projects = () => {
         {/* Shoe Product Card */}
         <CardItem
           title="Shoe Product Card "
-          iconTitle={<GiRunningShoe className=" mt-1 ml-1" />}
+          iconTitle={<GiRunningShoe className="mt-1 ml-1 " />}
           description="Where previous Air Max models filled the sole with as much air as
           possible, the VaporMax focuses on using less air, more
           efficiently."
@@ -83,7 +83,7 @@ const projects = () => {
           source="Source Code:"
           iconSource={
             <FaGithub
-              className="ml-1 mt-3 text-gray-700 hover:text-gray-900"
+              className="mt-3 ml-1 text-gray-700 hover:text-gray-900"
               size={20}
             />
           }
@@ -94,7 +94,7 @@ const projects = () => {
         />
 
         {/* About React */}
-        {/* <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
+        {/* <div className="max-w-xs mx-auto overflow-hidden transition duration-300 ease-in-out shadow-2xl md:w-72 lg:w-96 md:mx-0 rounded-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 hover:-translate-y-1 hover:scale-100">
           <div className="px-4 py-4">
             <Link
               target="_blank"
@@ -109,15 +109,15 @@ const projects = () => {
                 className="w-full animate__animated animate__fadeIn rounded-2xl"
               />
             </Link>
-            <div className="flex font-bold text-xl mt-2 mb-1 dark:text-black">
-              About React <FaReact className=" mt-1 ml-1" />
+            <div className="flex mt-2 mb-1 text-xl font-bold dark:text-black">
+              About React <FaReact className="mt-1 ml-1 " />
             </div>
-            <p className="text-gray-700 text-base">
+            <p className="text-base text-gray-700">
               Know more about the information and fun facts about React Js.
               Toggle Feature for Dark Mode is available
             </p>
       
-            <p className="flex text-gray-700 text-base mt-3">
+            <p className="flex mt-3 text-base text-gray-700">
               Source Code:{" "}
               <Link
                 target="_blank"
@@ -128,14 +128,14 @@ const projects = () => {
               </Link>
             </p>
           </div>
-          <div className="px-4 mt-1 pb-2">
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+          <div className="px-4 pb-2 mt-1">
+            <span className="inline-block px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full dark:bg-gray-300 dark:text-gray-800">
               #react
             </span>
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+            <span className="inline-block px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full dark:bg-gray-300 dark:text-gray-800">
               #javascript
             </span>
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+            <span className="inline-block px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full dark:bg-gray-300 dark:text-gray-800">
               #darkmode
             </span>
           </div>
@@ -144,7 +144,7 @@ const projects = () => {
         {/* Airbnb Clone */}
           <CardItem
             title="Airbnb Clone"
-            iconTitle={<FaAirbnb className=" mt-1 ml-1 text-red-400" />}
+            iconTitle={<FaAirbnb className="mt-1 ml-1 text-red-400 " />}
             description="Join unique interactive activities led by one-of-a-kind hosts-all
           without leaving home. An online marketplace for talks and inspiring influencers."
             src="/projects/airBnbClone2.png"
@@ -153,7 +153,7 @@ const projects = () => {
             source="Source Code:"
             iconSource={
               <FaGithub
-                className="ml-1 mt-3 text-gray-700 hover:text-gray-900"
+                className="mt-3 ml-1 text-gray-700 hover:text-gray-900"
                 size={20}
               />
             }
@@ -165,7 +165,7 @@ const projects = () => {
 
 
         {/* Meme Generator */}
-        {/* <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
+        {/* <div className="max-w-xs mx-auto overflow-hidden transition duration-300 ease-in-out shadow-2xl md:w-72 lg:w-96 md:mx-0 rounded-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 hover:-translate-y-1 hover:scale-100">
           <div className="px-4 py-4">
             <Link
               target="_blank"
@@ -180,15 +180,15 @@ const projects = () => {
                 className="w-full animate__animated animate__fadeIn rounded-2xl"
               />
             </Link>
-            <div className="flex font-bold text-xl mt-2 mb-1 dark:text-black">
-              Meme Generator <RiEmotionLaughLine className=" mt-1 ml-1" />
+            <div className="flex mt-2 mb-1 text-xl font-bold dark:text-black">
+              Meme Generator <RiEmotionLaughLine className="mt-1 ml-1 " />
             </div>
-            <p className="text-gray-700 text-base">
+            <p className="text-base text-gray-700">
               Looking for a Meme and create custom texts? Let's take a break and
               have a Meme!
             </p>
 
-            <p className="flex text-gray-700 text-base mt-3">
+            <p className="flex mt-3 text-base text-gray-700">
               Source Code:{" "}
               <Link
                 target="_blank"
@@ -199,21 +199,21 @@ const projects = () => {
               </Link>
             </p>
           </div>
-          <div className="px-4 mt-1 pb-2">
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+          <div className="px-4 pb-2 mt-1">
+            <span className="inline-block px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full dark:bg-gray-300 dark:text-gray-800">
               #meme
             </span>
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+            <span className="inline-block px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full dark:bg-gray-300 dark:text-gray-800">
               #generator
             </span>
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+            <span className="inline-block px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full dark:bg-gray-300 dark:text-gray-800">
               #state&hooks
             </span>
           </div>
         </div> */}
 
         {/* Emojipedia */}
-        {/* <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
+        {/* <div className="max-w-xs mx-auto overflow-hidden transition duration-300 ease-in-out shadow-2xl md:w-72 lg:w-96 md:mx-0 rounded-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 hover:-translate-y-1 hover:scale-100">
           <div className="px-4 py-4">
             <Link
               target="_blank"
@@ -228,15 +228,15 @@ const projects = () => {
                 className="w-full animate__animated animate__fadeIn rounded-2xl"
               />
             </Link>
-            <div className="flex font-bold text-xl mt-2 mb-1 dark:text-black">
-              Emojipedia <IoIosRocket className=" mt-1 ml-1" />
+            <div className="flex mt-2 mb-1 text-xl font-bold dark:text-black">
+              Emojipedia <IoIosRocket className="mt-1 ml-1 " />
             </div>
-            <p className="text-gray-700 text-base">
+            <p className="text-base text-gray-700">
               A list of Emojipedia Preferences and its own dictionary, phrases
               and its use.
             </p>
 
-            <p className="flex text-gray-700 text-base mt-3">
+            <p className="flex mt-3 text-base text-gray-700">
               Source Code:{" "}
               <Link
                 target="_blank"
@@ -247,21 +247,21 @@ const projects = () => {
               </Link>
             </p>
           </div>
-          <div className="px-4 mt-1 pb-2">
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+          <div className="px-4 pb-2 mt-1">
+            <span className="inline-block px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full dark:bg-gray-300 dark:text-gray-800">
               #emojipeddia
             </span>
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+            <span className="inline-block px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full dark:bg-gray-300 dark:text-gray-800">
               #dictionary
             </span>
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+            <span className="inline-block px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full dark:bg-gray-300 dark:text-gray-800">
               #emoji
             </span>
           </div>
         </div> */}
 
         {/* Digital Card - Jam */}
-        {/* <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
+        {/* <div className="max-w-xs mx-auto overflow-hidden transition duration-300 ease-in-out shadow-2xl md:w-72 lg:w-96 md:mx-0 rounded-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 hover:-translate-y-1 hover:scale-100">
           <div className="px-4 py-4">
             <Link
               target="_blank"
@@ -276,15 +276,15 @@ const projects = () => {
                 className="w-full animate__animated animate__fadeIn rounded-2xl"
               />
             </Link>
-            <div className="flex font-bold text-xl mt-2 mb-1 dark:text-black">
-              Digital Card <BsFillPersonFill className=" mt-1 ml-1" />
+            <div className="flex mt-2 mb-1 text-xl font-bold dark:text-black">
+              Digital Card <BsFillPersonFill className="mt-1 ml-1 " />
             </div>
-            <p className="text-gray-700 text-base">
+            <p className="text-base text-gray-700">
               A Digital Card to represent the person's purpose and identity. A
               digital card shows presence and information for contact.
             </p>
 
-            <p className="flex text-gray-700 text-base mt-3">
+            <p className="flex mt-3 text-base text-gray-700">
               Source Code:{" "}
               <Link
                 target="_blank"
@@ -295,21 +295,21 @@ const projects = () => {
               </Link>
             </p>
           </div>
-          <div className="px-4 mt-1 pb-2">
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+          <div className="px-4 pb-2 mt-1">
+            <span className="inline-block px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full dark:bg-gray-300 dark:text-gray-800">
               #digitalCard
             </span>
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+            <span className="inline-block px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full dark:bg-gray-300 dark:text-gray-800">
               #introductory
             </span>
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+            <span className="inline-block px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full dark:bg-gray-300 dark:text-gray-800">
               #contact
             </span>
           </div>
         </div> */}
 
         {/* Travel Journal */}
-        {/* <div className="max-w-xs md:w-72 lg:w-96 mx-auto md:mx-0  rounded-2xl overflow-hidden shadow-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 transition ease-in-out  hover:-translate-y-1 hover:scale-100 duration-300">
+        {/* <div className="max-w-xs mx-auto overflow-hidden transition duration-300 ease-in-out shadow-2xl md:w-72 lg:w-96 md:mx-0 rounded-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 hover:-translate-y-1 hover:scale-100">
           <div className="px-4 py-4">
             <Link
               target="_blank"
@@ -324,15 +324,15 @@ const projects = () => {
                 className="w-full animate__animated animate__fadeIn rounded-2xl"
               />
             </Link>
-            <div className="flex font-bold text-xl mt-2 mb-1 dark:text-black">
-              Travel Journal <FaGlobeAsia className=" mt-1 ml-1" />
+            <div className="flex mt-2 mb-1 text-xl font-bold dark:text-black">
+              Travel Journal <FaGlobeAsia className="mt-1 ml-1 " />
             </div>
-            <p className="text-gray-700 text-base">
+            <p className="text-base text-gray-700">
               Come on and let's travel and have adventure around the world! A
               travel journal of experience and fun times in life.
             </p>
 
-            <p className="flex text-gray-700 text-base mt-3">
+            <p className="flex mt-3 text-base text-gray-700">
               Source Code:{" "}
               <Link
                 target="_blank"
@@ -343,14 +343,14 @@ const projects = () => {
               </Link>
             </p>
           </div>
-          <div className="px-4 mt-1 pb-2">
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+          <div className="px-4 pb-2 mt-1">
+            <span className="inline-block px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full dark:bg-gray-300 dark:text-gray-800">
               #travel
             </span>
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+            <span className="inline-block px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full dark:bg-gray-300 dark:text-gray-800">
               #journal
             </span>
-            <span className="inline-block bg-gray-200 dark:bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-800 mr-2 mb-2">
+            <span className="inline-block px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full dark:bg-gray-300 dark:text-gray-800">
               #world
             </span>
           </div>

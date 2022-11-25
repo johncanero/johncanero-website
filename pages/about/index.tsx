@@ -11,7 +11,7 @@ const about = () => {
       {/* First Column */}
       <div>
         <div className="mx-4 font-Poppins md:mx-8 lg:mr-28">
-          <div className="mt-4 text-2xl font-semibold text-center text-gray-600 font-Poppins">
+          <div className="mt-4 text-2xl font-semibold text-center text-gray-600 dark:text-gray-400 font-Poppins">
             About Me
           </div>
           

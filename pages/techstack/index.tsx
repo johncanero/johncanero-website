@@ -10,7 +10,7 @@ const techstack = () => {
         {/* <div className="flex justify-center text-gray-600 dark:text-gray-300">
           <FaConnectdevelop size={60} />
         </div> */}
-        <div className="mt-4 text-xl font-semibold text-center text-gray-600 font-Poppins mx-9 md:text-2xl md:mx-0">
+        <div className="mt-4 text-xl font-semibold text-center text-gray-600 dark:text-gray-400 font-Poppins mx-9 md:text-2xl md:mx-0">
           My Tech Stack
         </div>
 
