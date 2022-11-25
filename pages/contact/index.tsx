@@ -172,7 +172,7 @@ const contact = () => {
               py-1.5
               text-base
               font-normal
-              text-gray-700
+              text-gray-700 dark:text-white
               bg-white dark:bg-gray-800 bg-clip-padding
               rounded
               transition
