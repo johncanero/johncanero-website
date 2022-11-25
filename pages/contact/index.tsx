@@ -154,7 +154,7 @@ const contact = () => {
 
                     <button
                       type="submit"
-                      className="px-6 py-3 mb-6 font-bold text-white transition duration-300 ease-in-out bg-gray-900 rounded-lg mb- md:mt-4 md:w-32 hover:bg-blue-dark hover:bg-gray-700"
+                      className="px-6 py-3 mb-6 font-bold text-white transition duration-300 ease-in-out bg-gray-900 rounded-lg dark:text-gray-800 dark:bg-gray-100 mb- md:mt-4 md:w-32 hover:bg-blue-dark hover:bg-gray-700 dark:hover:bg-gray-800"
                     >
                       Submit
                     </button>
