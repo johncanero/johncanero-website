@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { GoLocation } from "@react-icons/all-files/go/GoLocation";
 import { IoMdCall } from "@react-icons/all-files/io/IoMdCall";
 import { BsEnvelope } from "@react-icons/all-files/bs/BsEnvelope";
@@ -52,7 +53,7 @@ const contact = () => {
                     </div>
 
                     <div className="flex items-center mt-2 text-gray-600 dark:text-gray-400">
-                     <BsEnvelope size={20} />
+                      <BsEnvelope size={20} />
                       <div className="w-40 ml-4 text-xs font-semibold tracking-wide break-normal md:text-xs">
                         johncanero.official@gmail.com
                       </div>
@@ -79,7 +80,7 @@ const contact = () => {
                     {/* Email */}
                     <div className="flex flex-col mt-2">
                       <h1 className="font-bold dark:text-white">
-                        Email Address 
+                        Email Address
                       </h1>
                       <label htmlFor="email" className="hidden">
                         Email
@@ -152,12 +153,18 @@ const contact = () => {
                     </div>
                     {/* Button */}
 
-                    <button
-                      type="submit"
-                      className="px-6 py-3 mb-6 font-bold text-white transition duration-300 ease-in-out bg-gray-900 rounded-lg dark:text-gray-800 dark:bg-gray-100 mb- md:mt-4 md:w-32 hover:bg-blue-dark hover:bg-gray-700 dark:hover:bg-gray-800"
+                    <Link
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://mail.google.com/mail/u/0/#inbox?compose=new"
                     >
-                      Submit
-                    </button>
+                      <button
+                        type="submit"
+                        className="px-6 py-3 mb-6 font-bold text-white transition duration-300 ease-in-out bg-gray-900 rounded-lg dark:text-gray-800 hover:dark:text-white dark:bg-gray-100 md:w-32 hover:bg-blue-dark hover:bg-gray-700 dark:hover:bg-gray-800" 
+                      >
+                        Submit
+                      </button>
+                    </Link>
                   </form>
                 </div>
               </div>
