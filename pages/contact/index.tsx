@@ -24,11 +24,11 @@ const contact = () => {
           </div>
 
           {/* Get in Touch and Forms */}
-          <div className="relative flex justify-center bg-white md:px-6 items-top rounded-b-3xl dark:bg-gray-900 sm:items-center font-Poppins">
+          <div className="relative flex justify-center bg-white md:px-3 lg:px-6 items-top rounded-b-3xl dark:bg-gray-900 sm:items-center font-Poppins">
             <div className="mx-auto md:max-w-5xl sm:px-3 lg:px-6">
               <div className="mt-3 md:mt-8 md:overflow-hidden">
                 <div className="grid grid-cols-1 md:grid-cols-2">
-                  <div className="p-3 mb-8 mr-2 md:px-12 md:py-0 sm:rounded-lg">
+                  <div className="p-3 mb-8 mr-2 md:px-3 lg:px-10 md:py-0 sm:rounded-lg">
                     <h1 className="text-4xl font-extrabold tracking-tight text-center text-gray-800 md:text-left dark:text-white">
                       Get in touch
                     </h1>
@@ -53,14 +53,14 @@ const contact = () => {
 
                     <div className="flex items-center mt-2 text-gray-600 dark:text-gray-400">
                      <BsEnvelope size={20} />
-                      <div className="w-40 ml-4 text-xs font-semibold tracking-wide break-normal md:text-base">
+                      <div className="w-40 ml-4 text-xs font-semibold tracking-wide break-normal md:text-xs">
                         johncanero.official@gmail.com
                       </div>
                     </div>
                   </div>
 
                   {/* Form and Input */}
-                  <form className="flex flex-col font-Poppins">
+                  <form className="flex flex-col md:mx-3 lg:mx-0 font-Poppins">
                     {/* Name */}
                     <h1 className="font-bold dark:text-white">Your Name</h1>
                     <div className="flex flex-col">
@@ -136,7 +136,7 @@ const contact = () => {
                         placeholder="Message"
                       ></textarea>
                     </div>
-                    <div className="mb-6 text-center form-group form-check">
+                    <div className="flex mb-6 text-center form-group form-check">
                       <input
                         type="checkbox"
                         className="w-4 h-4 mt-1 mr-2 align-top transition duration-200 bg-white bg-center bg-no-repeat bg-contain border border-gray-300 rounded-sm appearance-none cursor-pointer form-check-input checked:bg-blue-600 checked:border-blue-600 focus:outline-none"
