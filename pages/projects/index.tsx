@@ -25,12 +25,11 @@ const projects = () => {
         Projects
       </div>
 
-      {/* Tech Projects Link */}
+      {/* Architecture Projects Link */}
       <div className="flex justify-end gap-4 mt-8 md:mb-6">
         {/* <Link rel="noopener noreferrer" href="/projects">
           <h1 className="font-Poppins">Tech Projects</h1>
         </Link> */}
-
         <Link
           target="_blank"
           rel="noopener noreferrer"
