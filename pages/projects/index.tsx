@@ -8,12 +8,13 @@ import { CgWebsite } from "@react-icons/all-files/cg/CgWebsite";
 import { RiRemoteControlLine } from "@react-icons/all-files/ri/RiRemoteControlLine";
 import { GiRunningShoe } from "@react-icons/all-files/gi/GiRunningShoe";
 import { FaAirbnb } from "@react-icons/all-files/fa/FaAirbnb";
-import { RiEmotionLaughLine } from "@react-icons/all-files/ri/RiEmotionLaughLine";
 import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
-import { FaGlobeAsia } from "@react-icons/all-files/fa/FaGlobeAsia";
-import { FaReact } from "@react-icons/all-files/fa/FaReact";
-import { IoIosRocket } from "@react-icons/all-files/io/IoIosRocket";
-import { BsFillPersonFill } from "@react-icons/all-files/bs/BsFillPersonFill";
+import { RiBuilding2Line } from "@react-icons/all-files/ri/RiBuilding2Line";
+// import { RiEmotionLaughLine } from "@react-icons/all-files/ri/RiEmotionLaughLine";
+// import { FaGlobeAsia } from "@react-icons/all-files/fa/FaGlobeAsia";
+// import { FaReact } from "@react-icons/all-files/fa/FaReact";
+// import { IoIosRocket } from "@react-icons/all-files/io/IoIosRocket";
+// import { BsFillPersonFill } from "@react-icons/all-files/bs/BsFillPersonFill";
 
 import CardItem from "../../components/CardItem";
 
@@ -24,7 +25,25 @@ const projects = () => {
         Projects
       </div>
 
-      <div className="justify-center mt-8 mb-20 md:flex md:flex-wrap md:gap-12">
+      {/* Tech Projects Link */}
+      <div className="flex justify-end gap-4 mt-8 md:mb-6">
+        {/* <Link rel="noopener noreferrer" href="/projects">
+          <h1 className="font-Poppins">Tech Projects</h1>
+        </Link> */}
+
+        <Link
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.instagram.com/johncanero.archi/"
+        >
+          <h1 className="flex font-Poppins">
+            {" "}
+            <RiBuilding2Line className="mr-1" size={20} /> Architecture
+          </h1>
+        </Link>
+      </div>
+
+      <div className="justify-center mt-6 mb-20 md:flex md:flex-wrap md:gap-12">
         {/* John Cañero Website */}
         <CardItem
           title="John Cañero Website"
@@ -142,27 +161,26 @@ const projects = () => {
         </div> */}
 
         {/* Airbnb Clone */}
-          <CardItem
-            title="Airbnb Clone"
-            iconTitle={<FaAirbnb className="mt-1 ml-1 text-red-400 " />}
-            description="Join unique interactive activities led by one-of-a-kind hosts-all
+        <CardItem
+          title="Airbnb Clone"
+          iconTitle={<FaAirbnb className="mt-1 ml-1 text-red-400 " />}
+          description="Join unique interactive activities led by one-of-a-kind hosts-all
           without leaving home. An online marketplace for talks and inspiring influencers."
-            src="/projects/airBnbClone2.png"
-            path="https://airbnb-clone-by-johncanero.vercel.app/"
-            // Source Code:
-            source="Source Code:"
-            iconSource={
-              <FaGithub
-                className="mt-3 ml-1 text-gray-700 hover:text-gray-900"
-                size={20}
-              />
-            }
-            sourceLink="https://github.com/johncanero/airbnb-clone"
-            hashtag1="airbnb"
-            hashtag2="clone"
-            hashtag3="feature"
-          />
-
+          src="/projects/airBnbClone2.png"
+          path="https://airbnb-clone-by-johncanero.vercel.app/"
+          // Source Code:
+          source="Source Code:"
+          iconSource={
+            <FaGithub
+              className="mt-3 ml-1 text-gray-700 hover:text-gray-900"
+              size={20}
+            />
+          }
+          sourceLink="https://github.com/johncanero/airbnb-clone"
+          hashtag1="airbnb"
+          hashtag2="clone"
+          hashtag3="feature"
+        />
 
         {/* Meme Generator */}
         {/* <div className="max-w-xs mx-auto overflow-hidden transition duration-300 ease-in-out shadow-2xl md:w-72 lg:w-96 md:mx-0 rounded-2xl dark:shadow-md dark:shadow-slate-50 bg-zinc-100 dark:bg-zinc-200 font-Poppins mt-9 md:mt-0 hover:-translate-y-1 hover:scale-100">

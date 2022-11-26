@@ -121,20 +121,20 @@ const contact = () => {
                         placeholder="Message"
                       ></textarea>
                     </div>
-                    {/* <div className="flex mb-6 text-center form-group form-check">
+                    <div className="flex mb-6 text-center form-group form-check">
                       <input
+                        className="float-left w-4 h-4 mt-1 mr-2 align-top transition duration-200 bg-white bg-center bg-no-repeat bg-contain border border-gray-300 rounded-sm appearance-none cursor-pointer form-check-input checked:bg-blue-600 checked:border-blue-600 focus:outline-none"
                         type="checkbox"
-                        className="w-4 h-4 mt-1 mr-2 align-top transition duration-200 bg-white bg-center bg-no-repeat bg-contain border border-gray-300 rounded-sm appearance-none cursor-pointer form-check-input checked:bg-blue-600 checked:border-blue-600 focus:outline-none"
-                        id="exampleCheck87"
-                        checked
+                        value=""
+                        id="flexCheckDefault"
                       />
                       <label
-                        className="inline-block text-gray-800 dark:text-gray-400 form-check-label"
+                        className="inline-block text-sm text-gray-800 md:text-base dark:text-gray-400 form-check-label"
                         htmlFor="exampleCheck87"
                       >
                         Send me a copy of this message
                       </label>
-                    </div> */}
+                    </div>
 
                     {/* Button */}
                     <button
@@ -145,7 +145,6 @@ const contact = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://mail.google.com/mail/u/0/#inbox?compose=new"
-                
                       >
                         Submit
                       </Link>
