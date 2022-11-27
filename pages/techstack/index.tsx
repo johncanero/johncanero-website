@@ -1,5 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+// Icons
+import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
 import { FaConnectdevelop } from "@react-icons/all-files/fa/FaConnectdevelop";
 import { BsPencilSquare } from "@react-icons/all-files/bs/BsPencilSquare";
 
@@ -245,7 +248,15 @@ const techstack = () => {
                 Tech Stack Tools
               </span>{" "}
               I use as a developer in designing, creating and establishing
-              development projects.
+              development projects. You could view my projects here at my Github: 
+
+              <Link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/johncanero"
+                  className="ml-2 font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
+                     @johncanero
+              </Link>
             </p>
           </div>
         </div>
@@ -411,7 +422,15 @@ const techstack = () => {
               <span className="font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
                 Tech Stack Design Tools
               </span>{" "}
-              I used in designing architectural models, modelling, and rendering
+              I used in designing architectural models, modelling, and rendering. You could view my projects here at my IG Portfolio: 
+
+              <Link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.instagram.com/johncanero.archi/"
+                  className="ml-2 font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
+                     @johncanero.archi
+              </Link>
             </p>
           </div>
         </div>
