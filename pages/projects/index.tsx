@@ -22,24 +22,7 @@ const projects = () => {
   return (
     <div>
       <div className="mt-4 text-2xl font-semibold text-center text-gray-600 dark:text-gray-400 font-Poppins">
-        Projects
-      </div>
-
-      {/* Architecture Projects Link */}
-      <div className="flex justify-end gap-4 mt-8 md:mb-6">
-        {/* <Link rel="noopener noreferrer" href="/projects">
-          <h1 className="font-Poppins">Tech Projects</h1>
-        </Link> */}
-        <Link
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.instagram.com/johncanero.archi/"
-        >
-          <h1 className="flex font-Poppins">
-            {" "}
-            <RiBuilding2Line className="mr-1" size={20} /> Architecture
-          </h1>
-        </Link>
+        Tech Projects
       </div>
 
       <div className="justify-center mt-6 mb-20 md:flex md:flex-wrap md:gap-12">
@@ -372,6 +355,28 @@ const projects = () => {
             </span>
           </div>
         </div> */}
+      </div>
+
+
+      <div className="mt-4 text-2xl font-semibold text-center text-gray-600 dark:text-gray-400 font-Poppins">
+        Architecture Projects
+      </div>
+
+      {/* Architecture Projects Link */}
+      <div className="flex justify-end gap-4 mt-8 md:mb-6">
+        {/* <Link rel="noopener noreferrer" href="/projects">
+          <h1 className="font-Poppins">Tech Projects</h1>
+        </Link> */}
+        <Link
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.instagram.com/johncanero.archi/"
+        >
+          <h1 className="flex font-Poppins">
+            {" "}
+            <RiBuilding2Line className="mr-1" size={20} /> Architecture
+          </h1>
+        </Link>
       </div>
     </div>
   );

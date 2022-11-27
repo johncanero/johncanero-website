@@ -15,7 +15,7 @@ const techstack = () => {
         </div>
 
         {/* Tech Stack */}
-        <div className="flex flex-wrap justify-center font-Poppins lg:mx-48">
+        <div className="flex flex-wrap justify-center mt-2 font-Poppins lg:mx-48">
           <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeIn">
             {/* Javasript */}
             <div className="w-12">
@@ -238,8 +238,8 @@ const techstack = () => {
           </div>
 
           {/* Tech Stack Description */}
-          <div className="font-Poppins md:mt-1">
-            <p className="mx-auto mt-6 text-center md:mt-6 md:w-8/12">
+          <div className="mt-2 font-Poppins">
+            <p className="mx-auto mt-6 text-center md:mt-6 w-80 md:w-8/12">
               These are the{" "}
               <span className="font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
                 Tech Stack Tools
@@ -260,7 +260,7 @@ const techstack = () => {
           My Tech - Design & Architecture Stack
         </div>
 
-        <div className="flex flex-wrap justify-center mb-8 font-Poppins lg:mx-48">
+        <div className="flex flex-wrap justify-center mt-2 mb-8 font-Poppins lg:mx-48">
           {/* Figma */}
           <div className="flex justify-center mt-4 mr-3 transition duration-300 ease-in-out bg-gray-50 dark:bg-gray-900 rounded-2xl w-36 hover:-translate-y-1 hover:scale-105 animate__animated animate__fadeIn">
             <div className="w-12">
@@ -405,7 +405,7 @@ const techstack = () => {
           </div>  
 
           {/* Tech Stack Descroption */}
-          <div className="font-Poppins md:mt-1">
+          <div className="mt-2 font-Poppins">
             <p className="mx-auto mt-6 text-center w-80 md:w-8/12">
               These are the the{" "}
               <span className="font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
