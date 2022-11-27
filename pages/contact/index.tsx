@@ -20,12 +20,12 @@ const contact = () => {
               width={1150}
               height={800}
               alt="contactBackground"
-              className="md:h-80 animate__animated animate__fadeIn"
+              className="md:h-80"
             />
           </div>
 
           {/* Get in Touch and Forms */}
-          <div className="relative flex justify-center bg-white md:px-3 lg:px-6 items-top rounded-b-3xl dark:bg-neutral-900 sm:items-center font-Poppins">
+          <div className="relative flex justify-center bg-white md:px-3 lg:px-6 items-top rounded-b-3xl dark:bg-black50 sm:items-center font-Poppins">
             <div className="mx-auto md:max-w-5xl sm:px-3 lg:px-6">
               <div className="mt-3 md:mt-8 md:overflow-hidden">
                 <div className="grid grid-cols-1 md:grid-cols-2">
@@ -73,7 +73,7 @@ const contact = () => {
                         name="name"
                         id="name"
                         placeholder="Enter your name"
-                        className="px-3 py-3 mx-auto mt-2 text-gray-800 bg-white border border-gray-400 rounded-lg dark:text-white md:mx-0 lg:w-11/12 md:w-56 w-72 dark:bg-neutral-800 dark:border-neutral-700 focus:border-gray-800 focus:outline-none"
+                        className="px-3 py-3 mx-auto mt-2 text-gray-800 bg-white border border-gray-400 rounded-lg dark:text-white md:mx-0 lg:w-11/12 md:w-56 w-72 dark:bg-black60 dark:border-neutral-700 focus:border-gray-800 focus:outline-none"
                       />
                     </div>
 
@@ -90,7 +90,7 @@ const contact = () => {
                         name="email"
                         id="email"
                         placeholder="Enter your email address"
-                        className="px-3 py-3 mx-auto mt-2 text-gray-800 bg-white border border-gray-400 rounded-lg dark:text-white md:mx-0 lg:w-11/12 md:w-56 w-72 dark:bg-neutral-800 dark:border-neutral-700 focus:border-gray-800 focus:outline-none"
+                        className="px-3 py-3 mx-auto mt-2 text-gray-800 bg-white border border-gray-400 rounded-lg dark:text-white md:mx-0 lg:w-11/12 md:w-56 w-72 dark:bg-black60 dark:border-neutral-700 focus:border-gray-800 focus:outline-none"
                       />
                     </div>
 
@@ -116,7 +116,7 @@ const contact = () => {
                         Your Message
                       </h1>
                       <textarea
-                        className="block mt-2 text-gray-700 transition ease-in-out bg-white rounded form-control lg:w-11/12 md:w-56 w-72 h-52 dark:text-white bg-clip-padding font-Poppins dark:bg-neutral-800 dark:border-neutral-700 focus:outline-none"
+                        className="block mt-2 text-gray-700 transition ease-in-out bg-white rounded form-control lg:w-11/12 md:w-56 w-72 h-52 dark:text-white bg-clip-padding font-Poppins dark:bg-black60 dark:border-neutral-700 focus:outline-none"
                         id="exampleFormControlTextarea13"
                         placeholder="Forward the message to GMAIL or LinkedIn"
                       ></textarea>
