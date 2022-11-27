@@ -9,6 +9,7 @@ import { RiRemoteControlLine } from "@react-icons/all-files/ri/RiRemoteControlLi
 import { GiRunningShoe } from "@react-icons/all-files/gi/GiRunningShoe";
 import { FaAirbnb } from "@react-icons/all-files/fa/FaAirbnb";
 import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
+import { AiOutlineInstagram } from "@react-icons/all-files/ai/AiOutlineInstagram";
 import { RiBuilding2Line } from "@react-icons/all-files/ri/RiBuilding2Line";
 // import { RiEmotionLaughLine } from "@react-icons/all-files/ri/RiEmotionLaughLine";
 // import { FaGlobeAsia } from "@react-icons/all-files/fa/FaGlobeAsia";
@@ -25,7 +26,7 @@ const projects = () => {
         Tech Projects
       </div>
 
-      <div className="justify-center mt-6 mb-20 md:flex md:flex-wrap md:gap-12">
+      <div className="justify-center mt-6 mb-10 md:flex md:flex-wrap md:gap-12">
         {/* John Cañero Website */}
         <CardItem
           title="John Cañero Website"
@@ -357,16 +358,27 @@ const projects = () => {
         </div> */}
       </div>
 
-
-      <div className="mt-4 text-2xl font-semibold text-center text-gray-600 dark:text-gray-400 font-Poppins">
+      <div className="text-2xl font-semibold text-center text-gray-600 dark:text-gray-400 font-Poppins">
         Architecture Projects
       </div>
 
+      <div className="flex justify-center mt-2 md:mt-6 mb-28 md:mb-6">
+        <CardItem
+          title="Architectural Portfolio"
+          iconTitle={
+            <AiOutlineInstagram className="mt-1 ml-1 text-purple-500 " />
+          }
+          description="A portfolio of architectural projects and design journey of John Cañero."
+          src="/projects/architecture/architectureProject.png"
+          path="https://www.instagram.com/johncanero.archi/"
+          sourceLink="https://www.instagram.com/johncanero.archi/"
+          hashtag1="architectural"
+          hashtag2="portfolio"
+          hashtag3="projects"
+        />
+      </div>
       {/* Architecture Projects Link */}
-      <div className="flex justify-end gap-4 mt-8 md:mb-6">
-        {/* <Link rel="noopener noreferrer" href="/projects">
-          <h1 className="font-Poppins">Tech Projects</h1>
-        </Link> */}
+      {/* <div className="flex justify-end gap-4 mt-8 md:mb-6">
         <Link
           target="_blank"
           rel="noopener noreferrer"
@@ -377,7 +389,7 @@ const projects = () => {
             <RiBuilding2Line className="mr-1" size={20} /> Architecture
           </h1>
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 };
