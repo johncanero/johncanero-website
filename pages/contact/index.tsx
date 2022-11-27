@@ -118,7 +118,7 @@ const contact = () => {
                       <textarea
                         className="block mt-2 text-gray-700 transition ease-in-out bg-white rounded form-control lg:w-11/12 md:w-56 w-72 h-52 dark:text-white bg-clip-padding font-Poppins dark:bg-neutral-800 dark:border-neutral-700 focus:outline-none"
                         id="exampleFormControlTextarea13"
-                        placeholder="Message"
+                        placeholder="Forward the message to GMAIL or LinkedIn"
                       ></textarea>
                     </div>
                     <div className="flex mb-6 text-center form-group form-check">
