@@ -4,6 +4,12 @@ import Link from "next/link";
 import { GoLocation } from "@react-icons/all-files/go/GoLocation";
 import { IoMdCall } from "@react-icons/all-files/io/IoMdCall";
 import { BsEnvelope } from "@react-icons/all-files/bs/BsEnvelope";
+// Icons
+import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin";
+// import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
+import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram";
+import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter";
+import { HiOutlineMail } from "@react-icons/all-files/hi/HiOutlineMail";
 
 const contact = () => {
   return (
@@ -56,6 +62,61 @@ const contact = () => {
                       <BsEnvelope size={20} />
                       <div className="w-40 ml-4 text-xs font-semibold tracking-wide break-normal md:text-xs">
                         johncanero.official@gmail.com
+                      </div>
+                    </div>
+
+                    <div>
+                      <div className="flex justify-center mt-6 md:justify-start">
+                        <Link
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href="https://www.linkedin.com/in/johncanero/"
+                        >
+                          <FaLinkedin
+                            className="mr-5 transition duration-300 ease-in-out dark:text-gray-100 hover:dark:text-cyan-500 hover:-translate-y-1 hover:scale-110 animate__animated animate__fadeIn"
+                            size={30}
+                          />
+                        </Link>
+                        <Link
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href="https://www.linkedin.com/in/johncanero/"
+                        >
+                          <HiOutlineMail
+                            className="mr-5 transition duration-300 ease-in-out dark:text-gray-100 hover:dark:text-cyan-500 hover:-translate-y-1 hover:scale-110 animate__animated animate__fadeIn"
+                            size={32}
+                          />
+                        </Link>
+                        {/* <Link
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href="https://github.com/johncanero"
+                        >
+                          <FaGithub
+                            className="mr-5 transition duration-300 ease-in-out dark:text-gray-100 hover:dark:text-cyan-500 hover:-translate-y-1 hover:scale-110 animate__animated animate__fadeIn"
+                            size={30}
+                          />
+                        </Link> */}
+                        <Link
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href="https://twitter.com/johncaneroo"
+                        >
+                          <FaTwitter
+                            className="mr-5 transition duration-300 ease-in-out dark:text-gray-100 hover:dark:text-cyan-500 hover:-translate-y-1 hover:scale-110 animate__animated animate__fadeIn"
+                            size={30}
+                          />
+                        </Link>
+                        <Link
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href="https://www.instagram.com/johncanero/"
+                        >
+                          <FaInstagram
+                            className="mr-0 transition duration-300 ease-in-out dark:text-gray-100 hover:dark:text-cyan-500 hover:-translate-y-1 hover:scale-110 animate__animated animate__fadeIn"
+                            size={30}
+                          />
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -144,7 +205,7 @@ const contact = () => {
                       <Link
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+                        href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=johncanero.official@gmail.com"
                       >
                         Submit
                       </Link>
