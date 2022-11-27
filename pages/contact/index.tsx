@@ -80,7 +80,7 @@ const contact = () => {
                         <Link
                           target="_blank"
                           rel="noopener noreferrer"
-                          href="https://www.linkedin.com/in/johncanero/"
+                          href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=johncanero.official@gmail.com"
                         >
                           <HiOutlineMail
                             className="mr-5 transition duration-300 ease-in-out dark:text-gray-100 hover:dark:text-cyan-500 hover:-translate-y-1 hover:scale-110 animate__animated animate__fadeIn"
