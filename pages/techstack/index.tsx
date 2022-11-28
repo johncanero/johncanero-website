@@ -248,7 +248,7 @@ const techstack = () => {
                 Tech Stack Tools
               </span>{" "}
               I use as a developer in designing, creating and establishing
-              development projects. You could view my projects here at my Github: 
+              development projects. You could view my projects here at @ Github: 
 
               <Link
                   target="_blank"
@@ -422,7 +422,7 @@ const techstack = () => {
               <span className="font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
                 Tech Stack Design Tools
               </span>{" "}
-              I used in designing architectural models, modelling, and rendering. You could view my projects here at my IG Portfolio: 
+              I used in designing architectural projects, modelling, and rendering. You could view my projects here at my IG Portfolio: 
 
               <Link
                   target="_blank"
