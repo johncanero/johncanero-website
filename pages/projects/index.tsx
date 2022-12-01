@@ -35,9 +35,9 @@ const projects = () => {
           source="Source Code:"
           iconSource={
             <FaGithub
-              className="pb-12 ml-1 text-gray-700 hover:text-gray-900"
-              size={20}
-            />
+            className="mt-3 ml-1 text-gray-700 hover:text-gray-900"
+            size={20}
+          />
           }
           sourceLink="https://github.com/johncanero/johncanero-website"
           hashtag1="portfolio"
