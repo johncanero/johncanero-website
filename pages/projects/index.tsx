@@ -48,14 +48,14 @@ const projects = () => {
         {/* Architecture News */}
         <CardItem
           title="Architecture News"
-          iconTitle={<RiRemoteControlLine className="mt-1 ml-1 " />}
+          iconTitle={<BsFillHouseDoorFill className="mt-1 ml-1 " />}
           description=" Find the latest news about design and architecture and historic establishments in the Philippines. Be informed."
           src="/projects/architectureNews.png"
           path="https://architecture-news-website.vercel.app//"
           // Source Code:
           source="Source Code:"
           iconSource={
-            <BsFillHouseDoorFill
+            <FaGithub
               className="mt-3 ml-1 text-gray-700 hover:text-gray-900"
               size={20}
             />
