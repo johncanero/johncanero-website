@@ -27,6 +27,8 @@ const contact = () => {
               height={800}
               alt="contactBackground"
               className="md:h-80"
+              loading="eager"
+              priority={true}
             />
           </div>
 
@@ -134,7 +136,7 @@ const contact = () => {
                         name="name"
                         id="name"
                         placeholder="Enter your name"
-                        className="px-3 py-3 mx-auto mt-2 text-gray-800 bg-white border border-gray-400 rounded-lg dark:text-white md:mx-0 lg:w-11/12 md:w-56 w-72 dark:bg-black60 dark:border-neutral-700 focus:border-gray-800 focus:outline-none"
+                        className="px-3 py-3 mx-auto mt-2 text-gray-800 bg-white border-2 border-gray-400 rounded-lg dark:text-white md:mx-0 lg:w-11/12 md:w-56 w-72 dark:bg-black60 dark:border-neutral-400 focus:border-gray-800 focus:outline-none"
                       />
                     </div>
 
@@ -151,7 +153,7 @@ const contact = () => {
                         name="email"
                         id="email"
                         placeholder="Enter your email address"
-                        className="px-3 py-3 mx-auto mt-2 text-gray-800 bg-white border border-gray-400 rounded-lg dark:text-white md:mx-0 lg:w-11/12 md:w-56 w-72 dark:bg-black60 dark:border-neutral-700 focus:border-gray-800 focus:outline-none"
+                        className="px-3 py-3 mx-auto mt-2 text-gray-800 bg-white border-2 border-gray-400 rounded-lg dark:text-white md:mx-0 lg:w-11/12 md:w-56 w-72 dark:bg-black60 dark:border-neutral-400 focus:border-gray-800 focus:outline-none"
                       />
                     </div>
 
@@ -177,7 +179,7 @@ const contact = () => {
                         Your Message
                       </h1>
                       <textarea
-                        className="block mt-2 text-gray-700 transition ease-in-out bg-white rounded form-control lg:w-11/12 md:w-56 w-72 h-52 dark:text-white bg-clip-padding font-Poppins dark:bg-black60 dark:border-neutral-700 focus:outline-none"
+                        className="block mt-2 text-gray-700 transition ease-in-out bg-white border-2 rounded form-control lg:w-11/12 md:w-56 w-72 h-52 dark:text-white bg-clip-padding font-Poppins dark:bg-black60 dark:border-neutral-400 focus:outline-none"
                         id="exampleFormControlTextarea13"
                         placeholder="Forward the message to GMAIL or LinkedIn"
                       ></textarea>
