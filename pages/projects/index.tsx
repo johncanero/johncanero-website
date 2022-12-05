@@ -50,7 +50,7 @@ const projects = () => {
           title="Architecture News"
           iconTitle={<BsFillHouseDoorFill className="mt-1 ml-1 " />}
           description=" Find the latest news about design and architecture and historic establishments in the Philippines. Be informed."
-          src="/projects/architectureNews.png"
+          src="/projects/architectureNewsWebsiteDesktop.png"
           path="https://architecture-news-website.vercel.app//"
           // Source Code:
           source="Source Code:"
