@@ -12,6 +12,7 @@ import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter";
 import { HiOutlineMail } from "@react-icons/all-files/hi/HiOutlineMail";
 
 const contact = () => {
+  
   return (
     <div>
       {/* <div className="mt-4 text-2xl font-semibold text-center text-gray-600 font-Poppins">
