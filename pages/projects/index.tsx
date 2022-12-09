@@ -49,7 +49,7 @@ const projects = () => {
         {/* Architecture News */}
         <CardItem
           title="Architecture News"
-          iconTitle={<BsFillHouseDoorFill className="mt-1 ml-1 text-amber-800 " />}
+          iconTitle={<BsFillHouseDoorFill className="mt-1 ml-1 text-amber-400 " />}
           description=" Find the latest news about design and architecture and historic establishments in the Philippines. Be informed."
           src="/projects/architectureNewsWebsiteDesktop.png"
           path="https://architecture-news-website.vercel.app//"
