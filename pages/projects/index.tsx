@@ -11,6 +11,7 @@ import { FaAirbnb } from "@react-icons/all-files/fa/FaAirbnb";
 import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
 import { AiOutlineInstagram } from "@react-icons/all-files/ai/AiOutlineInstagram";
 import { BsFillHouseDoorFill } from "@react-icons/all-files/bs/BsFillHouseDoorFill";
+import { BsFillChatQuoteFill } from "@react-icons/all-files/bs/BsFillChatQuoteFill";
 
 import CardItem from "../../components/CardItem";
 
@@ -35,9 +36,9 @@ const projects = () => {
           source="Source Code:"
           iconSource={
             <FaGithub
-            className="mt-3 ml-1 text-gray-700 hover:text-gray-900"
-            size={20}
-          />
+              className="mt-3 ml-1 text-gray-700 hover:text-gray-900"
+              size={20}
+            />
           }
           sourceLink="https://github.com/johncanero/johncanero-website"
           hashtag1="portfolio"
@@ -48,7 +49,7 @@ const projects = () => {
         {/* Architecture News */}
         <CardItem
           title="Architecture News"
-          iconTitle={<BsFillHouseDoorFill className="mt-1 ml-1 " />}
+          iconTitle={<BsFillHouseDoorFill className="mt-1 ml-1 text-amber-800 " />}
           description=" Find the latest news about design and architecture and historic establishments in the Philippines. Be informed."
           src="/projects/architectureNewsWebsiteDesktop.png"
           path="https://architecture-news-website.vercel.app//"
@@ -69,7 +70,7 @@ const projects = () => {
         {/* Shoe Product Card */}
         <CardItem
           title="Shoe Product Card "
-          iconTitle={<GiRunningShoe className="mt-1 ml-1 " />}
+          iconTitle={<GiRunningShoe className="mt-1 ml-1 text-green-400 " />}
           description="Where previous Air Max models filled the sole with as much air as
           possible, the VaporMax focuses on using less air, more
           efficiently."
@@ -92,7 +93,7 @@ const projects = () => {
         {/* Remote Landing Page*/}
         <CardItem
           title="Remote Landing Page"
-          iconTitle={<RiRemoteControlLine className="mt-1 ml-1 " />}
+          iconTitle={<RiRemoteControlLine className="mt-1 ml-1 text-yellow-400 " />}
           description=" Get your team in sync, no matter your location. Streamline
           processes, create team rituals, and watch productivity soar."
           src="/projects/remoteLandingPage.png"
@@ -109,6 +110,30 @@ const projects = () => {
           hashtag1="remote"
           hashtag2="landingpage"
           hashtag3="work"
+        />
+
+        {/* Advice Generator App */}
+        <CardItem
+          title="Advice Generator App"
+          iconTitle={
+            <BsFillChatQuoteFill className="mt-1 ml-1 text-orange-400 " />
+          }
+          description=" Let's be inspired, motivated and bless ourselves with quotes that would help and
+          improve our life for the better and for others."
+          src="/projects/adviceGeneratorApp2.png"
+          path="https://advice-generator-app-by-johncanero.vercel.app/"
+          // Source Code:
+          source="Source Code:"
+          iconSource={
+            <FaGithub
+              className="mt-3 ml-1 text-gray-700 hover:text-gray-900"
+              size={20}
+            />
+          }
+          sourceLink="https://github.com/johncanero/advice-generator-app"
+          hashtag1="advice"
+          hashtag2="generator"
+          hashtag3="API"
         />
 
         {/* Airbnb Clone */}
