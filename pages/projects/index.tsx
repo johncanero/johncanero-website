@@ -18,6 +18,17 @@ import CardItem from "../../components/CardItem";
 const projects = () => {
   return (
     <div>
+      {/* Add Links - Architecture */}
+      <div className="flex gap-3 mt-4 font-semibold">
+        <Link rel="noopener noreferrer" href="/projects">
+          <div className="">Tech Projects</div>
+        </Link>
+
+        <Link rel="noopener noreferrer" href="/archi">
+          <div className="">Architecture</div>
+        </Link>
+      </div>
+
       <div className="mt-4 text-2xl font-semibold text-center text-gray-600 dark:text-gray-400 font-Poppins">
         Tech Projects
       </div>
@@ -49,7 +60,9 @@ const projects = () => {
         {/* Architecture News */}
         <CardItem
           title="Architecture News"
-          iconTitle={<BsFillHouseDoorFill className="mt-1 ml-1 text-amber-400 " />}
+          iconTitle={
+            <BsFillHouseDoorFill className="mt-1 ml-1 text-amber-400 " />
+          }
           description=" Find the latest news about design and architecture and historic establishments in the Philippines. Be informed."
           src="/projects/architectureNewsWebsiteDesktop.png"
           path="https://architecture-news-website.vercel.app//"
@@ -93,7 +106,9 @@ const projects = () => {
         {/* Remote Landing Page*/}
         <CardItem
           title="Remote Landing Page"
-          iconTitle={<RiRemoteControlLine className="mt-1 ml-1 text-yellow-400 " />}
+          iconTitle={
+            <RiRemoteControlLine className="mt-1 ml-1 text-yellow-400 " />
+          }
           description=" Get your team in sync, no matter your location. Streamline
           processes, create team rituals, and watch productivity soar."
           src="/projects/remoteLandingPage.png"
