@@ -1,11 +1,23 @@
 import React from "react";
+import Link from "next/link";
 import { AiOutlineInstagram } from "@react-icons/all-files/ai/AiOutlineInstagram";
 import CardItem from "../../components/CardItem";
 
 const index = () => {
   return (
     <div>
-      <div className="text-2xl font-semibold text-center text-gray-600 dark:text-gray-400 font-Poppins">
+      {/* Add Links - Architecture */}
+      <div className="flex gap-3 mt-4 font-semibold">
+        <Link rel="noopener noreferrer" href="/projects">
+          <div className="">Tech Projects</div>
+        </Link>
+
+        <Link rel="noopener noreferrer" href="/archi">
+          <div className="">Architecture</div>
+        </Link>
+      </div>
+
+      <div className="mt-4 text-2xl font-semibold text-center text-gray-600 dark:text-gray-400 font-Poppins">
         Architecture Projects
       </div>
 
