@@ -116,11 +116,11 @@ const projects = () => {
         <CardItem
           title="Advice Generator App"
           iconTitle={
-            <BsFillChatQuoteFill className="mt-1 ml-1 text-orange-400 " />
+            <BsFillChatQuoteFill className="mt-1 ml-1 text-cyan-400 " />
           }
           description=" Let's be inspired, motivated and bless ourselves with quotes that would help and
           improve our life for the better and for others."
-          src="/projects/adviceGeneratorApp2.png"
+          src="/projects/adviceGeneratorApp3.png"
           path="https://advice-generator-app-by-johncanero.vercel.app/"
           // Source Code:
           source="Source Code:"
