@@ -13,6 +13,7 @@ import { BsFillHouseDoorFill } from "@react-icons/all-files/bs/BsFillHouseDoorFi
 import { BsFillChatQuoteFill } from "@react-icons/all-files/bs/BsFillChatQuoteFill";
 import { AiOutlineLaptop } from "@react-icons/all-files/ai/AiOutlineLaptop";
 import { BsHouseDoor } from "@react-icons/all-files/bs/BsHouseDoor";
+import { VscEdit } from "@react-icons/all-files/vsc/VscEdit";
 
 import CardItem from "../../components/CardItem";
 
@@ -20,7 +21,7 @@ const projects = () => {
   return (
     <div>
       {/* Add Links - Architecture */}
-      <div className="flex justify-end gap-3 mt-4 font-semibold">
+      <div className="flex justify-end gap-3 mt-6 font-semibold">
         <Link rel="noopener noreferrer" href="/projects">
           <div className="flex gap-1 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300">
             <AiOutlineLaptop className="mt-1" size={18} /> Tech Projects
@@ -32,8 +33,13 @@ const projects = () => {
             <BsHouseDoor className="mt-1" size={18} /> Architecture
           </div>
         </Link>
-      </div>
 
+        <Link rel="noopener noreferrer" href="/visuals">
+          <div className="flex gap-1 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300">
+            <VscEdit className="mt-1" size={18} /> Visuals
+          </div>
+        </Link>
+      </div>
       <div className="mt-4 text-2xl font-semibold text-center text-gray-600 dark:text-gray-400 font-Poppins">
         Tech Projects
       </div>
@@ -43,8 +49,7 @@ const projects = () => {
         <CardItem
           title="John Cañero Website"
           iconTitle={<CgWebsite className="mt-1 ml-1" />}
-          description="A Portfolio x Website that features the developer's story,
-          certifications, techstack (skills) and list of projects to be
+          description="A Portfolio x Website featuring the developer's journey, techstack (skills) and list of projects to be
           showcased."
           src="/projects/johncaneroWebsite.png"
           path="https://johncanero-website.vercel.app/"
@@ -89,9 +94,7 @@ const projects = () => {
         <CardItem
           title="Shoe Product Card "
           iconTitle={<GiRunningShoe className="mt-1 ml-1 text-green-400 " />}
-          description="Where previous Air Max models filled the sole with as much air as
-          possible, the VaporMax focuses on using less air, more
-          efficiently."
+          description="Where previous Air Max models filled the sole with as much air, the VaporMax focuses on using less air, more efficiently."
           src="/projects/shoeProductCard.png"
           path="https://shoe-product-card-by-johncanero.vercel.app/"
           // Source Code:
@@ -114,8 +117,8 @@ const projects = () => {
           iconTitle={
             <RiRemoteControlLine className="mt-1 ml-1 text-yellow-400 " />
           }
-          description=" Get your team in sync, no matter your location. Streamline
-          processes, create team rituals, and watch productivity soar."
+          description=" Get your team in sync in anywhere location. Streamline
+          processes, create team rituals, & watch productivity soar."
           src="/projects/remoteLandingPage.png"
           path="https://remote-landing-page-by-johncanero.vercel.app/"
           // Source Code:
@@ -128,8 +131,8 @@ const projects = () => {
           }
           sourceLink="https://github.com/johncanero/remote-landing-page"
           hashtag1="remote"
-          hashtag2="landingpage"
-          hashtag3="work"
+          hashtag2="work"
+          hashtag3="landing"
         />
 
         {/* Advice Generator App */}
