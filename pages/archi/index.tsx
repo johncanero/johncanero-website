@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import { AiOutlineInstagram } from "@react-icons/all-files/ai/AiOutlineInstagram";
+import { AiOutlineLaptop } from "@react-icons/all-files/ai/AiOutlineLaptop";
+import { BsHouseDoor } from "@react-icons/all-files/bs/BsHouseDoor";
 import CardItem from "../../components/CardItem";
 
 const index = () => {
@@ -9,11 +11,11 @@ const index = () => {
       {/* Add Links - Architecture */}
       <div className="flex justify-end gap-3 mt-4 font-semibold">
         <Link rel="noopener noreferrer" href="/projects">
-          <div className=" dark:hover:text-cyan-500">Tech Projects</div>
+          <div className="flex gap-1 dark:hover:text-cyan-500"><AiOutlineLaptop className="mt-1" size={18} /> Tech Projects</div>
         </Link>
 
         <Link rel="noopener noreferrer" href="/archi">
-          <div className=" dark:hover:text-cyan-500">Architecture</div>
+          <div className="flex gap-1 dark:hover:text-cyan-500"><BsHouseDoor className="mt-1" size={18}/> Architecture</div>
         </Link>
       </div>
 

@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 // Icons
 import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
-import { FaConnectdevelop } from "@react-icons/all-files/fa/FaConnectdevelop";
 import { BsPencilSquare } from "@react-icons/all-files/bs/BsPencilSquare";
 
 const techstack = () => {
