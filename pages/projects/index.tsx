@@ -27,7 +27,7 @@ const projects = () => {
           </div>
         </Link>
 
-        <Link rel="noopener noreferrer" href="/archi">
+        <Link rel="noopener noreferrer" href="/architecture">
           <div className="flex gap-1 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300">
             <BsHouseDoor className="mt-1" size={18} /> Architecture
           </div>
