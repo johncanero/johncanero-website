@@ -18,13 +18,13 @@ const projects = () => {
   return (
     <div>
       {/* Add Links - Architecture */}
-      <div className="flex gap-3 mt-4 font-semibold">
+      <div className="flex justify-end gap-3 mt-4 font-semibold">
         <Link rel="noopener noreferrer" href="/projects">
-          <div className="">Tech Projects</div>
+          <div className=" dark:hover:text-cyan-500">Tech Projects</div>
         </Link>
 
         <Link rel="noopener noreferrer" href="/archi">
-          <div className="">Architecture</div>
+          <div className=" dark:hover:text-cyan-500">Architecture</div>
         </Link>
       </div>
 

@@ -7,13 +7,13 @@ const index = () => {
   return (
     <div>
       {/* Add Links - Architecture */}
-      <div className="flex gap-3 mt-4 font-semibold">
+      <div className="flex justify-end gap-3 mt-4 font-semibold">
         <Link rel="noopener noreferrer" href="/projects">
-          <div className="">Tech Projects</div>
+          <div className=" dark:hover:text-cyan-500">Tech Projects</div>
         </Link>
 
         <Link rel="noopener noreferrer" href="/archi">
-          <div className="">Architecture</div>
+          <div className=" dark:hover:text-cyan-500">Architecture</div>
         </Link>
       </div>
 
@@ -21,7 +21,7 @@ const index = () => {
         Architecture Projects
       </div>
 
-      <div className="flex justify-center mt-2 md:mt-6 mb-28 md:mb-6">
+      <div className="flex justify-center md:mt-6 mb-28 md:mb-6">
         <CardItem
           title="Architectural Portfolio"
           iconTitle={
