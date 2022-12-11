@@ -13,7 +13,14 @@ import { FaConnectdevelop } from "@react-icons/all-files/fa/FaConnectdevelop";
 import { AiOutlineProject } from "@react-icons/all-files/ai/AiOutlineProject";
 import { AiOutlineMail } from "@react-icons/all-files/ai/AiOutlineMail";
 
+// Input a Logo Profile: J
+// Create Links: Home, About Me, Tech Stack, Projects, Contact and Bio Link: @johncanero
+// Create a Dark Mode Theme using next-themes { Theme Provider }
+// Justify between the Links and Bio Link x Dark Mode Theme
+
 const Header = () => {
+  // Dark Mode Theme 
+    // Import Button.js component for the Dark Mode Theme Toggle
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
@@ -71,6 +78,7 @@ const Header = () => {
         <header className="flex items-center justify-between h-20">
           <div className="">
             <ul className="flex gap-5 text-sm md:gap-7">
+              {/* Import Logo Profile: J with Link */}
               <Link rel="noopener noreferrer" href="/">
                 <Image
                   src="/images/letterJ.png"
@@ -81,7 +89,8 @@ const Header = () => {
                 />
               </Link>
 
-              {/* Header Links */}
+              {/* // Create Links: Home, About Me, Tech Stack, Projects, Contact and Bio Link: @johncanero */}
+                {/* // Input a React Icon for better user experience */}
               <Link
                 rel="noopener noreferrer"
                 href="/"
@@ -129,6 +138,7 @@ const Header = () => {
             </ul>
           </div>
 
+          {/* Input Bio Link and Dark Mode Theme */}
           <div className="flex">
             <Link
               // target="_blank"
