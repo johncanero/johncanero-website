@@ -10,40 +10,21 @@ import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter";
 // Annimation
 import { annotate, annotationGroup } from "rough-notation";
 
+// Create a welcming featuere with annimaton
+// Add contents about yourself and your goal
+// Add Links
+
 const Hero = () => {
-  // const toBuild = useRef() as any;
-  // const toCreate = useRef() as any;
-
-  // useEffect(() => {
-  //   const a1 = annotate(toCreate.current, {
-  //     type: "underline",
-  //     brackets: ["top", "bottom"],
-  //     padding: 1,
-  //     color: "#858585",
-  //     strokeWidth: 1,
-  //   });
-
-  //   const ag = annotationGroup([a1]);
-
-  //   setTimeout(() => {
-  //     ag.show();
-  //   }, 1000);
-
-  //   return () => {
-  //     ag.hide();
-  //   };
-  // }, []);
-
   return (
     <div className="mt-16 font-Poppins lg:mr-96">
-      <h1 className="sm:text-6xl text-center md:justify-start md:text-left md:text-7xl lg:text-8xl font-bold animate__animated animate__slideInLeft">
+      <h1 className="font-bold text-center sm:text-6xl md:justify-start md:text-left md:text-7xl lg:text-8xl animate__animated animate__slideInLeft">
         Hi I'm
-        <span className="dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500 ml-2">
+        <span className="ml-2 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
           Jam
         </span>
       </h1>
 
-      <h3 className="text-center my-3 mt-3 mb-5 text-xl mx-12 md:mx-0 md:mt-4 md:mb-4 md:text-left md:justify-start md:text-3xl lg:mr-48">
+      <h3 className="mx-12 my-3 mt-3 mb-5 text-xl text-center md:mx-0 md:mt-4 md:mb-4 md:text-left md:justify-start md:text-3xl lg:mr-48">
         I am a <span className="highlight">Software Engineer</span>,{" "}
         <span className="highlight">Web Developer</span>
         <div className="flex justify-center md:justify-start">
@@ -52,7 +33,7 @@ const Hero = () => {
         </div>
       </h3>
 
-      <p className="text-center mb-10 mx-6 md:mb-8 md:mx-0 sm:text-center md:text-left text-gray-600 dark:text-gray-500 md:mr-48">
+      <p className="mx-6 mb-10 text-center text-gray-600 md:mb-8 md:mx-0 sm:text-center md:text-left dark:text-gray-500 md:mr-48">
         I enjoy creating stuffs focusing on product design and development. I
         like to BUILD. To have fun, help people and show my work to the world.
         🏂
@@ -60,17 +41,17 @@ const Hero = () => {
       </p>
       {/* Horizontal Line */}
       <div>
-        <hr className="mb-6 text-center w-48 flex mx-auto h-px md:mx-0 md:w-6/12 lg:w-9/12 bg-gray-300 border-0 dark:bg-zinc-900"></hr>
+        <hr className="flex w-48 h-px mx-auto mb-6 text-center bg-gray-300 border-0 md:mx-0 md:w-6/12 lg:w-9/12 dark:bg-zinc-900"></hr>
       </div>
 
-      <div className="flex justify-center md:justify-start mb-12">
+      <div className="flex justify-center mb-12 md:justify-start">
         <Link
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/johncanero/"
         >
           <FaLinkedin
-            className="mr-5 dark:text-gray-100 hover:dark:text-cyan-500 transition ease-in-out  hover:-translate-y-1 hover:scale-110 duration-300 animate__animated animate__fadeIn"
+            className="mr-5 transition duration-300 ease-in-out dark:text-gray-100 hover:dark:text-cyan-500 hover:-translate-y-1 hover:scale-110 animate__animated animate__fadeIn"
             size={30}
           />
         </Link>
@@ -80,7 +61,7 @@ const Hero = () => {
           href="https://github.com/johncanero"
         >
           <FaGithub
-            className="mr-5 dark:text-gray-100 hover:dark:text-cyan-500  transition ease-in-out  hover:-translate-y-1 hover:scale-110 duration-300 animate__animated animate__fadeIn"
+            className="mr-5 transition duration-300 ease-in-out dark:text-gray-100 hover:dark:text-cyan-500 hover:-translate-y-1 hover:scale-110 animate__animated animate__fadeIn"
             size={30}
           />
         </Link>
@@ -90,7 +71,7 @@ const Hero = () => {
           href="https://twitter.com/johncaneroo"
         >
           <FaTwitter
-            className="mr-5 dark:text-gray-100 hover:dark:text-cyan-500  transition ease-in-out  hover:-translate-y-1 hover:scale-110 duration-300 animate__animated animate__fadeIn"
+            className="mr-5 transition duration-300 ease-in-out dark:text-gray-100 hover:dark:text-cyan-500 hover:-translate-y-1 hover:scale-110 animate__animated animate__fadeIn"
             size={30}
           />
         </Link>
@@ -100,21 +81,21 @@ const Hero = () => {
           href="https://www.instagram.com/johncanero/"
         >
           <FaInstagram
-            className="mr-0 dark:text-gray-100 hover:dark:text-cyan-500  transition ease-in-out  hover:-translate-y-1 hover:scale-110 duration-300 animate__animated animate__fadeIn"
+            className="mr-0 transition duration-300 ease-in-out dark:text-gray-100 hover:dark:text-cyan-500 hover:-translate-y-1 hover:scale-110 animate__animated animate__fadeIn"
             size={30}
           />
         </Link>
       </div>
 
-      <footer className="block md:hidden fixed bottom-20 w-screen left-0 text-center text-gray-500 text-sm">
-        <span className="dark:text-gray-100 text-gray-900 font-bold text-lg mr-2">
+      <footer className="fixed left-0 block w-screen text-sm text-center text-gray-500 md:hidden bottom-20">
+        <span className="mr-2 text-lg font-bold text-gray-900 dark:text-gray-100">
           John Cañero
         </span>
         &copy; {new Date().getFullYear()} All Rights Reserved
       </footer>
 
       {/* Hire Me Button */}
-      {/* <div className="flex justify-center items-center md:justify-between">
+      {/* <div className="flex items-center justify-center md:justify-between">
         <div>
           <Link
             target="_blank"
@@ -122,7 +103,7 @@ const Hero = () => {
             href="https://www.linkedin.com/feed/"
           >
             <button
-              className="md:mx-0 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500 text-gray-100 dark:text-white font-bold py-2 px-4 rounded-lg"
+              className="px-4 py-2 font-bold text-gray-100 rounded-lg md:mx-0 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500 dark:text-white"
               onClick={undefined}
             >
               Hire Me!
