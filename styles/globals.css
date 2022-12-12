@@ -23,7 +23,7 @@
   and (-webkit-min-device-pixel-ratio: 2) {
 
  body {
-        @apply sm:w-96;
+        @apply sm:w-100;
 
     }
 }
