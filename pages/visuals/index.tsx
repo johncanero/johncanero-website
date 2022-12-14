@@ -96,6 +96,28 @@ const index = () => {
             </p>
           </Link>
         </div>
+
+
+        
+        {/* Visual 4 */}
+        <div>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/p/CVpkNi0Bj8s/"
+          >
+            <Image
+              src="/images/visuals/embraseYourOwnPace.jpg"
+              width={300}
+              height={40}
+              alt="escapeCompetition"
+              className="animate__animated animate__fadeIn md:w-60 lg:w-72"
+            />
+            <p className="mt-1 text-sm font-bold leading-tight text-left w-60">
+              Small Things
+            </p>
+          </Link>
+        </div>
       </div>
     </div>
   );
