@@ -42,6 +42,26 @@ const index = () => {
           <Link
             target="_blank"
             rel="noopener noreferrer"
+            href="https://www.instagram.com/p/CVeYubPB-5o/"
+          >
+            <Image
+              src="/images/visuals/rippleEffect.jpg"
+              width={300}
+              height={40}
+              alt="escapeCompetition"
+              className="animate__animated animate__fadeIn md:w-60 lg:w-72"
+            />
+            <p className="mt-1 text-sm font-bold leading-tight text-left w-60">
+              Ripple Effect
+            </p>
+          </Link>
+        </div>
+        
+        {/* Visual 2 */}
+        <div>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
             href="https://www.instagram.com/p/CabdY_wFoeO/"
           >
             <Image
@@ -53,6 +73,26 @@ const index = () => {
             />
             <p className="mt-1 text-sm font-bold leading-tight text-left w-60">
               Escape Competition through Authenticity
+            </p>
+          </Link>
+        </div>
+
+        {/* Visual 3 */}
+        <div>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/p/CVzF0lvB2ku/"
+          >
+            <Image
+              src="/images/visuals/embraseYourOwnPace.jpg"
+              width={300}
+              height={40}
+              alt="escapeCompetition"
+              className="animate__animated animate__fadeIn md:w-60 lg:w-72"
+            />
+            <p className="mt-1 text-sm font-bold leading-tight text-left w-60">
+              Embrace your Own Pace
             </p>
           </Link>
         </div>
