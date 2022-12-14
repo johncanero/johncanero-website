@@ -19,7 +19,7 @@ import CardItem from "../../components/CardItem";
 
 const projects = () => {
   return (
-    <div className="mb-28 ">
+    <div className="mb-28 font-Poppins ">
       {/* Add Links - Architecture */}
       <div className="flex justify-end gap-3 mt-6 font-semibold">
         <Link rel="noopener noreferrer" href="/projects">

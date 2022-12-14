@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 // Icons
 import { AiOutlineLaptop } from "@react-icons/all-files/ai/AiOutlineLaptop";
 import { BsHouseDoor } from "@react-icons/all-files/bs/BsHouseDoor";
@@ -7,7 +8,7 @@ import { VscEdit } from "@react-icons/all-files/vsc/VscEdit";
 
 const index = () => {
   return (
-    <div>
+    <div className="font-Poppins">
       {/* Add Links - Architecture */}
       <div className="flex justify-end gap-3 mt-4 font-semibold">
         <Link rel="noopener noreferrer" href="/projects">
@@ -32,6 +33,20 @@ const index = () => {
       {/* Heading */}
       <div className="mt-4 text-2xl font-semibold text-center text-gray-600 dark:text-gray-400 font-Poppins">
         Visuals
+      </div>
+
+      {/* Visuals */}
+      <div className="justify-center mt-6 mb-10 md:flex md:flex-wrap md:gap-12">
+        <div>
+          <Image
+            src="/images/visuals/escapeCompetition.jpg"
+            width={300}
+            height={40}
+            alt="escapeCompetition"
+            className="animate__animated animate__fadeIn"
+          />
+          <p className="">Escape Competition through Authenticity 🧬</p>
+        </div>
       </div>
     </div>
   );
