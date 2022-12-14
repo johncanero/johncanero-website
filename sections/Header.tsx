@@ -73,7 +73,7 @@ const Header = () => {
   };
 
   return (
-    <div>
+    <div className="font-Poppins">
       <div className="hidden md:block">
         <header className="flex items-center justify-between h-20">
           <div className="">
