@@ -8,7 +8,7 @@ import { VscEdit } from "@react-icons/all-files/vsc/VscEdit";
 
 const index = () => {
   return (
-    <div className="font-Poppins">
+    <div className="font-Poppins mb-28">
       {/* Add Links - Architecture */}
       <div className="flex justify-end gap-3 mt-4 text-sm font-semibold md:text-base">
         <Link rel="noopener noreferrer" href="/projects">
@@ -36,7 +36,7 @@ const index = () => {
       </div>
 
       {/* Visuals */}
-      <div className="flex justify-center mt-6 mb-10 md:flex md:flex-wrap md:gap-12">
+      <div className="flex flex-wrap justify-center gap-6 mt-6 md:gap-12">
         {/* Visual 1 */}
         <div>
           <Link
