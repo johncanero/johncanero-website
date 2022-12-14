@@ -85,7 +85,7 @@ const index = () => {
             href="https://www.instagram.com/p/CVzF0lvB2ku/"
           >
             <Image
-              src="/images/visuals/embraseYourOwnPace.jpg"
+              src="/images/visuals/embraceYourOwnPace.jpg"
               width={300}
               height={40}
               alt="escapeCompetition"
@@ -107,7 +107,7 @@ const index = () => {
             href="https://www.instagram.com/p/CVpkNi0Bj8s/"
           >
             <Image
-              src="/images/visuals/embraseYourOwnPace.jpg"
+              src="/images/visuals/smallThings.jpg"
               width={300}
               height={40}
               alt="escapeCompetition"
@@ -115,6 +115,46 @@ const index = () => {
             />
             <p className="mt-1 text-sm font-bold leading-tight text-left w-60">
               Small Things
+            </p>
+          </Link>
+        </div>
+
+         {/* Visual 5 */}
+         <div>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/p/CV93LlCF2ED/"
+          >
+            <Image
+              src="/images/visuals/weAllGonnaMakeIt.jpg"
+              width={300}
+              height={40}
+              alt="escapeCompetition"
+              className="animate__animated animate__fadeIn md:w-60 lg:w-72"
+            />
+            <p className="mt-1 text-sm font-bold leading-tight text-left w-60">
+              We All Gonna Make It
+            </p>
+          </Link>
+        </div>
+
+         {/* Visual 6 */}
+         <div>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/p/CWFHxLdBsc7/"
+          >
+            <Image
+              src="/images/visuals/realArtistsShip.jpg"
+              width={300}
+              height={40}
+              alt="escapeCompetition"
+              className="animate__animated animate__fadeIn md:w-60 lg:w-72"
+            />
+            <p className="mt-1 text-sm font-bold leading-tight text-left w-60">
+              Real Artists Ship
             </p>
           </Link>
         </div>
