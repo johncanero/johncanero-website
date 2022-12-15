@@ -105,7 +105,7 @@ const Header = () => {
                 href="/about"
                 className="font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:text-gray-800 hover:border-gray-600 dark:hover:border-gray-300"
               >
-                <IoMdPerson size={23} className="ml-5" />
+                <IoMdPerson size={23} className="ml-6" />
                 About Me
               </Link>
 
@@ -114,7 +114,7 @@ const Header = () => {
                 href="/techstack"
                 className="font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:text-gray-800 hover:border-gray-600 dark:hover:border-gray-300"
               >
-                <FaConnectdevelop size={23} className="ml-5" />
+                <FaConnectdevelop size={23} className="ml-6" />
                 Tech Stack
               </Link>
 
@@ -123,7 +123,7 @@ const Header = () => {
                 href="/projects"
                 className="font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:text-gray-800 hover:border-gray-600 dark:hover:border-gray-300"
               >
-                <AiOutlineProject size={23} className="ml-3" />
+                <AiOutlineProject size={23} className="ml-4" />
                 Projects
               </Link>
 
@@ -132,7 +132,7 @@ const Header = () => {
                 href="/contact"
                 className="font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:text-gray-800 hover:border-gray-600 dark:hover:border-gray-300"
               >
-                <AiOutlineMail size={23} className="ml-3" />
+                <AiOutlineMail size={23} className="ml-4" />
                 Contact
               </Link>
             </ul>
