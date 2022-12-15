@@ -48,8 +48,8 @@ const index = () => {
               src="/images/visuals/rippleEffect.jpg"
               width={300}
               height={40}
-              alt="escapeCompetition"
-              className="transition duration-300 border animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100 dark:border-neutral-800"
+              alt="rippleEffect"
+              className="transition duration-300 border rounded-xl animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100 dark:border-neutral-800"
             />
             <p className="mt-1 text-sm font-bold text-left w-60">
               Ripple Effect
@@ -69,7 +69,7 @@ const index = () => {
               width={300}
               height={40}
               alt="escapeCompetition"
-              className="transition duration-300 border animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100 dark:border-neutral-800"
+              className="transition duration-300 border animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100 dark:border-neutral-800 rounded-xl "
             />
             <p className="mt-1 text-sm font-bold text-left w-60">
               Escape Competition through Authenticity
@@ -88,8 +88,8 @@ const index = () => {
               src="/images/visuals/embraceYourOwnPace.jpg"
               width={300}
               height={40}
-              alt="escapeCompetition"
-              className="transition duration-300 border animate__animated animate__fadeIn md:w-60 lg:w-72 dark:border-neutral-800 hover:-translate-y-1 hover:scale-100"
+              alt="embraceYourOwnPace"
+              className="transition duration-300 border animate__animated animate__fadeIn md:w-60 lg:w-72 dark:border-neutral-800 hover:-translate-y-1 hover:scale-100 rounded-xl "
             />
             <p className="mt-1 text-sm font-bold text-left w-60">
               Embrace your Own Pace
@@ -108,8 +108,8 @@ const index = () => {
               src="/images/visuals/smallThings.jpg"
               width={300}
               height={40}
-              alt="escapeCompetition"
-              className="transition duration-300 border animate__animated animate__fadeIn md:w-60 lg:w-72 dark:border-neutral-800 hover:-translate-y-1 hover:scale-100"
+              alt="smallThings"
+              className="transition duration-300 border animate__animated animate__fadeIn md:w-60 lg:w-72 dark:border-neutral-800 hover:-translate-y-1 hover:scale-100 rounded-xl"
             />
             <p className="mt-1 text-sm font-bold text-left w-60">
               Small Things
@@ -128,8 +128,8 @@ const index = () => {
               src="/images/visuals/weAllGonnaMakeIt.jpg"
               width={300}
               height={40}
-              alt="escapeCompetition"
-              className="transition duration-300 border animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 dark:border-neutral-800 hover:scale-100"
+              alt="weAllGonnaMakeIt"
+              className="transition duration-300 border animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 dark:border-neutral-800 hover:scale-100 rounded-xl"
             />
             <p className="mt-1 text-sm font-bold text-left w-60">
               We All Gonna Make It
@@ -148,8 +148,8 @@ const index = () => {
               src="/images/visuals/realArtistsShip.jpg"
               width={300}
               height={40}
-              alt="escapeCompetition"
-              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100"
+              alt="realArtistsShip"
+              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100 rounded-xl"
             />
             <p className="mt-1 text-sm font-bold text-left w-60">
               Real Artists Ship
@@ -169,7 +169,7 @@ const index = () => {
               width={300}
               height={40}
               alt="thinkOutsideTheBox"
-              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100"
+              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100 rounded-xl"
             />
             <p className="mt-1 text-sm font-bold text-left w-60">
               Think Outside the Box
@@ -188,8 +188,8 @@ const index = () => {
               src="/images/visuals/linearProgressions.jpg"
               width={300}
               height={40}
-              alt="thinkOutsideTheBox"
-              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100"
+              alt="linearProgressions"
+              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100 rounded-xl"
             />
             <p className="mt-1 text-sm font-bold text-left w-60">
               Linear Progressions
@@ -208,8 +208,8 @@ const index = () => {
               src="/images/visuals/lifeIsUnpredictable.jpg"
               width={300}
               height={40}
-              alt="thinkOutsideTheBox"
-              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100"
+              alt="lifeIsUnpredictable"
+              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100 rounded-xl"
             />
             <p className="mt-1 text-sm font-bold text-left w-60">
               Life is Unpredicatable
@@ -228,8 +228,8 @@ const index = () => {
               src="/images/visuals/weLearnWhoWeAreInPractice.jpg"
               width={300}
               height={40}
-              alt="thinkOutsideTheBox"
-              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100"
+              alt="weLearnWhoWeAreInPractice"
+              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100 rounded-xl"
             />
             <p className="mt-1 text-sm font-bold text-left w-60">
               We Learn Who We Are In Practice, not in Theory
@@ -248,8 +248,8 @@ const index = () => {
               src="/images/visuals/humility.jpg"
               width={300}
               height={40}
-              alt="thinkOutsideTheBox"
-              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100"
+              alt="humility"
+              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100 rounded-xl"
             />
             <p className="mt-1 text-sm font-bold text-left w-60">Humility</p>
           </Link>
@@ -266,8 +266,8 @@ const index = () => {
               src="/images/visuals/doGoodWork.jpg"
               width={300}
               height={40}
-              alt="thinkOutsideTheBox"
-              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100"
+              alt="doGoodWork"
+              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100 rounded-xl"
             />
             <p className="mt-1 text-sm font-bold text-left w-60">Do Good Work</p>
           </Link>
