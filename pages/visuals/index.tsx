@@ -216,6 +216,62 @@ const index = () => {
             </p>
           </Link>
         </div>
+
+        {/* Visual 10 */}
+        <div>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/p/CWMt9w0h_ub/"
+          >
+            <Image
+              src="/images/visuals/weLearnWhoWeAreInPractice.jpg"
+              width={300}
+              height={40}
+              alt="thinkOutsideTheBox"
+              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100"
+            />
+            <p className="mt-1 text-sm font-bold text-left w-60">
+              We Learn Who We Are In Practice, not in Theory
+            </p>
+          </Link>
+        </div>
+
+        {/* Visual 11 */}
+        <div>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/p/CWfx5fOBvyO/"
+          >
+            <Image
+              src="/images/visuals/humility.jpg"
+              width={300}
+              height={40}
+              alt="thinkOutsideTheBox"
+              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100"
+            />
+            <p className="mt-1 text-sm font-bold text-left w-60">Humility</p>
+          </Link>
+        </div>
+
+         {/* Visual 12 */}
+         <div>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/p/CWUyA3YFjJ8/"
+          >
+            <Image
+              src="/images/visuals/doGoodWork.jpg"
+              width={300}
+              height={40}
+              alt="thinkOutsideTheBox"
+              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100"
+            />
+            <p className="mt-1 text-sm font-bold text-left w-60">Do Good Work</p>
+          </Link>
+        </div>
       </div>
     </div>
   );
