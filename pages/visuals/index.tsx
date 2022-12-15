@@ -49,14 +49,14 @@ const index = () => {
               width={300}
               height={40}
               alt="escapeCompetition"
-              className="animate__animated animate__fadeIn md:w-60 lg:w-72"
+              className="transition duration-300 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100"
             />
             <p className="mt-1 text-sm font-bold leading-tight text-left w-60">
               Ripple Effect
             </p>
           </Link>
         </div>
-        
+
         {/* Visual 2 */}
         <div>
           <Link
@@ -69,7 +69,7 @@ const index = () => {
               width={300}
               height={40}
               alt="escapeCompetition"
-              className="animate__animated animate__fadeIn md:w-60 lg:w-72"
+              className="transition duration-300 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100"
             />
             <p className="mt-1 text-sm font-bold leading-tight text-left w-60">
               Escape Competition through Authenticity
@@ -89,7 +89,7 @@ const index = () => {
               width={300}
               height={40}
               alt="escapeCompetition"
-              className="animate__animated animate__fadeIn md:w-60 lg:w-72"
+              className="transition duration-300 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100"
             />
             <p className="mt-1 text-sm font-bold leading-tight text-left w-60">
               Embrace your Own Pace
@@ -97,8 +97,6 @@ const index = () => {
           </Link>
         </div>
 
-
-        
         {/* Visual 4 */}
         <div>
           <Link
@@ -111,7 +109,7 @@ const index = () => {
               width={300}
               height={40}
               alt="escapeCompetition"
-              className="animate__animated animate__fadeIn md:w-60 lg:w-72"
+              className="transition duration-300 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100"
             />
             <p className="mt-1 text-sm font-bold leading-tight text-left w-60">
               Small Things
@@ -119,8 +117,8 @@ const index = () => {
           </Link>
         </div>
 
-         {/* Visual 5 */}
-         <div>
+        {/* Visual 5 */}
+        <div>
           <Link
             target="_blank"
             rel="noopener noreferrer"
@@ -131,7 +129,7 @@ const index = () => {
               width={300}
               height={40}
               alt="escapeCompetition"
-              className="animate__animated animate__fadeIn md:w-60 lg:w-72"
+              className="transition duration-300 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100"
             />
             <p className="mt-1 text-sm font-bold leading-tight text-left w-60">
               We All Gonna Make It
@@ -139,8 +137,8 @@ const index = () => {
           </Link>
         </div>
 
-         {/* Visual 6 */}
-         <div>
+        {/* Visual 6 */}
+        <div>
           <Link
             target="_blank"
             rel="noopener noreferrer"
@@ -151,7 +149,7 @@ const index = () => {
               width={300}
               height={40}
               alt="escapeCompetition"
-              className="animate__animated animate__fadeIn md:w-60 lg:w-72"
+              className="transition duration-300 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100"
             />
             <p className="mt-1 text-sm font-bold leading-tight text-left w-60">
               Real Artists Ship
