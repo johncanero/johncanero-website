@@ -255,8 +255,8 @@ const index = () => {
           </Link>
         </div>
 
-         {/* Visual 12 */}
-         <div>
+        {/* Visual 12 */}
+        <div>
           <Link
             target="_blank"
             rel="noopener noreferrer"
@@ -269,7 +269,69 @@ const index = () => {
               alt="doGoodWork"
               className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100 rounded-xl"
             />
-            <p className="mt-1 text-sm font-bold text-left w-60">Do Good Work</p>
+            <p className="mt-1 text-sm font-bold text-left w-60">
+              Do Good Work
+            </p>
+          </Link>
+        </div>
+
+        {/* Visual 13 */}
+        <div>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/p/CWnfZ2Gl5Xc/"
+          >
+            <Image
+              src="/images/visuals/showYourWorkNotYourTools.jpg"
+              width={300}
+              height={40}
+              alt="showYourWorkNotYourTools"
+              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100 rounded-xl"
+            />
+            <p className="mt-1 text-sm font-bold text-left w-60">
+              Show Your Work, Not Your Tools
+            </p>
+          </Link>
+        </div>
+
+        {/* Visual 14 */}
+        <div>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/p/CU_jtUihdAB/"
+          >
+            <Image
+              src="/images/visuals/takeASimpleIdea.jpg"
+              width={300}
+              height={40}
+              alt="takeASimpleIdea"
+              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100 rounded-xl"
+            />
+            <p className="mt-1 text-sm font-bold text-left w-60">
+              Take a Simple Idea & Take it Seriously
+            </p>
+          </Link>
+        </div>
+
+        {/* Visual 15 */}
+        <div>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/p/CUgjMxGlnpz/"
+          >
+            <Image
+              src="/images/visuals/youAreTheFirstDomino.png"
+              width={300}
+              height={40}
+              alt="youAreTheFirstDomino"
+              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100 rounded-xl"
+            />
+            <p className="mt-1 text-sm font-bold text-left w-60">
+              You are the First Domino
+            </p>
           </Link>
         </div>
       </div>
