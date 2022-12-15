@@ -49,9 +49,9 @@ const index = () => {
               width={300}
               height={40}
               alt="escapeCompetition"
-              className="transition duration-300 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100"
+              className="transition duration-300 border animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100 dark:border-neutral-800"
             />
-            <p className="mt-1 text-sm font-bold leading-tight text-left w-60">
+            <p className="mt-1 text-sm font-bold text-left w-60">
               Ripple Effect
             </p>
           </Link>
@@ -69,9 +69,9 @@ const index = () => {
               width={300}
               height={40}
               alt="escapeCompetition"
-              className="transition duration-300 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100"
+              className="transition duration-300 border animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100 dark:border-neutral-800"
             />
-            <p className="mt-1 text-sm font-bold leading-tight text-left w-60">
+            <p className="mt-1 text-sm font-bold text-left w-60">
               Escape Competition through Authenticity
             </p>
           </Link>
@@ -89,9 +89,9 @@ const index = () => {
               width={300}
               height={40}
               alt="escapeCompetition"
-              className="transition duration-300 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100"
+              className="transition duration-300 border animate__animated animate__fadeIn md:w-60 lg:w-72 dark:border-neutral-800 hover:-translate-y-1 hover:scale-100"
             />
-            <p className="mt-1 text-sm font-bold leading-tight text-left w-60">
+            <p className="mt-1 text-sm font-bold text-left w-60">
               Embrace your Own Pace
             </p>
           </Link>
@@ -109,9 +109,9 @@ const index = () => {
               width={300}
               height={40}
               alt="escapeCompetition"
-              className="transition duration-300 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100"
+              className="transition duration-300 border animate__animated animate__fadeIn md:w-60 lg:w-72 dark:border-neutral-800 hover:-translate-y-1 hover:scale-100"
             />
-            <p className="mt-1 text-sm font-bold leading-tight text-left w-60">
+            <p className="mt-1 text-sm font-bold text-left w-60">
               Small Things
             </p>
           </Link>
@@ -129,9 +129,9 @@ const index = () => {
               width={300}
               height={40}
               alt="escapeCompetition"
-              className="transition duration-300 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100"
+              className="transition duration-300 border animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 dark:border-neutral-800 hover:scale-100"
             />
-            <p className="mt-1 text-sm font-bold leading-tight text-left w-60">
+            <p className="mt-1 text-sm font-bold text-left w-60">
               We All Gonna Make It
             </p>
           </Link>
@@ -149,10 +149,70 @@ const index = () => {
               width={300}
               height={40}
               alt="escapeCompetition"
-              className="transition duration-300 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100"
+              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100"
             />
-            <p className="mt-1 text-sm font-bold leading-tight text-left w-60">
+            <p className="mt-1 text-sm font-bold text-left w-60">
               Real Artists Ship
+            </p>
+          </Link>
+        </div>
+
+        {/* Visual 7 */}
+        <div>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/p/CUUrF24lSb5/"
+          >
+            <Image
+              src="/images/visuals/thinkOutsideTheBox.jpg"
+              width={300}
+              height={40}
+              alt="thinkOutsideTheBox"
+              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100"
+            />
+            <p className="mt-1 text-sm font-bold text-left w-60">
+              Think Outside the Box
+            </p>
+          </Link>
+        </div>
+
+        {/* Visual 8 */}
+        <div>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/p/CV44JQrFY0G/"
+          >
+            <Image
+              src="/images/visuals/linearProgressions.jpg"
+              width={300}
+              height={40}
+              alt="thinkOutsideTheBox"
+              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100"
+            />
+            <p className="mt-1 text-sm font-bold text-left w-60">
+              Linear Progressions
+            </p>
+          </Link>
+        </div>
+
+        {/* Visual 9 */}
+        <div>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/p/CVuPxnOFvpw/"
+          >
+            <Image
+              src="/images/visuals/lifeIsUnpredictable.jpg"
+              width={300}
+              height={40}
+              alt="thinkOutsideTheBox"
+              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100"
+            />
+            <p className="mt-1 text-sm font-bold text-left w-60">
+              Life is Unpredicatable
             </p>
           </Link>
         </div>
