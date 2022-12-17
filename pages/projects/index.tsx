@@ -14,6 +14,7 @@ import { BsFillChatQuoteFill } from "@react-icons/all-files/bs/BsFillChatQuoteFi
 import { AiOutlineLaptop } from "@react-icons/all-files/ai/AiOutlineLaptop";
 import { BsHouseDoor } from "@react-icons/all-files/bs/BsHouseDoor";
 import { VscEdit } from "@react-icons/all-files/vsc/VscEdit";
+import { RiComputerLine } from "@react-icons/all-files/ri/RiComputerLine"
 
 import CardItem from "../../components/CardItem";
 
@@ -67,6 +68,29 @@ const projects = () => {
           hashtag3="resume"
         />
 
+        {/* Tech Jam*/}
+        <CardItem
+          title="Tech Jam"
+          iconTitle={
+            <RiComputerLine className="mt-1 ml-1 text-green-400 " />
+          }
+          description="Perfect stroke keys: Offering satisfying feedback with every tap. Comfort and stability. Smart illumination hand proximity."
+          src="/projects/techJamNexSnap2.png"
+          path="https://tech-jam-by-johncanero.vercel.app/"
+          // Source Code:
+          source="Source Code:"
+          iconSource={
+            <FaGithub
+              className="mt-3 ml-1 text-gray-700 hover:text-gray-900"
+              size={20}
+            />
+          }
+          sourceLink="https://github.com/johncanero/tech-jam"
+          hashtag1="tech"
+          hashtag2="marketplace"
+          hashtag3="blog"
+        />
+
         {/* Architecture News */}
         <CardItem
           title="Architecture News"
@@ -75,7 +99,7 @@ const projects = () => {
           }
           description=" Find the latest news about design and architecture and historic establishments in the Philippines. Be informed."
           src="/projects/architectureNewsWebsiteDesktop.png"
-          path="https://architecture-news-website.vercel.app//"
+          path="https://architecture-news-website.vercel.app/"
           // Source Code:
           source="Source Code:"
           iconSource={
