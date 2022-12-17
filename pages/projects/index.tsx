@@ -72,7 +72,7 @@ const projects = () => {
         <CardItem
           title="Tech Jam"
           iconTitle={
-            <RiComputerLine className="mt-1 ml-1 text-green-400 " />
+            <RiComputerLine className="mt-1 ml-1 text-green-600 " />
           }
           description="Perfect stroke keys: Offering satisfying feedback with every tap. Comfort and stability. Smart illumination hand proximity."
           src="/projects/techJamNexSnap2.png"
