@@ -394,6 +394,46 @@ const index = () => {
             </p>
           </Link>
         </div>
+
+        {/* Visual 19 */}
+        <div>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/p/CWnfZ2Gl5Xc/"
+          >
+            <Image
+              src="/images/visuals/showYourWork3D.jpg"
+              width={300}
+              height={40}
+              alt="showYourWork3D"
+              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100 rounded-xl"
+            />
+            <p className="mt-1 text-sm font-bold text-left w-60">
+              Show Your Work
+            </p>
+          </Link>
+        </div>
+
+        {/* Visual 20 */}
+        <div>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/p/CU6zbafFUXm/"
+          >
+            <Image
+              src="/images/visuals/enterASmallMarket.jpg"
+              width={300}
+              height={40}
+              alt="showYourWork3D"
+              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100 rounded-xl"
+            />
+            <p className="mt-1 text-sm font-bold text-left w-60">
+              Enter a Smaller Market
+            </p>
+          </Link>
+        </div>
       </div>
     </div>
   );
