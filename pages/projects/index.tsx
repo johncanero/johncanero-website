@@ -74,7 +74,7 @@ const projects = () => {
           iconTitle={
             <RiComputerLine className="mt-1 ml-1 text-green-600 " />
           }
-          description="Perfect stroke keys: Offering satisfying feedback with every tap. Comfort and stability. Smart illumination hand proximity."
+          description="A Tech Jam Marketplace: Product Page featuring the latest and quality tech finds in the market. Let's go and buy some new tech!"
           src="/projects/techJamNexSnap2.png"
           path="https://tech-jam-by-johncanero.vercel.app/"
           // Source Code:
