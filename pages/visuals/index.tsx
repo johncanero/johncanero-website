@@ -334,6 +334,66 @@ const index = () => {
             </p>
           </Link>
         </div>
+
+        {/* Visual 16 */}
+        <div>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/p/CU1Iy2TlxAe/"
+          >
+            <Image
+              src="/images/visuals/improveContentDiet.jpg"
+              width={300}
+              height={40}
+              alt="improveContentDiet"
+              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100 rounded-xl"
+            />
+            <p className="mt-1 text-sm font-bold text-left w-60">
+              Improve Your Content Diet
+            </p>
+          </Link>
+        </div>
+
+        {/* Visual 17 */}
+        <div>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/p/CVDIu7YFqxZ/"
+          >
+            <Image
+              src="/images/visuals/Independence.png"
+              width={300}
+              height={40}
+              alt="Independence"
+              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100 rounded-xl"
+            />
+            <p className="mt-1 text-sm font-bold text-left w-60">
+              Independence
+            </p>
+          </Link>
+        </div>
+
+        {/* Visual 18 */}
+        <div>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/p/CUZHI3dlcE3/"
+          >
+            <Image
+              src="/images/visuals/oneThingAtATime.jpg"
+              width={300}
+              height={40}
+              alt="oneThingAtATime"
+              className="transition duration-300 border dark:border-neutral-800 animate__animated animate__fadeIn md:w-60 lg:w-72 hover:-translate-y-1 hover:scale-100 rounded-xl"
+            />
+            <p className="mt-1 text-sm font-bold text-left w-60">
+              One Thing At A Time
+            </p>
+          </Link>
+        </div>
       </div>
     </div>
   );
