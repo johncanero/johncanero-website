@@ -65,7 +65,7 @@ const projects = () => {
           sourceLink="https://github.com/johncanero/johncanero-website"
           hashtag1="portfolio"
           hashtag2="website"
-          hashtag3="resume"
+          hashtag3=""
         />
 
         {/* Tech Jam*/}
@@ -74,7 +74,7 @@ const projects = () => {
           iconTitle={
             <RiComputerLine className="mt-1 ml-1 text-green-600 " />
           }
-          description="A Tech Jam Marketplace: Product Page featuring the latest and quality tech finds in the market. Let's go and buy some new tech!"
+          description="A Tech Jam Marketplace featuring the latest and quality tech finds in the market. Let's go and buy some new tech!"
           src="/projects/techJamNexSnap2.png"
           path="https://tech-jam-by-johncanero.vercel.app/"
           // Source Code:
@@ -111,7 +111,7 @@ const projects = () => {
           sourceLink="https://github.com/johncanero/architecture-news-website"
           hashtag1="architecture"
           hashtag2="news"
-          hashtag3="update"
+          hashtag3=""
         />
 
         {/* Shoe Product Card */}
