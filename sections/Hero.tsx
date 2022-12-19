@@ -87,12 +87,13 @@ const Hero = () => {
         </Link>
       </div>
 
-      <footer className="fixed left-0 block w-screen text-sm text-center text-gray-500 md:hidden bottom-20">
+      {/* Mobile */}
+      {/* <footer className="fixed left-0 block w-screen text-sm text-center text-gray-500 md:hidden bottom-20">
         <span className="mr-2 text-lg font-bold text-gray-900 dark:text-gray-100">
           John Cañero
         </span>
         &copy; {new Date().getFullYear()} All Rights Reserved
-      </footer>
+      </footer> */}
 
       {/* Hire Me Button */}
       {/* <div className="flex items-center justify-center md:justify-between">
