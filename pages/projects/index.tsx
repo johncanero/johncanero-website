@@ -14,7 +14,7 @@ import { BsFillChatQuoteFill } from "@react-icons/all-files/bs/BsFillChatQuoteFi
 import { AiOutlineLaptop } from "@react-icons/all-files/ai/AiOutlineLaptop";
 import { BsHouseDoor } from "@react-icons/all-files/bs/BsHouseDoor";
 import { VscEdit } from "@react-icons/all-files/vsc/VscEdit";
-import { RiComputerLine } from "@react-icons/all-files/ri/RiComputerLine"
+import { RiComputerLine } from "@react-icons/all-files/ri/RiComputerLine";
 
 import CardItem from "../../components/CardItem";
 
@@ -71,9 +71,7 @@ const projects = () => {
         {/* Tech Jam*/}
         <CardItem
           title="Tech Jam"
-          iconTitle={
-            <RiComputerLine className="mt-1 ml-1 text-green-600 " />
-          }
+          iconTitle={<RiComputerLine className="mt-1 ml-1 text-green-600 " />}
           description="A Tech Jam Marketplace featuring the latest and quality tech finds in the market. Let's go and buy some new tech!"
           src="/projects/techJamNexSnap2.png"
           path="https://tech-jam-by-johncanero.vercel.app/"
@@ -89,50 +87,6 @@ const projects = () => {
           hashtag1="tech"
           hashtag2="marketplace"
           hashtag3="blog"
-        />
-
-        {/* Architecture News */}
-        <CardItem
-          title="Architecture News"
-          iconTitle={
-            <BsFillHouseDoorFill className="mt-1 ml-1 text-amber-400 " />
-          }
-          description=" Find the latest news about design and architecture and historic establishments in the Philippines. Be informed."
-          src="/projects/architectureNewsWebsiteDesktop.png"
-          path="https://architecture-news-website.vercel.app/"
-          // Source Code:
-          source="Source Code:"
-          iconSource={
-            <FaGithub
-              className="mt-3 ml-1 text-gray-700 hover:text-gray-900"
-              size={20}
-            />
-          }
-          sourceLink="https://github.com/johncanero/architecture-news-website"
-          hashtag1="architecture"
-          hashtag2="news"
-          hashtag3=""
-        />
-
-        {/* Shoe Product Card */}
-        <CardItem
-          title="Shoe Product Card "
-          iconTitle={<GiRunningShoe className="mt-1 ml-1 text-green-400 " />}
-          description="Where previous Air Max models filled the sole with as much air, the VaporMax focuses on using less air, more efficiently."
-          src="/projects/shoeProductCard.png"
-          path="https://shoe-product-card-by-johncanero.vercel.app/"
-          // Source Code:
-          source="Source Code:"
-          iconSource={
-            <FaGithub
-              className="mt-3 ml-1 text-gray-700 hover:text-gray-900"
-              size={20}
-            />
-          }
-          sourceLink="https://github.com/johncanero/shoe-product-card"
-          hashtag1="shoe"
-          hashtag2="product"
-          hashtag3="sale"
         />
 
         {/* Remote Landing Page*/}
@@ -157,6 +111,50 @@ const projects = () => {
           hashtag1="remote"
           hashtag2="work"
           hashtag3="landing"
+        />
+
+        {/* Shoe Product Card */}
+        <CardItem
+          title="Shoe Product Card "
+          iconTitle={<GiRunningShoe className="mt-1 ml-1 text-green-400 " />}
+          description="Where previous Air Max models filled the sole with as much air, the VaporMax focuses on using less air, more efficiently."
+          src="/projects/shoeProductCard.png"
+          path="https://shoe-product-card-by-johncanero.vercel.app/"
+          // Source Code:
+          source="Source Code:"
+          iconSource={
+            <FaGithub
+              className="mt-3 ml-1 text-gray-700 hover:text-gray-900"
+              size={20}
+            />
+          }
+          sourceLink="https://github.com/johncanero/shoe-product-card"
+          hashtag1="shoe"
+          hashtag2="product"
+          hashtag3="sale"
+        />
+
+        {/* Architecture News */}
+        <CardItem
+          title="Architecture News"
+          iconTitle={
+            <BsFillHouseDoorFill className="mt-1 ml-1 text-amber-400 " />
+          }
+          description=" Find the latest news about design and architecture and historic establishments in the Philippines. Be informed."
+          src="/projects/architectureNewsWebsiteDesktop.png"
+          path="https://architecture-news-website.vercel.app/"
+          // Source Code:
+          source="Source Code:"
+          iconSource={
+            <FaGithub
+              className="mt-3 ml-1 text-gray-700 hover:text-gray-900"
+              size={20}
+            />
+          }
+          sourceLink="https://github.com/johncanero/architecture-news-website"
+          hashtag1="architecture"
+          hashtag2="news"
+          hashtag3=""
         />
 
         {/* Advice Generator App */}
