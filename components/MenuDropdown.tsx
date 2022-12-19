@@ -68,7 +68,7 @@ const MenuDropdown = () => {
 
   return (
     // Mobile Visiblity
-    <div className="flex justify-between mt-3 text-right md:hidden top-16 w-96">
+    <div className="flex justify-between px-4 mt-3 text-right md:hidden top-16 ">
       {/* Image */}
       <Link rel="noopener noreferrer" href="/">
         <div>
@@ -84,7 +84,7 @@ const MenuDropdown = () => {
       {/* Dark Mode and Toggle */}
       <div className="z-10">
         {renderThemeChanger()}
-        <Menu as="div" className="relative inline-block text-left mr-7">
+        <Menu as="div" className="relative inline-block text-left">
           <div>
             <Menu.Button className="inline-flex justify-center w-full px-2 py-2 text-sm font-medium text-white rounded-md bg-gradient-to-r from-neutral-800 to-neutral-900 dark:from-cyan-500 dark:to-blue-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-white">
               <Bars3Icon className="w-5 h-5 text-white" aria-hidden="true" />

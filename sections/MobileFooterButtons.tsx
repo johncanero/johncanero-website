@@ -10,7 +10,7 @@ import { AiOutlineMail } from "@react-icons/all-files/ai/AiOutlineMail";
 const MobileFooterButtons = () => {
   return (
     <div>
-      <div className="fixed bottom-0 left-0 flex justify-center w-screen py-3 ml-1 text-center bg-gray-100 border gap-7 sm:w-96 dark:bg-black50 border-t-1 border-slate-400 dark:border-slate-700 border-x-0 md:hidden ">
+      <div className="fixed bottom-0 left-0 flex justify-center w-screen py-2 ml-1 text-center bg-gray-100 border gap-7 sm:w-96 dark:bg-black50 border-t-1 border-slate-400 dark:border-slate-700 border-x-0 md:hidden ">
         {/* Home */}
         <Link href="/" rel="noopener noreferrer">
           <button className="hover:text-gray-800 dark:hover:text-gray-50">

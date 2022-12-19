@@ -22,7 +22,7 @@ const projects = () => {
   return (
     <div className="mb-28 font-Poppins ">
       {/* Add Links - Architecture */}
-      <div className="flex justify-end gap-3 mt-4 text-sm font-semibold md:text-base">
+      <div className="flex justify-end gap-3 px-4 mt-4 text-sm font-semibold md:text-base">
         <Link rel="noopener noreferrer" href="/projects">
           <div className="flex gap-2 border-b-2 border-transparent dark:text-gray-300 hover:border-gray-600 dark:hover:border-gray-300">
             <AiOutlineLaptop className="mt-0 md:mt-1" size={18} /> Tech Projects
@@ -41,6 +41,7 @@ const projects = () => {
           </div>
         </Link>
       </div>
+      
       <div className="mt-4 text-2xl font-semibold text-center text-gray-600 dark:text-gray-400 font-Poppins">
         Tech Projects
       </div>
