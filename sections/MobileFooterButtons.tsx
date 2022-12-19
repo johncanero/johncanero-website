@@ -14,7 +14,7 @@ const MobileFooterButtons = () => {
         {/* Home */}
         <Link href="/" rel="noopener noreferrer">
           <button className="hover:text-gray-800 dark:hover:text-gray-50">
-            <FaHome className="ml-1" size={25} />
+            <FaHome className="ml-1" size={23} />
             <p className="mt-1 text-xs text-center font-Poppins">Home</p>
           </button>
         </Link>
@@ -22,7 +22,7 @@ const MobileFooterButtons = () => {
         {/* About Me */}
         <Link href="/about" rel="noopener noreferrer">
           <button className="hover:text-gray-800 dark:hover:text-gray-50">
-            <IoMdPerson className="ml-1" size={25} />
+            <IoMdPerson className="ml-1" size={23} />
             <p className="mt-1 text-xs text-center font-Poppins">About</p>
           </button>
         </Link>
@@ -30,7 +30,7 @@ const MobileFooterButtons = () => {
         {/* Tech Stack */}
         <Link href="/techstack" rel="noopener noreferrer">
           <button className="hover:text-gray-800 dark:hover:text-gray-50">
-            <FaConnectdevelop className="ml-5" size={25} />
+            <FaConnectdevelop className="ml-5" size={23} />
             <p className="mt-1 text-xs text-center font-Poppins">Tech Stack</p>
           </button>
         </Link>
@@ -38,7 +38,7 @@ const MobileFooterButtons = () => {
         {/* Contact */}
         <Link href="/contact" rel="noopener noreferrer">
           <button className="hover:text-gray-800 dark:hover:text-gray-50">
-            <AiOutlineMail className="ml-2" size={25} />
+            <AiOutlineMail className="ml-3" size={23} />
             <p className="mt-1 text-xs text-center font-Poppins">Contact</p>
           </button>
         </Link>
@@ -46,7 +46,7 @@ const MobileFooterButtons = () => {
         {/* Projects */}
         <Link href="/projects" rel="noopener noreferrer">
           <button className="hover:text-gray-800 dark:hover:text-gray-50">
-            <AiOutlineProject className="ml-2" size={25} />
+            <AiOutlineProject className="ml-2" size={23} />
             <p className="mt-1 text-xs text-center font-Poppins">Projects</p>
           </button>
         </Link>
