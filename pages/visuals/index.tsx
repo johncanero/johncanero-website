@@ -423,7 +423,7 @@ const index = () => {
             href="https://www.instagram.com/p/CU6zbafFUXm/"
           >
             <Image
-              src="/images/visuals/enterASmallMarket.jpg"
+              src="/images/visuals/enterASmallerMarket2.jpg"
               width={300}
               height={40}
               alt="showYourWork3D"
