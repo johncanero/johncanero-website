@@ -16,13 +16,13 @@ const about = () => {
           </div>
           
           {/* John Cañero Logo */}
-          <div className="flex justify-center mx-auto mt-3">
+          <div className="flex justify-center mx-auto mt-4 mb-4">
             <Image
-              src="/images/johncanero4.1.png"
+              src="/images/johncanero5.1.jpg"
               width={250}
               height={250}
               alt="John Cañero Logo"
-              className="transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-100"
+              className="transition duration-300 ease-in-out rounded-full hover:-translate-y-1 hover:scale-100"
             />
           </div>
 
