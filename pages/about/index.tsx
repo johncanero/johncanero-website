@@ -7,7 +7,7 @@ import { ImDownload } from "@react-icons/all-files/im/ImDownload";
 
 const about = () => {
   return (
-    <div className="mb-20 md:flex">
+    <div className="px-4 mb-24 md:flex">
       {/* First Column */}
       <div>
         <div className="mx-4 font-Poppins md:mx-8 lg:mr-28">
@@ -146,7 +146,7 @@ const about = () => {
                 ✅ Accomplished Google - Foundations of User Experience (UX)
                 Design Course
               </li>
-              <li>✅ Progress: The Ultimate React 101 at Scrimba </li>
+              <li>✅ The Ultimate React 101 at Scrimba </li>
             </div>
           </ul>
 

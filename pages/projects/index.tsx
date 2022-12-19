@@ -46,7 +46,7 @@ const projects = () => {
         Tech Projects
       </div>
 
-      <div className="justify-center mt-6 mb-10 md:flex md:flex-wrap md:gap-12">
+      <div className="justify-center px-4 mt-6 mb-10 md:flex md:flex-wrap md:gap-12">
         {/* John Cañero Website */}
         <CardItem
           title="John Cañero Website"
