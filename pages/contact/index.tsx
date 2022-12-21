@@ -23,7 +23,7 @@ const contact = () => {
           {/* Background Image */}
           <div className="relative overflow-hidden bg-no-repeat bg-cover rounded-t-2xl">
             <Image
-              src="/images/contactBackground1MB.jpg"
+              src="/images/contactBackgroundCompressed.jpg"
               width={1150}
               height={800}
               alt="contactBackground"
