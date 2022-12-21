@@ -19,8 +19,8 @@ import { AiOutlineMail } from "@react-icons/all-files/ai/AiOutlineMail";
 // Justify between the Links and Bio Link x Dark Mode Theme
 
 const Header = () => {
-  // Dark Mode Theme 
-    // Import Button.js component for the Dark Mode Theme Toggle
+  // Dark Mode Theme
+  // Import Button.js component for the Dark Mode Theme Toggle
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
@@ -90,7 +90,7 @@ const Header = () => {
               </Link>
 
               {/* // Create Links: Home, About Me, Tech Stack, Projects, Contact and Bio Link: @johncanero */}
-                {/* // Input a React Icon for better user experience */}
+              {/* // Input a React Icon for better user experience */}
               <Link
                 rel="noopener noreferrer"
                 href="/"
@@ -120,20 +120,20 @@ const Header = () => {
 
               <Link
                 rel="noopener noreferrer"
-                href="/projects"
-                className="font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:text-gray-800 hover:border-gray-600 dark:hover:border-gray-300"
-              >
-                <AiOutlineProject size={23} className="ml-4" />
-                Projects
-              </Link>
-
-              <Link
-                rel="noopener noreferrer"
                 href="/contact"
                 className="font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:text-gray-800 hover:border-gray-600 dark:hover:border-gray-300"
               >
                 <AiOutlineMail size={23} className="ml-4" />
                 Contact
+              </Link>
+
+              <Link
+                rel="noopener noreferrer"
+                href="/projects"
+                className="font-semibold text-gray-600 border-b-2 border-transparent dark:text-gray-300 hover:text-gray-800 hover:border-gray-600 dark:hover:border-gray-300"
+              >
+                <AiOutlineProject size={23} className="ml-4" />
+                Projects
               </Link>
             </ul>
           </div>
