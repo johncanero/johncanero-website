@@ -27,7 +27,23 @@ const MenuDropdown = () => {
 
     const currentTheme = theme === "system" ? systemTheme : theme;
 
-    if (currentTheme === "dark") {
+    if (currentTheme === "light") {
+      return (
+        <Button
+          className="mr-3 text-white bg-neutral-800"
+          onClick={() => setTheme("dark")}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-5 h-5"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+          </svg>
+        </Button>
+      );
+    } else {
       return (
         <Button
           className="mr-3 bg-gray-200 dark:bg-neutral-900"
@@ -47,25 +63,8 @@ const MenuDropdown = () => {
           </svg>
         </Button>
       );
-    } else {
-      return (
-        <Button
-          className="mr-3 text-white bg-neutral-800"
-          onClick={() => setTheme("dark")}
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-5 h-5"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-          >
-            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
-          </svg>
-        </Button>
-      );
     }
   };
-
   return (
     // Mobile Visiblity
     <div className="flex justify-between px-4 mt-3 text-right md:hidden top-16 ">
@@ -164,7 +163,7 @@ const MenuDropdown = () => {
                   )}
                 </Menu.Item>
               </div>
-              
+
               {/* Contact */}
               <div className="px-1 py-1 pb-2">
                 <Menu.Item>
