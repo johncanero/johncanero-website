@@ -19,8 +19,8 @@ const about = () => {
           <div className="flex justify-center mx-auto mt-4 mb-4">
             <Image
               src="/images/johncanero5.1.jpg"
-              width={250}
-              height={250}
+              width={210}
+              height={210}
               alt="John Cañero Logo"
               className="transition duration-300 ease-in-out rounded-full hover:-translate-y-1 hover:scale-100"
             />
