@@ -33,9 +33,9 @@ const Hero = () => {
         </div>
       </h3>
 
-      <p className="mb-10 text-center text-gray-600 mx-11 md:mb-8 md:mx-0 sm:text-center md:text-left dark:text-gray-500 md:mr-48">
-        I enjoy creating stuffs focusing on product design and development. I
-        like to BUILD. To have fun, help people and show my work to the world.
+      <p className="mx-10 mb-10 text-center text-gray-600 md:mb-8 md:mx-0 sm:text-center md:text-left dark:text-gray-500 md:mr-48">
+        I enjoy creating stuffs focusing on product design and development. <span className="font-bold">
+          I like to BUILD. </span> To have fun, help people and show my work to the world.
         🏂
         {/* This is where I come in.  */}
       </p>
