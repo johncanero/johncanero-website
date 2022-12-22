@@ -12,7 +12,7 @@ import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter";
 import { HiOutlineMail } from "@react-icons/all-files/hi/HiOutlineMail";
 
 const contact = () => {
-  
+
   return (
     <div>
       {/* <div className="mt-4 text-2xl font-semibold text-center text-gray-600 font-Poppins">
@@ -22,7 +22,7 @@ const contact = () => {
         <section className="mb-32 text-gray-800">
           {/* Background Image */}
           <div className="relative overflow-hidden bg-no-repeat bg-cover rounded-t-2xl">
-            <Image
+            {/* <Image
               src="/images/contactBackgroundCompressed2.jpg"
               width={1150}
               height={800}
@@ -30,7 +30,14 @@ const contact = () => {
               className="md:h-80"
               loading="eager"
               priority={true}
-            />
+            /> */}
+
+            <div className="bg-black50 ">
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+            </div>
           </div>
 
           {/* Get in Touch and Forms */}
