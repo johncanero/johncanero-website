@@ -21,7 +21,7 @@ const contact = () => {
       <div className="container flex justify-center mx-auto mt-8 md:px-6">
         <section className="mb-32 text-gray-800">
           {/* Background Image */}
-          <div className="relative overflow-hidden bg-no-repeat bg-cover rounded-t-2xl">
+          <div className="relative overflow-hidden bg-no-repeat bg-cover border-2 rounded-t-2xl">
             {/* <Image
               src="/images/contactBackgroundCompressed2.jpg"
               width={1150}
@@ -32,7 +32,7 @@ const contact = () => {
               priority={true}
             /> */}
 
-            <div className="bg-black50 ">
+            <div className="bg-black50 dark:bg-gray-300 ">
               <br></br>
               <br></br>
               <br></br>
@@ -41,7 +41,7 @@ const contact = () => {
           </div>
 
           {/* Get in Touch and Forms */}
-          <div className="relative flex justify-center bg-white md:px-3 lg:px-6 items-top rounded-b-3xl dark:bg-black50 sm:items-center font-Poppins">
+          <div className="relative flex justify-center bg-white border dark:border-neutral-800 md:px-3 lg:px-6 items-top rounded-b-3xl dark:bg-black50 sm:items-center font-Poppins">
             <div className="mx-auto md:max-w-5xl sm:px-3 lg:px-6">
               <div className="mt-3 md:mt-8 md:overflow-hidden">
                 <div className="grid grid-cols-1 md:grid-cols-2">
