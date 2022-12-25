@@ -184,7 +184,7 @@ const about = () => {
           >
             <div className="mt-6 mb-8 md:w-52 lg:w-auto">
               <Image
-                src="/images/udemyWebCertificate.jpg"
+                src="/images/certificates/udemyWebCertificate.jpg"
                 width={800}
                 height={800}
                 alt="Udemy Certificate"
@@ -203,14 +203,33 @@ const about = () => {
           >
             <div className="mt-8 mb-8 md:w-52 lg:w-auto">
               <Image
-                src="/images/googleUXCertificate.jpg"
+                src="/images/certificates/googleUXCertificate.jpg"
                 width={800}
                 height={800}
-                alt="Udemy Certificate"
+                alt="Google Certificate - Foundations of User Experience (UX) Design"
                 className="transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-100"
               />
               <p className="mt-2 text-center dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
-                Google: Foundations of User Experience (UX) Design
+                Foundations of User Experience (UX) Design
+              </p>
+            </div>
+          </Link>
+
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.coursera.org/account/accomplishments/verify/74ZTUK9CN3F4"
+          >
+            <div className="mt-8 mb-8 md:w-52 lg:w-auto">
+              <Image
+                src="/images/certificates/googleUXCertificate2.jpg"
+                width={800}
+                height={800}
+                alt="Google Certificate - Foundations of User Experience (UX) Design"
+                className="transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-100"
+              />
+              <p className="mt-2 text-center dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
+                Start the UX Design Process: Empathize, Define, and Ideate
               </p>
             </div>
           </Link>
