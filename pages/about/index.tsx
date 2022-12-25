@@ -14,11 +14,11 @@ const about = () => {
           <div className="mt-4 text-2xl font-semibold text-center text-gray-600 dark:text-gray-400 font-Poppins">
             About Me
           </div>
-          
+
           {/* John Cañero Logo */}
           <div className="flex justify-center mx-auto mt-4 mb-4">
             <Image
-              src="/images/johncanero5.1.jpg"
+              src="/images/johncanero6.1.jpg"
               width={210}
               height={210}
               alt="John Cañero Logo"
@@ -110,8 +110,8 @@ const about = () => {
             helped me to empathize the users and realize what are their needs
             and wants. To always focus and center the user and make them happy.
           </p>
-          
-        
+
+
           {/* Jam Tech */}
           <div className="mx-auto mt-8 mb-6 md:w-10/12">
             <Image
@@ -136,17 +136,19 @@ const about = () => {
                 ✅ Graduated at The Complete Web Development Bootcamp 2022{" "}
               </li>
               <li>
-                ✅ Aspiring Software Engineer/Developer (Upskill Education)
-              </li>
-              <li>
-                ✅ Heritage Conservation Society- UST Chapter (Project Manager
-                and EA to Community Development)
-              </li>
-              <li>
                 ✅ Accomplished Google - Foundations of User Experience (UX)
-                Design Course
+                Design Certificate
               </li>
-              <li>✅ The Ultimate React 101 at Scrimba </li>
+              <li>
+                ✅ Accomplished Google - Start the UX Design Process: Empathize, Define, and Ideate Certificate
+              </li>
+              <li>
+                ✅ Software Engineer/Developer at Upskill Education
+              </li>
+              <li>
+                ✅ Project Manager and EA to Community Development (2018-2020) at Heritage Conservation Society- UST Chapter
+              </li>
+              <li>✅ Progress: The Ultimate React 101 at Scrimba </li>
             </div>
           </ul>
 
