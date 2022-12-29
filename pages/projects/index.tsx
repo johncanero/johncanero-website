@@ -77,7 +77,7 @@ const projects = () => {
           iconTitle={<AiOutlineMobile className="mt-1 ml-1 text-orange-500 " />}
           description="Lead: A super solution for your marketing & sales automation. It would scale your company's outreach to get more leads."
           src="/projects/leadDigital.png"
-          path="https://tech-jam-by-johncanero.vercel.app/"
+          path="https://lead-digital-by-johncanero.vercel.app/"
           // Source Code:
           source="Source Code:"
           iconSource={
