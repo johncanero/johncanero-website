@@ -16,6 +16,7 @@ import { BsHouseDoor } from "@react-icons/all-files/bs/BsHouseDoor";
 import { VscEdit } from "@react-icons/all-files/vsc/VscEdit";
 import { RiComputerLine } from "@react-icons/all-files/ri/RiComputerLine";
 import { AiOutlineMobile } from "@react-icons/all-files/ai/AiOutlineMobile";
+import { FaTruckMoving } from "@react-icons/all-files/fa/FaTruckMoving";
 
 import CardItem from "../../components/CardItem";
 
@@ -178,7 +179,7 @@ const projects = () => {
           sourceLink="https://github.com/johncanero/architecture-news-website"
           hashtag1="architecture"
           hashtag2="news"
-          hashtag3=""
+          hashtag3="art"
         />
 
         {/* Advice Generator App */}
@@ -225,6 +226,22 @@ const projects = () => {
           hashtag1="airbnb"
           hashtag2="clone"
           hashtag3="feature"
+        />
+
+        {/* GetFood Truck - UX Design Project */}
+        <CardItem
+          title="GetFood Truck"
+          iconTitle={<FaTruckMoving className="mt-1 ml-1 text-blue-500 " />}
+          description="Design a mobile-ordering app for a food truck. It aims to let users order food at a fast lane process. A food-to-go application which makes life comfortable."
+          src="/projects/GetFoodTruck.jpg"
+          path="/download/GetFoodTruck_Case-Study.pdf"
+          // Source Code:
+          source=""
+          iconSource=""
+          sourceLink=""
+          hashtag1="ux design"
+          hashtag2="food"
+          hashtag3="truck"
         />
       </div>
     </div>
