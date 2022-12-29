@@ -15,6 +15,7 @@ import { AiOutlineLaptop } from "@react-icons/all-files/ai/AiOutlineLaptop";
 import { BsHouseDoor } from "@react-icons/all-files/bs/BsHouseDoor";
 import { VscEdit } from "@react-icons/all-files/vsc/VscEdit";
 import { RiComputerLine } from "@react-icons/all-files/ri/RiComputerLine";
+import { AiOutlineMobile } from "@react-icons/all-files/ai/AiOutlineMobile";
 
 import CardItem from "../../components/CardItem";
 
@@ -41,7 +42,7 @@ const projects = () => {
           </div>
         </Link>
       </div>
-      
+
       <div className="mt-4 text-2xl font-semibold text-center text-gray-600 dark:text-gray-400 font-Poppins">
         Tech Projects
       </div>
@@ -68,6 +69,28 @@ const projects = () => {
           hashtag2="website"
           hashtag3=""
         />
+
+        {/* Lead Digital */}
+        <CardItem
+          title="Lead Digital"
+          iconTitle={<AiOutlineMobile className="mt-1 ml-1 text-orange-500 " />}
+          description="Lead: A super solution for your marketing & sales automation. It would scale your company's outreach to get more leads."
+          src="/projects/leadDigital.png"
+          path="https://tech-jam-by-johncanero.vercel.app/"
+          // Source Code:
+          source="Source Code:"
+          iconSource={
+            <FaGithub
+              className="mt-3 ml-1 text-gray-700 hover:text-gray-900"
+              size={20}
+            />
+          }
+          sourceLink="https://github.com/johncanero/lead-landing-page"
+          hashtag1="digital"
+          hashtag2="marketing"
+          hashtag3="lead"
+        />
+
 
         {/* Tech Jam*/}
         <CardItem
