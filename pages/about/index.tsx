@@ -243,11 +243,11 @@ const about = () => {
             {/* Resume Image */}
             <Link
               rel="noopener noreferrer"
-              href="/download/RESUME-CAÑERO_JOHN_MICHAEL.pdf"
-              download="RESUME-CAÑERO_JOHN_MICHAEL.pdf"
+              href="/download/RESUME-CAÑERO_JOHN_MICHAEL-VERSION2.pdf"
+              download="RESUME-CAÑERO_JOHN_MICHAEL-VERSION2.pdf"
             >
               <Image
-                src="/download/RESUME-CAÑERO_JOHN_MICHAEL_page-0001.jpg"
+                src="/download/RESUME-CAÑERO_JOHN_MICHAEL-VERSION2.pdf_page-0001.jpg"
                 width={400}
                 height={400}
                 alt="John Cañero Resume"
@@ -261,8 +261,8 @@ const about = () => {
                 // Download
                 target="_blank"
                 rel="noopener noreferrer"
-                href="/download/RESUME-CAÑERO_JOHN_MICHAEL.pdf"
-                download="RESUME-CAÑERO_JOHN_MICHAEL.pdf"
+                href="/download/RESUME-CAÑERO_JOHN_MICHAEL-VERSION2.pdf"
+                download="RESUME-CAÑERO_JOHN_MICHAEL-VERSION2.pdff"
               >
                 <button className="inline-flex items-center px-4 py-2 font-bold text-gray-200 rounded bg-neutral-900 hover:bg-neutral-800 dark:bg-neutral-900 dark:hover:bg-neutral-800 font-Poppins">
                   <ImDownload />
