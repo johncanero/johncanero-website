@@ -37,15 +37,38 @@ const index = () => {
         Architecture Projects
       </div>
 
-      <div className="flex justify-center md:mt-6 mb-28 md:mb-6">
+      <div className="justify-center px-4 mt-6 mb-10 md:flex md:flex-wrap md:gap-12">
+        {/* Zone Pavilion */}
         <CardItem
           title="Zone Philippine Pavilion"
           iconTitle={
             <RiFocus2Fill className="mt-1 ml-1 text-amber-700 " />
           }
           description="A Philippine Pavilion of the future designed to showcase and highlight the unique culture, values, and innovations of the Philippines."
-          src="/projects/architecture/zonePhilippinePavilion.jpg"
+          src="/projects/architecture/zonePhilippinePavilion3.jpg"
           path="https://www.instagram.com/p/Cf3D-91ryv6/"
+          source="Architectural Portfolio:"
+          iconSource={
+            <AiTwotoneFolderOpen
+              className="mt-3 ml-1 text-gray-700 hover:text-gray-900"
+              size={20}
+            />
+          }
+          sourceLink="https://www.instagram.com/johncanero.archi/"
+          hashtag1="philippine"
+          hashtag2="pavilion"
+          hashtag3="archi"
+        />
+
+        {/* Zone Pavilion Boards */}
+        <CardItem
+          title="Pavilion Boards"
+          iconTitle={
+            <RiFocus2Fill className="mt-1 ml-1 text-amber-700 " />
+          }
+          description="The presentation boards of the Philippine Pavilion of the future project that showcases the concept, perspectives and plans."
+          src="/projects/architecture/zonePhilippinePavilionBoards3.jpg"
+          path="/projects/architecture/zonePhilippinePavilionPDF.pdf"
           source="Architectural Portfolio:"
           iconSource={
             <AiTwotoneFolderOpen
