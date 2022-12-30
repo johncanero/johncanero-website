@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Head from "next/head";
 // Icons
 import { AiOutlineInstagram } from "@react-icons/all-files/ai/AiOutlineInstagram";
 import { AiOutlineLaptop } from "@react-icons/all-files/ai/AiOutlineLaptop";
@@ -13,6 +14,17 @@ import CardItem from "../../components/CardItem";
 const index = () => {
   return (
     <div className="mb-32 font-Poppins">
+      <Head>
+        <title>Architecture / John Cañero</title>
+        <meta
+          name="description"
+          content="John Cañero Website and Portfolio: Architecture"
+        />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta property="og:title" content="John Cañero: Architecture" />
+        <meta property="og:description" content="John Cañero Website and Portfolio: Architecture" />
+        <link rel="shortcut icon" href="/images/letterJ.png" />
+      </Head>
       {/* Add Links - Architecture */}
       <div className="flex justify-end gap-3 px-4 mt-4 text-sm font-semibold md:text-base">
         <Link rel="noopener noreferrer" href="/projects">

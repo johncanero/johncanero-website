@@ -12,16 +12,16 @@ const Layout = ({ children }) => {
         <title>John Cañero</title>
         <meta
           name="description"
-          content="Next Js and Tailwind CSS Dark Mode Feature"
+          content="John Cañero Website and Portfolio"
         />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta property="og:title" content="Next Js Dark Mode Feature" />
-        <meta property="og:description" content="Next Js and Tailwind CSS" />
+        <meta property="og:title" content="John Cañero" />
+        <meta property="og:description" content="John Cañero Website and Portfolio" />
         <link rel="shortcut icon" href="/images/letterJ.png" />
       </Head>
 
       {/* Header, Main & Footer */}
-      <div className="min-h-screen flex flex-col">
+      <div className="flex flex-col min-h-screen">
         <Header />
         <main className="flex-grow">{children}</main>
         <Footer />

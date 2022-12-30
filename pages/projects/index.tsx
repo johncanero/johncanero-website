@@ -3,6 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Head from "next/head";
 // Icons
 import { CgWebsite } from "@react-icons/all-files/cg/CgWebsite";
 import { RiRemoteControlLine } from "@react-icons/all-files/ri/RiRemoteControlLine";
@@ -23,6 +24,18 @@ import CardItem from "../../components/CardItem";
 const projects = () => {
   return (
     <div className="mb-32 font-Poppins ">
+      <Head>
+        <title>Tech Projects / John Cañero</title>
+        <meta
+          name="description"
+          content="John Cañero Website and Portfolio: Tech Projects"
+        />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta property="og:title" content="John Cañero: Tech Projects" />
+        <meta property="og:description" content="John Cañero Website and Portfolio: Tech Projects" />
+        <link rel="shortcut icon" href="/images/letterJ.png" />
+      </Head>
+
       {/* Add Links - Architecture */}
       <div className="flex justify-end gap-3 px-4 mt-4 text-sm font-semibold md:text-base">
         <Link rel="noopener noreferrer" href="/projects">

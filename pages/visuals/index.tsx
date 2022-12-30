@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import Head from "next/head";
 // Icons
 import { AiOutlineLaptop } from "@react-icons/all-files/ai/AiOutlineLaptop";
 import { BsHouseDoor } from "@react-icons/all-files/bs/BsHouseDoor";
@@ -9,6 +10,17 @@ import { VscEdit } from "@react-icons/all-files/vsc/VscEdit";
 const index = () => {
   return (
     <div className="mb-32 font-Poppins">
+      <Head>
+        <title>Visuals / John Cañero</title>
+        <meta
+          name="description"
+          content="John Cañero Website and Portfolio: Visuals"
+        />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta property="og:title" content="John Cañero: Visuals" />
+        <meta property="og:description" content="John Cañero Website and Portfolio: Visuals" />
+        <link rel="shortcut icon" href="/images/letterJ.png" />
+      </Head>
       {/* Add Links - Architecture */}
       <div className="flex justify-end gap-3 px-4 mt-4 text-sm font-semibold md:text-base">
         <Link rel="noopener noreferrer" href="/projects">
