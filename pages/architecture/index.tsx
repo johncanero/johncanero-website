@@ -12,7 +12,7 @@ import CardItem from "../../components/CardItem";
 
 const index = () => {
   return (
-    <div className="font-Poppins">
+    <div className="mb-32 font-Poppins">
       {/* Add Links - Architecture */}
       <div className="flex justify-end gap-3 px-4 mt-4 text-sm font-semibold md:text-base">
         <Link rel="noopener noreferrer" href="/projects">

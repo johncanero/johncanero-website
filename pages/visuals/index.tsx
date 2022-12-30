@@ -8,7 +8,7 @@ import { VscEdit } from "@react-icons/all-files/vsc/VscEdit";
 
 const index = () => {
   return (
-    <div className="font-Poppins mb-28">
+    <div className="mb-32 font-Poppins">
       {/* Add Links - Architecture */}
       <div className="flex justify-end gap-3 px-4 mt-4 text-sm font-semibold md:text-base">
         <Link rel="noopener noreferrer" href="/projects">
