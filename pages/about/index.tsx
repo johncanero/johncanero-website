@@ -3,11 +3,23 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Head from "next/head";
 import { ImDownload } from "@react-icons/all-files/im/ImDownload";
 
 const about = () => {
   return (
     <div className="px-4 mb-24 md:flex">
+      <Head>
+        <title>About / John Cañero</title>
+        <meta
+          name="description"
+          content="John Cañero Website and Portfolio: About"
+        />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta property="og:title" content="John Cañero: About" />
+        <meta property="og:description" content="John Cañero Website and Portfolio: About" />
+        <link rel="shortcut icon" href="/images/letterJ.png" />
+      </Head>
       {/* First Column */}
       <div>
         <div className="mx-4 font-Poppins md:mx-8 lg:mr-28">

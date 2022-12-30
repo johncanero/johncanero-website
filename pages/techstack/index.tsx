@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Head from "next/head";
 // Icons
 import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
 import { BsPencilSquare } from "@react-icons/all-files/bs/BsPencilSquare";
@@ -8,6 +9,17 @@ import { BsPencilSquare } from "@react-icons/all-files/bs/BsPencilSquare";
 const techstack = () => {
   return (
     <div className="justify-center px-4 mb-24">
+      <Head>
+        <title>Tech Stack / John Cañero</title>
+        <meta
+          name="description"
+          content="John Cañero Website and Portfolio: Tech Stack"
+        />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta property="og:title" content="John Cañero: Tech Stack" />
+        <meta property="og:description" content="John Cañero Website and Portfolio: Tech Stack" />
+        <link rel="shortcut icon" href="/images/letterJ.png" />
+      </Head>
       <div className="mt-4">
         {/* <div className="flex justify-center text-gray-600 dark:text-gray-300">
           <FaConnectdevelop size={60} />
@@ -247,14 +259,14 @@ const techstack = () => {
                 Tech Stack Tools
               </span>{" "}
               I use as a developer in designing, creating and establishing
-              development projects. You could view my projects here at @ Github: 
+              development projects. You could view my projects here at @ Github:
 
               <Link
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/johncanero"
-                  className="ml-2 font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
-                     @johncanero
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/johncanero"
+                className="ml-2 font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
+                @johncanero
               </Link>
             </p>
           </div>
@@ -412,7 +424,7 @@ const techstack = () => {
               />
             </div>
             <p className="mt-4 mr-3">V-Ray</p>
-          </div>  
+          </div>
 
           {/* Tech Stack Descroption */}
           <div className="mt-2 font-Poppins">
@@ -421,14 +433,14 @@ const techstack = () => {
               <span className="font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
                 Tech Stack Design Tools
               </span>{" "}
-              I used in designing architectural projects, modelling, and rendering. You could view my projects here at my IG Portfolio: 
+              I used in designing architectural projects, modelling, and rendering. You could view my projects here at my IG Portfolio:
 
               <Link
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://www.instagram.com/johncanero.archi/"
-                  className="ml-2 font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
-                     @johncanero.archi
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.instagram.com/johncanero.archi/"
+                className="ml-2 font-semibold dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
+                @johncanero.archi
               </Link>
             </p>
           </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Head from "next/head";
 import { GoLocation } from "@react-icons/all-files/go/GoLocation";
 import { IoMdCall } from "@react-icons/all-files/io/IoMdCall";
 import { BsEnvelope } from "@react-icons/all-files/bs/BsEnvelope";
@@ -15,6 +16,17 @@ const contact = () => {
 
   return (
     <div>
+      <Head>
+        <title>Contact / John Cañero</title>
+        <meta
+          name="description"
+          content="John Cañero Website and Portfolio: Contact"
+        />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta property="og:title" content="John Cañero: Contact" />
+        <meta property="og:description" content="John Cañero Website and Portfolio: Contact" />
+        <link rel="shortcut icon" href="/images/letterJ.png" />
+      </Head>
       {/* <div className="mt-4 text-2xl font-semibold text-center text-gray-600 font-Poppins">
         Contact
       </div> */}
