@@ -5,6 +5,8 @@ import { AiOutlineInstagram } from "@react-icons/all-files/ai/AiOutlineInstagram
 import { AiOutlineLaptop } from "@react-icons/all-files/ai/AiOutlineLaptop";
 import { BsHouseDoor } from "@react-icons/all-files/bs/BsHouseDoor";
 import { VscEdit } from "@react-icons/all-files/vsc/VscEdit";
+import { RiFocus2Fill } from "@react-icons/all-files/ri/RiFocus2Fill"
+import { AiTwotoneFolderOpen } from "@react-icons/all-files/ai/AiTwotoneFolderOpen"
 
 import CardItem from "../../components/CardItem";
 
@@ -37,17 +39,24 @@ const index = () => {
 
       <div className="flex justify-center md:mt-6 mb-28 md:mb-6">
         <CardItem
-          title="Architectural Portfolio"
+          title="Zone Philippine Pavilion"
           iconTitle={
-            <AiOutlineInstagram className="mt-1 ml-1 text-purple-500 " />
+            <RiFocus2Fill className="mt-1 ml-1 text-amber-700 " />
           }
-          description="A portfolio of architectural projects and design journey of John Cañero."
-          src="/projects/architecture/architectureProject.png"
-          path="https://www.instagram.com/johncanero.archi/"
+          description="A Philippine Pavilion of the future designed to showcase and focus on the culture and values of the Philippines and innovations created of the country."
+          src="/projects/architecture/zonePhilippinePavilion.jpg"
+          path="https://www.instagram.com/p/Cf3D-91ryv6/"
+          source="Architectural Portfolio:"
+          iconSource={
+            <AiTwotoneFolderOpen
+              className="mt-3 ml-1 text-gray-700 hover:text-gray-900"
+              size={20}
+            />
+          }
           sourceLink="https://www.instagram.com/johncanero.archi/"
-          hashtag1="architectural"
-          hashtag2="portfolio"
-          hashtag3="projects"
+          hashtag1="philippine"
+          hashtag2="pavilion"
+          hashtag3="archi"
         />
       </div>
     </div>
