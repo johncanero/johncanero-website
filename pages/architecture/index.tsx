@@ -43,7 +43,7 @@ const index = () => {
           iconTitle={
             <RiFocus2Fill className="mt-1 ml-1 text-amber-700 " />
           }
-          description="A Philippine Pavilion of the future designed to showcase and focus on the culture and values of the Philippines and innovations created of the country."
+          description="A Philippine Pavilion of the future designed to showcase and highlight the unique culture, values, and innovations of the Philippines."
           src="/projects/architecture/zonePhilippinePavilion.jpg"
           path="https://www.instagram.com/p/Cf3D-91ryv6/"
           source="Architectural Portfolio:"
