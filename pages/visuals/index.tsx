@@ -20,6 +20,7 @@ const index = () => {
         <meta property="og:title" content="John Cañero: Visuals" />
         <meta property="og:description" content="John Cañero Website and Portfolio: Visuals" />
         <link rel="shortcut icon" href="/images/letterJ.png" />
+        <link rel="sitemap" type="application/xml" href="/sitemap-0.xml" />
       </Head>
       {/* Add Links - Architecture */}
       <div className="flex justify-end gap-3 px-4 mt-4 text-sm font-semibold md:text-base">

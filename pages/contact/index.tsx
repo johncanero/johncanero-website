@@ -26,6 +26,7 @@ const contact = () => {
         <meta property="og:title" content="John Cañero: Contact" />
         <meta property="og:description" content="John Cañero Website and Portfolio: Contact" />
         <link rel="shortcut icon" href="/images/letterJ.png" />
+        <link rel="sitemap" type="application/xml" href="/sitemap-0.xml" />
       </Head>
       {/* <div className="mt-4 text-2xl font-semibold text-center text-gray-600 font-Poppins">
         Contact

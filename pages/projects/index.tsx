@@ -34,6 +34,7 @@ const projects = () => {
         <meta property="og:title" content="John Cañero: Tech Projects" />
         <meta property="og:description" content="John Cañero Website and Portfolio: Tech Projects" />
         <link rel="shortcut icon" href="/images/letterJ.png" />
+        <link rel="sitemap" type="application/xml" href="/sitemap-0.xml" />
       </Head>
 
       {/* Add Links - Architecture */}
