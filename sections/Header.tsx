@@ -36,7 +36,7 @@ const Header = () => {
     if (currentTheme === "light") {
       return (
         <Button
-          className="text-white bg-neutral-800"
+          className=""
           onClick={() => setTheme("dark")}
         >
           <svg
@@ -52,7 +52,7 @@ const Header = () => {
     } else {
       return (
         <Button
-          className="bg-gray-200 dark:bg-neutral-900"
+          className=""
           onClick={() => setTheme("light")}
         >
           <svg
@@ -144,7 +144,7 @@ const Header = () => {
               // target="_blank"
               rel="noopener noreferrer"
               href="https://bio.link/johncanero"
-              className="flex mt-1 mr-4 font-semibold text-gray-600 dark:text-gray-500 font-Poppis hover:text-gray-800 animate__animated animate__bounceInDown"
+              className="flex mt-2 mr-4 font-semibold text-gray-600 dark:text-gray-500 font-Poppis hover:text-gray-800 animate__animated animate__bounceInDown"
             >
               @johncanero
             </Link>
