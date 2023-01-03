@@ -181,7 +181,7 @@ const projects = () => {
           }
           description=" Get your team in sync in anywhere location. Streamline
           processes, create team rituals, & watch productivity soar."
-          src="/projects/remoteLandingPage2.png"
+          src="/projects/remoteLandingPage3.png"
           path="https://remote-landing-page-by-johncanero.vercel.app/"
           // Source Code:
           source="Source Code:"
