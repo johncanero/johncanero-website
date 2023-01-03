@@ -135,7 +135,7 @@ const projects = () => {
             <BsFillHouseDoorFill className="mt-1 ml-1 text-amber-400 " />
           }
           description=" Find the latest news about design and architecture and historic establishments in the Philippines. Be informed."
-          src="/projects/architectureNews2.png"
+          src="/projects/architectureNewsUpdate.png"
           path="https://architecture-news-website.vercel.app/"
           // Source Code:
           source="Source Code:"
