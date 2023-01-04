@@ -155,7 +155,7 @@ const about = () => {
                 ✅ Accomplished Google - Start the UX Design Process: Empathize, Define, and Ideate Certificate
               </li>
               <li>
-                ✅ Software Engineer/Developer at Upskill Education
+                ✅ Software Engineer/Developer at Upskill Hub
               </li>
               <li>
                 ✅ Project Manager and EA to Community Development (2018-2020) at Heritage Conservation Society- UST Chapter
