@@ -81,7 +81,7 @@ const Header = () => {
               {/* Import Logo Profile: J with Link */}
               <Link rel="noopener noreferrer" href="/">
                 <Image
-                  src="/images/letterJ.png"
+                  src="/images/johnCaneroLogo5.png"
                   width={40}
                   height={40}
                   alt="jLogo"
