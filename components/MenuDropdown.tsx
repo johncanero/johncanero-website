@@ -72,7 +72,7 @@ const MenuDropdown = () => {
       <Link rel="noopener noreferrer" href="/">
         <div>
           <Image
-            src="/images/letterJ.png"
+            src="/images/johnCaneroLogo5.png"
             width={33}
             height={33}
             alt="jLogo"
@@ -105,9 +105,8 @@ const MenuDropdown = () => {
                   {({ active }) => (
                     <Link href="/">
                       <button
-                        className={`${
-                          active ? "bg-violet-500 text-white" : "text-gray-900"
-                        } group flex w-full items-center rounded-md px-2 py-2 text-sm font-Poppins`}
+                        className={`${active ? "bg-violet-500 text-white" : "text-gray-900"
+                          } group flex w-full items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                       >
                         <FaHome size={17} />
                         <span className="ml-2">Home</span>
@@ -119,9 +118,8 @@ const MenuDropdown = () => {
                   {({ active }) => (
                     <Link href="/about">
                       <button
-                        className={`${
-                          active ? "bg-violet-500 text-white" : "text-gray-900"
-                        } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
+                        className={`${active ? "bg-violet-500 text-white" : "text-gray-900"
+                          } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                       >
                         <IoMdPerson size={17} />
                         <span className="ml-2">About Me</span>
@@ -136,9 +134,8 @@ const MenuDropdown = () => {
                   {({ active }) => (
                     <Link href="/techstack">
                       <button
-                        className={`${
-                          active ? "bg-violet-500 text-white" : "text-gray-900"
-                        } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
+                        className={`${active ? "bg-violet-500 text-white" : "text-gray-900"
+                          } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                       >
                         <FaConnectdevelop size={17} />
 
@@ -151,9 +148,8 @@ const MenuDropdown = () => {
                   {({ active }) => (
                     <Link href="/projects">
                       <button
-                        className={`${
-                          active ? "bg-violet-500 text-white" : "text-gray-900"
-                        } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
+                        className={`${active ? "bg-violet-500 text-white" : "text-gray-900"
+                          } group flex w-72 items-center rounded-md px-2 py-2 text-sm font-Poppins`}
                       >
                         <AiOutlineProject size={17} />
 
@@ -174,9 +170,8 @@ const MenuDropdown = () => {
                       href="/contact"
                     >
                       <button
-                        className={`${
-                          active ? "bg-violet-500 text-white" : "text-gray-900"
-                        } group flex w-72 items-center rounded-md px-2 py-1 text-sm font-Poppins`}
+                        className={`${active ? "bg-violet-500 text-white" : "text-gray-900"
+                          } group flex w-72 items-center rounded-md px-2 py-1 text-sm font-Poppins`}
                       >
                         <AiOutlineMail size={17} />{" "}
                         <span className="ml-2">Contact</span>
@@ -196,9 +191,8 @@ const MenuDropdown = () => {
                       href="https://johncanero.bio.link/"
                     >
                       <button
-                        className={`${
-                          active ? "bg-violet-500 text-white" : "text-gray-900"
-                        } group flex w-72 items-center rounded-md px-2 py-1 text-sm font-Poppins`}
+                        className={`${active ? "bg-violet-500 text-white" : "text-gray-900"
+                          } group flex w-72 items-center rounded-md px-2 py-1 text-sm font-Poppins`}
                       >
                         <VscLinkExternal size={17} />{" "}
                         <span className="ml-2">@johncanero</span>
