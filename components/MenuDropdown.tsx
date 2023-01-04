@@ -73,8 +73,8 @@ const MenuDropdown = () => {
         <div>
           <Image
             src="/images/johnCaneroLogo5.png"
-            width={33}
-            height={33}
+            width={35}
+            height={35}
             alt="jLogo"
             className="animate__animated animate__fadeIn"
           />

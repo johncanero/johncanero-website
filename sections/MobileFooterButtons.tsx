@@ -22,7 +22,7 @@ const MobileFooterButtons = () => {
         {/* About Me */}
         <Link href="/about" rel="noopener noreferrer">
           <button className="hover:text-neutral-700 dark:hover:text-gray-50">
-            <IoMdPerson className="ml-2" size={23} />
+            <IoMdPerson className="ml-2" size={22} />
             <p className="mt-1 text-xs text-center font-Poppins">About</p>
           </button>
         </Link>
@@ -46,7 +46,7 @@ const MobileFooterButtons = () => {
         {/* Projects */}
         <Link href="/projects" rel="noopener noreferrer">
           <button className="hover:text-neutral-700 dark:hover:text-gray-50">
-            <AiOutlineProject className="ml-2" size={23} />
+            <AiOutlineProject className="ml-3" size={23} />
             <p className="mt-1 text-xs text-center font-Poppins">Projects</p>
           </button>
         </Link>
