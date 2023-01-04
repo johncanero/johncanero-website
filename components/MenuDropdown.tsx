@@ -193,7 +193,7 @@ const MenuDropdown = () => {
                     <Link
                       // target="_blank"
                       rel="noopener noreferrer"
-                      href="https://bio.link/johncanero"
+                      href="https://johncanero.bio.link/"
                     >
                       <button
                         className={`${

@@ -143,7 +143,7 @@ const Header = () => {
             <Link
               // target="_blank"
               rel="noopener noreferrer"
-              href="https://bio.link/johncanero"
+              href="https://johncanero.bio.link/"
               className="flex mt-2 mr-4 font-semibold text-gray-600 dark:text-gray-500 font-Poppis hover:text-gray-800 animate__animated animate__bounceInDown"
             >
               @johncanero
