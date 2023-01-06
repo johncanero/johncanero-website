@@ -22,6 +22,7 @@ const contact = () => {
           name="description"
           content="John Cañero Website and Portfolio: Contact"
         />
+                <meta name="description" content="John Cañero, Home, Introduction, Portfolio and Social Media: Contact" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta property="og:title" content="John Cañero: Contact" />
         <meta property="og:description" content="John Cañero Website and Portfolio: Contact" />

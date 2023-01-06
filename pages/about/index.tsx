@@ -15,9 +15,10 @@ const about = () => {
           name="description"
           content="John Cañero Website and Portfolio: About"
         />
+        <meta name="description" content="John Cañero, Home, Introduction, Portfolio and Social Media: About Me" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta property="og:title" content="John Cañero: About" />
-        <meta property="og:description" content="John Cañero Website and Portfolio: About" />
+        <meta property="og:title" content="John Cañero: About Me" />
+        <meta property="og:description" content="John Cañero Website and Portfolio: About Me" />
         <link rel="sitemap" type="application/xml" href="/sitemap-0.xml" />
       </Head>
       {/* First Column */}

@@ -15,6 +15,7 @@ const techstack = () => {
           name="description"
           content="John Cañero Website and Portfolio: Tech Stack"
         />
+        <meta name="description" content="John Cañero, Home, Introduction, Portfolio and Social Media: Tech Stack" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta property="og:title" content="John Cañero: Tech Stack" />
         <meta property="og:description" content="John Cañero Website and Portfolio: Tech Stack" />

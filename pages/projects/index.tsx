@@ -30,6 +30,7 @@ const projects = () => {
           name="description"
           content="John Cañero Website and Portfolio: Tech Projects"
         />
+                <meta name="description" content="John Cañero, Home, Introduction, Portfolio and Social Media: Tech Projects" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta property="og:title" content="John Cañero: Tech Projects" />
         <meta property="og:description" content="John Cañero Website and Portfolio: Tech Projects" />
