@@ -15,8 +15,10 @@ const Layout = ({ children }) => {
           content="John Cañero Website and Portfolio"
         />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="description" content="John Cañero, Home, Introduction, Portfolio and Social Media"/>
         <meta property="og:title" content="John Cañero" />
         <meta property="og:description" content="John Cañero Website and Portfolio" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link rel="shortcut icon" href="/images/johnCaneroLogo5.png" />
         <link rel="sitemap" type="application/xml" href="/sitemap-0.xml" />
       </Head>
