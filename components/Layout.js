@@ -14,6 +14,7 @@ const Layout = ({ children }) => {
           name="description"
           content="John Cañero Website and Portfolio"
         />
+        <meta name="google-site-verification" content="Am960gqQWDsLPwSXrZnAOe2asTMS73ZO7vHRgZ1lJwo" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="description" content="John Cañero, Home, Introduction, Portfolio and Social Media"/>
         <meta property="og:title" content="John Cañero" />
