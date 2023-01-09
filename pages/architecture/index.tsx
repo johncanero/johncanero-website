@@ -97,7 +97,7 @@ const index = () => {
 
         {/* Ibaloi Cinema Theater Complex */}
         <CardItem
-          title="Ibaloi Cinema Theater"
+          title="IBALOI Cinema Theater"
           iconTitle={
             <GiFilmProjector className="mt-1 ml-1 text-amber-500 " />
           }
@@ -115,6 +115,28 @@ const index = () => {
           hashtag1="cinema"
           hashtag2="theater"
           hashtag3="complex"
+        />
+
+        {/* Ibaloi Cinema Theater Complex Boards */}
+        <CardItem
+          title="Cinema Theater Boards"
+          iconTitle={
+            <GiFilmProjector className="mt-1 ml-1 text-amber-500 " />
+          }
+          description="The presentation boards of the Ibaloi Cinema Theater Complex that showcases the concept, perspectives and plans."
+          src="/projects/architecture/ibaloiCinemaTheaterComplexBoards.jpg"
+          path="/projects/architecture/zonePhilippinePavilionPDF.pdf"
+          source="Architectural Portfolio:"
+          iconSource={
+            <AiTwotoneFolderOpen
+              className="mt-3 ml-1 text-gray-700 hover:text-gray-900"
+              size={20}
+            />
+          }
+          sourceLink="https://www.instagram.com/johncanero.archi/"
+          hashtag1="philippine"
+          hashtag2="pavilion"
+          hashtag3="archi"
         />
 
       </div>
