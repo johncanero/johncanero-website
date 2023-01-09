@@ -250,7 +250,7 @@ const projects = () => {
           title="GetFood Truck"
           iconTitle={<FaTruckMoving className="mt-1 ml-1 text-blue-500 " />}
           description="Design a mobile-ordering app for a food truck. It aims to let users order food at a fast lane process. A food-to-go application which makes life comfortable."
-          src="/projects/GetFoodTruck.jpg"
+          src="/projects/GetFoodTruck2.jpg"
           path="/download/GetFoodTruck_Case-Study.pdf"
           // Source Code:
           source=""

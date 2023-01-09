@@ -8,6 +8,7 @@ import { BsHouseDoor } from "@react-icons/all-files/bs/BsHouseDoor";
 import { VscEdit } from "@react-icons/all-files/vsc/VscEdit";
 import { RiFocus2Fill } from "@react-icons/all-files/ri/RiFocus2Fill"
 import { AiTwotoneFolderOpen } from "@react-icons/all-files/ai/AiTwotoneFolderOpen"
+import { GiFilmProjector } from "@react-icons/all-files/gi/GiFilmProjector"
 
 import CardItem from "../../components/CardItem";
 
@@ -93,6 +94,29 @@ const index = () => {
           hashtag2="pavilion"
           hashtag3="archi"
         />
+
+        {/* Ibaloi Cinema Theater Complex */}
+        <CardItem
+          title="Ibaloi Cinema Theater"
+          iconTitle={
+            <GiFilmProjector className="mt-1 ml-1 text-amber-500 " />
+          }
+          description="A Cinema Theater Complex serves as an inspiration in remembering the cultural & significance of ethnic groups in the Philippines."
+          src="/projects/architecture/ibaloiCinemaTheaterComplex.jpg"
+          path="https://www.instagram.com/p/CnLVH8Vye1s/"
+          source="Architectural Portfolio:"
+          iconSource={
+            <AiTwotoneFolderOpen
+              className="mt-3 ml-1 text-gray-700 hover:text-gray-900"
+              size={20}
+            />
+          }
+          sourceLink="https://www.instagram.com/johncanero.archi/"
+          hashtag1="cinema"
+          hashtag2="theater"
+          hashtag3="complex"
+        />
+
       </div>
     </div>
   );
