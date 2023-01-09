@@ -134,9 +134,9 @@ const index = () => {
             />
           }
           sourceLink="https://www.instagram.com/johncanero.archi/"
-          hashtag1="philippine"
-          hashtag2="pavilion"
-          hashtag3="archi"
+          hashtag1="cinema"
+          hashtag2="theater"
+          hashtag3="complex"
         />
 
       </div>
