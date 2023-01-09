@@ -149,11 +149,13 @@ const about = () => {
                 ✅ Graduated at The Complete Web Development Bootcamp 2022{" "}
               </li>
               <li>
-                ✅ Accomplished Google - Foundations of User Experience (UX)
-                Design Certificate
+                ✅ Accomplished Foundations of User Experience (UX) Design Certificate
               </li>
               <li>
-                ✅ Accomplished Google - Start the UX Design Process: Empathize, Define, and Ideate Certificate
+                ✅ Accomplished Start the UX Design Process: Empathize, Define, and Ideate Certificate
+              </li>
+              <li>
+                ✅ Accomplished Foundations of Digital Marketing and E-commerce Certificate
               </li>
               <li>
                 ✅ Software Engineer/Developer at Upskill Hub
@@ -243,6 +245,25 @@ const about = () => {
               />
               <p className="mt-2 text-center dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
                 Start the UX Design Process: Empathize, Define, and Ideate
+              </p>
+            </div>
+          </Link>
+
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.coursera.org/account/accomplishments/verify/74ZTUK9CN3F4"
+          >
+            <div className="mt-8 mb-8 md:w-52 lg:w-auto">
+              <Image
+                src="/images/certificates/googleDigitalMarketingCertificace.jpg"
+                width={800}
+                height={800}
+                alt="Google Certificate - Foundations of User Experience (UX) Design"
+                className="transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-100"
+              />
+              <p className="mt-2 text-center dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
+                Foundations of Digital Marketing and E-commerce Certificate
               </p>
             </div>
           </Link>
