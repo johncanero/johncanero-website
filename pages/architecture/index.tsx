@@ -125,7 +125,7 @@ const index = () => {
           }
           description="The presentation boards of the Ibaloi Cinema Theater Complex that showcases the concept, perspectives and plans."
           src="/projects/architecture/ibaloiCinemaTheaterComplexBoards.jpg"
-          path="/projects/architecture/zonePhilippinePavilionPDF.pdf"
+          path="/projects/architecture/ibaloiCinemaTheaterComplexPDF.pdf"
           source="Architectural Portfolio:"
           iconSource={
             <AiTwotoneFolderOpen
