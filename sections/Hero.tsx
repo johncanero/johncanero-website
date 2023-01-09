@@ -19,8 +19,8 @@ const Hero = () => {
     <div className="mt-16 font-Poppins lg:mr-96">
       <h1 className="font-bold text-center sm:text-6xl md:justify-start md:text-left md:text-7xl lg:text-8xl animate__animated animate__slideInLeft">
         Hi I'm
-        <span className="ml-2 dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
-          Jam
+        <span className="dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
+          &nbsp;Jam
         </span>
       </h1>
 

@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
         <title>John Cañero</title>
         <meta
           name="description"
-          content="John Cañero Website and Portfolio"
+          content="John Cañero, John Canero, johncanero, Jam, Website, Portfolio"
         />
         <meta name="google-site-verification" content="Am960gqQWDsLPwSXrZnAOe2asTMS73ZO7vHRgZ1lJwo" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
