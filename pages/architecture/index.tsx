@@ -19,11 +19,15 @@ const index = () => {
         <title>Architecture / John Cañero</title>
         <meta
           name="description"
-          content="John Cañero Website and Portfolio: Architecture"
+          content="Architecture - John Cañero, John Canero, johncanero, Jam, Website, Portfolio"
         />
+        <meta property="og:title" content="Architecture - John Cañero" />
+        <meta property="og:description" content="Architecture: John Cañero, John Canero, johncanero, Jam, Website, Portfolio" />
+        <meta property="og:url" content="https://johncanero.com/architecture" />
+        <meta property="og:type" content="website" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta property="og:title" content="John Cañero: Architecture" />
-        <meta property="og:description" content="John Cañero Website and Portfolio: Architecture" />
+
+        {/* XML Sitemap */}
         <link rel="sitemap" type="application/xml" href="/sitemap-0.xml" />
       </Head>
       {/* Add Links - Architecture */}

@@ -10,17 +10,23 @@ import { VscEdit } from "@react-icons/all-files/vsc/VscEdit";
 const index = () => {
   return (
     <div className="mb-32 font-Poppins">
+
       <Head>
-        <title>Visuals / John Cañero</title>
+      <title>Visuals / John Cañero</title>
         <meta
           name="description"
-          content="John Cañero Website and Portfolio: Visuals"
+          content="Visuals - John Cañero, John Canero, johncanero, Jam, Website, Portfolio"
         />
+        <meta property="og:title" content="Visuals - John Cañero" />
+        <meta property="og:description" content="Visuals: John Cañero, John Canero, johncanero, Jam, Website, Portfolio" />
+        <meta property="og:url" content="https://johncanero.com/visuals" />
+        <meta property="og:type" content="website" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta property="og:title" content="John Cañero: Visuals" />
-        <meta property="og:description" content="John Cañero Website and Portfolio: Visuals" />
+
+        {/* XML Sitemap */}
         <link rel="sitemap" type="application/xml" href="/sitemap-0.xml" />
       </Head>
+
       {/* Add Links - Architecture */}
       <div className="flex justify-end gap-3 px-4 mt-4 text-sm font-semibold md:text-base">
         <Link rel="noopener noreferrer" href="/projects">
