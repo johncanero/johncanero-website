@@ -13,14 +13,18 @@ const techstack = () => {
         <title>Tech Stack / John Cañero</title>
         <meta
           name="description"
-          content="John Cañero Website and Portfolio: Tech Stack"
+          content="Tech Stack - John Cañero, John Canero, johncanero, Jam, Website, Portfolio"
         />
-        <meta name="description" content="John Cañero, Home, Introduction, Portfolio and Social Media: Tech Stack" />
+        <meta property="og:title" content="Tech Stack - John Cañero" />
+        <meta property="og:description" content="Tech Stack: John Cañero, John Canero, johncanero, Jam, Website, Portfolio" />
+        <meta property="og:url" content="https://johncanero.com/techstack" />
+        <meta property="og:type" content="website" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta property="og:title" content="John Cañero: Tech Stack" />
-        <meta property="og:description" content="John Cañero Website and Portfolio: Tech Stack" />
+
+        {/* XML Sitemap */}
         <link rel="sitemap" type="application/xml" href="/sitemap-0.xml" />
       </Head>
+
       <div className="mt-4">
         {/* <div className="flex justify-center text-gray-600 dark:text-gray-300">
           <FaConnectdevelop size={60} />

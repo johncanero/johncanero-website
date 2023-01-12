@@ -32,7 +32,7 @@ const projects = () => {
         />
         <meta property="og:title" content="Tech Projects - John Cañero" />
         <meta property="og:description" content="Tech Projects: John Cañero, John Canero, johncanero, Jam, Website, Portfolio" />
-        <meta property="og:url" content="https://johncanero.com/projectst" />
+        <meta property="og:url" content="https://johncanero.com/projects" />
         <meta property="og:type" content="website" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
