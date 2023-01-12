@@ -3,7 +3,9 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://johncanero-website.vercel.app/
+Host: https://johncanero.com/
+Host: 
 
 # Sitemaps
-Sitemap: https://johncanero-website.vercel.app/sitemap.xml
+Sitemap: https://johncanero.com/sitemap-0.xml
+Sitemap: https://johncanero.com/sitemap.xml
