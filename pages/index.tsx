@@ -21,8 +21,10 @@ export default function Home() {
         <meta property="og:url" content="https://johncanero.com/" />
         <meta property="og:type" content="website"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="google-site-verification" content="Am960gqQWDsLPwSXrZnAOe2asTMS73ZO7vHRgZ1lJwo" />
         <link rel="shortcut icon" href="/images/johnCaneroLogo5.png" />
+
+        {/* Google Verification and XML Sitemap */}
+        <meta name="google-site-verification" content="Am960gqQWDsLPwSXrZnAOe2asTMS73ZO7vHRgZ1lJwo" />
         <link rel="sitemap" type="application/xml" href="/sitemap-0.xml" />
       </Head>
       <Hero />

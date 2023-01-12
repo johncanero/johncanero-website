@@ -13,12 +13,15 @@ const about = () => {
         <title>About / John Cañero</title>
         <meta
           name="description"
-          content="John Cañero Website and Portfolio: About"
+          content="About John Cañero, John Canero, johncanero, Jam, Website, Portfolio"
         />
-        <meta name="description" content="John Cañero, Home, Introduction, Portfolio and Social Media: About Me" />
+        <meta property="og:title" content="About - John Cañero" />
+        <meta property="og:description" content="About / About Me: John Cañero, John Canero, johncanero, Jam, Website, Portfolio" />
+        <meta property="og:url" content="https://johncanero.com/about" />
+        <meta property="og:type" content="website" />
+        
+        {/* Google Verification and XML Sitemap */}
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta property="og:title" content="John Cañero: About Me" />
-        <meta property="og:description" content="John Cañero Website and Portfolio: About Me" />
         <link rel="sitemap" type="application/xml" href="/sitemap-0.xml" />
       </Head>
       {/* First Column */}
