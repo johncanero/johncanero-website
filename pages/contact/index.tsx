@@ -16,18 +16,6 @@ const contact = () => {
 
   return (
     <div>
-      <Head>
-        <title>Contact / John Cañero</title>
-        <meta
-          name="description"
-          content="John Cañero Website and Portfolio: Contact"
-        />
-        <meta name="description" content="John Cañero, Home, Introduction, Portfolio and Social Media: Contact" />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta property="og:title" content="John Cañero: Contact" />
-        <meta property="og:description" content="John Cañero Website and Portfolio: Contact" />
-        <link rel="sitemap" type="application/xml" href="/sitemap-0.xml" />
-      </Head>
 
       <Head>
         <title>Contact / John Cañero</title>
