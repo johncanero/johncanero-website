@@ -22,12 +22,30 @@ const contact = () => {
           name="description"
           content="John Cañero Website and Portfolio: Contact"
         />
-                <meta name="description" content="John Cañero, Home, Introduction, Portfolio and Social Media: Contact" />
+        <meta name="description" content="John Cañero, Home, Introduction, Portfolio and Social Media: Contact" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta property="og:title" content="John Cañero: Contact" />
         <meta property="og:description" content="John Cañero Website and Portfolio: Contact" />
         <link rel="sitemap" type="application/xml" href="/sitemap-0.xml" />
       </Head>
+
+      <Head>
+        <title>Contact / John Cañero</title>
+        <meta
+          name="description"
+          content="Contact - John Cañero, John Canero, johncanero, Jam, Website, Portfolio"
+        />
+        <meta property="og:title" content="Contact - John Cañero" />
+        <meta property="og:description" content="Contact: John Cañero, John Canero, johncanero, Jam, Website, Portfolio" />
+        <meta property="og:url" content="https://johncanero.com/contact" />
+        <meta property="og:type" content="website" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+        {/* XML Sitemap */}
+        <link rel="sitemap" type="application/xml" href="/sitemap-0.xml" />
+      </Head>
+
+
       {/* <div className="mt-4 text-2xl font-semibold text-center text-gray-600 font-Poppins">
         Contact
       </div> */}
