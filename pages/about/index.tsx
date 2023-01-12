@@ -19,9 +19,9 @@ const about = () => {
         <meta property="og:description" content="About / About Me: John Cañero, John Canero, johncanero, Jam, Website, Portfolio" />
         <meta property="og:url" content="https://johncanero.com/about" />
         <meta property="og:type" content="website" />
-        
-        {/* Google Verification and XML Sitemap */}
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        
+        {/* XML Sitemap */}
         <link rel="sitemap" type="application/xml" href="/sitemap-0.xml" />
       </Head>
       {/* First Column */}

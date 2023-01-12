@@ -28,12 +28,15 @@ const projects = () => {
         <title>Tech Projects / John Cañero</title>
         <meta
           name="description"
-          content="John Cañero Website and Portfolio: Tech Projects"
+          content="Tech Projects - John Cañero, John Canero, johncanero, Jam, Website, Portfolio"
         />
-                <meta name="description" content="John Cañero, Home, Introduction, Portfolio and Social Media: Tech Projects" />
+        <meta property="og:title" content="Tech Projects - John Cañero" />
+        <meta property="og:description" content="Tech Projects: John Cañero, John Canero, johncanero, Jam, Website, Portfolio" />
+        <meta property="og:url" content="https://johncanero.com/projectst" />
+        <meta property="og:type" content="website" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta property="og:title" content="John Cañero: Tech Projects" />
-        <meta property="og:description" content="John Cañero Website and Portfolio: Tech Projects" />
+
+        {/* XML Sitemap */}
         <link rel="sitemap" type="application/xml" href="/sitemap-0.xml" />
       </Head>
 
