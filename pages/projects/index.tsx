@@ -18,6 +18,7 @@ import { VscEdit } from "@react-icons/all-files/vsc/VscEdit";
 import { RiComputerLine } from "@react-icons/all-files/ri/RiComputerLine";
 import { AiOutlineMobile } from "@react-icons/all-files/ai/AiOutlineMobile";
 import { FaTruckMoving } from "@react-icons/all-files/fa/FaTruckMoving";
+import { TiWeatherPartlySunny } from "@react-icons/all-files/ti/TiWeatherPartlySunny"
 
 import CardItem from "../../components/CardItem";
 
@@ -129,6 +130,29 @@ const projects = () => {
           hashtag1="tech"
           hashtag2="marketplace"
           hashtag3="blog"
+        />
+
+        {/* WeatherCast Application */}
+        <CardItem
+          title="WeatherCast"
+          iconTitle={
+            <TiWeatherPartlySunny className="mt-1 ml-1 text-blue-500 " />
+          }
+          description=" View the current weather forecast of a city. The forecast includes temperature, humidity, & precipitation."
+          src="/projects/weatherForecast.png"
+          path="https://weather-app-react-johncanero.vercel.app/"
+          // Source Code:
+          source="Source Code:"
+          iconSource={
+            <FaGithub
+              className="mt-3 ml-1 text-gray-700 hover:text-gray-900"
+              size={20}
+            />
+          }
+          sourceLink="https://github.com/johncanero/weather-app-react"
+          hashtag1="weather"
+          hashtag2="forecast"
+          hashtag3="app"
         />
 
         {/* Architecture News */}
