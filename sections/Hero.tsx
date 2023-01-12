@@ -17,7 +17,7 @@ import { annotate, annotationGroup } from "rough-notation";
 const Hero = () => {
   return (
     <div className="mt-16 font-Poppins lg:mr-96">
-      <h1 className="font-bold text-center sm:text-6xl md:justify-start md:text-left md:text-7xl lg:text-8xl animate__animated animate__slideInLeft">
+      <h1 className="font-bold text-center sm:text-6xl md:justify-start md:text-left md:text-7xl lg:text-8xl animate__animated animate__fadeIn">
         Hi I'm
         <span className="dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-500">
           &nbsp;Jam
